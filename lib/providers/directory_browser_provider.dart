@@ -1,9 +1,9 @@
-import 'package:collection/collection.dart';
+﻿import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
 
 part 'directory_browser_provider.freezed.dart';
 part 'directory_browser_provider.g.dart';
@@ -81,3 +81,4 @@ abstract class DirectoryBrowserModel with _$DirectoryBrowserModel {
     @Default(false) bool loading,
   }) = _DirectoryBrowserModel;
 }
+

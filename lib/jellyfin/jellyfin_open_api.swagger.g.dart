@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'jellyfin_open_api.swagger.dart';
 
@@ -8072,3 +8072,4 @@ Map<String, dynamic> _$BaseItemPerson$ImageBlurHashesToJson(
       if (instance.boxRear case final value?) 'BoxRear': value,
       if (instance.profile case final value?) 'Profile': value,
     };
+

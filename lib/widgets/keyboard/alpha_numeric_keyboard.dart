@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/widgets/keyboard/keyboard_localization.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/widgets/keyboard/keyboard_localization.dart';
 
 class AlphaNumericKeyboard extends ConsumerStatefulWidget {
   final void Function(String character) onCharacter;
@@ -262,3 +262,4 @@ enum KeyboardActions {
     };
   }
 }
+

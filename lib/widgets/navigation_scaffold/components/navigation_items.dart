@@ -1,29 +1,29 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/playlist_model.dart';
-import 'package:fladder/models/library_filter_model.dart';
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/models/view_model.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/library_search/widgets/library_views.dart';
-import 'package:fladder/screens/metadata/refresh_metadata.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/color_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_button.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/side_navigation_buttons.dart';
-import 'package:fladder/widgets/shared/custom_tooltip.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/playlist_model.dart';
+import 'package:newcalflix/models/library_filter_model.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/models/view_model.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_views.dart';
+import 'package:newcalflix/screens/metadata/refresh_metadata.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/color_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_button.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/side_navigation_buttons.dart';
+import 'package:newcalflix/widgets/shared/custom_tooltip.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
 
 class MusicLibraryItem {
   final String label;
@@ -418,3 +418,4 @@ class ViewNavigationItem extends ConsumerWidget {
     );
   }
 }
+

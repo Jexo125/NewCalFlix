@@ -1,23 +1,23 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/items/album_model.dart';
-import 'package:fladder/models/items/artist_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/items/playlist_model.dart';
-import 'package:fladder/models/items/season_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/models/syncing/download_stream.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/sync/background_download_provider.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/items/album_model.dart';
+import 'package:newcalflix/models/items/artist_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/items/playlist_model.dart';
+import 'package:newcalflix/models/items/season_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/models/syncing/download_stream.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/sync/background_download_provider.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 const _cancellableStatuses = {
   TaskStatus.canceled,
@@ -244,3 +244,4 @@ class SyncSubtitle extends ConsumerWidget {
     );
   }
 }
+

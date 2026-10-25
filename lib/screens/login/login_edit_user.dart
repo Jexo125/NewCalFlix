@@ -1,14 +1,14 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:intl/intl.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/providers/auth_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/providers/auth_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class LoginEditUser extends ConsumerWidget {
   final AccountModel user;
@@ -101,3 +101,4 @@ class LoginEditUser extends ConsumerWidget {
     );
   }
 }
+

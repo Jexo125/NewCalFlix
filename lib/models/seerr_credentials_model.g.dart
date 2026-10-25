@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'seerr_credentials_model.dart';
 
@@ -26,3 +26,4 @@ Map<String, dynamic> _$SeerrCredentialsModelToJson(
       'sessionCookie': instance.sessionCookie,
       'customHeaders': instance.customHeaders,
     };
+

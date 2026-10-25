@@ -1,4 +1,4 @@
-class KeyboardLayouts {
+﻿class KeyboardLayouts {
   static const Map<String, Map<KeyboardLayer, List<List<String>>>> layouts = {
     'en': {
       KeyboardLayer.alpha: [
@@ -122,3 +122,4 @@ enum KeyboardLayer {
   email,
   domain,
 }
+

@@ -1,10 +1,10 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+﻿import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/item_stream_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/item_stream_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
 
 class AudioUrlResolver {
   const AudioUrlResolver(this.ref);
@@ -38,3 +38,4 @@ class AudioUrlResolver {
     return buildServerUrl(ref, pathSegments: ['Audio', streamId, 'stream'], queryParameters: params);
   }
 }
+

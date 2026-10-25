@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/screens/shared/detail_scaffold.dart';
-import 'package:fladder/theme.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/screens/shared/detail_scaffold.dart';
+import 'package:newcalflix/theme.dart';
 
 class ThemeOverwrite extends ConsumerStatefulWidget {
   const ThemeOverwrite({
@@ -88,3 +88,4 @@ class _ThemeOverwriteState extends ConsumerState<ThemeOverwrite> {
     );
   }
 }
+

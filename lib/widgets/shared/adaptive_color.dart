@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -7,9 +7,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 // ignore: depend_on_referenced_packages
 import 'package:material_color_utilities/material_color_utilities.dart';
 
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/themes_data.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/themes_data.dart';
 
 class AdaptiveColor extends ConsumerStatefulWidget {
   final Widget Function(ThemeData dark, ThemeData light) child;
@@ -108,3 +108,4 @@ class AdaptiveColorState extends ConsumerState<AdaptiveColor> with WidgetsBindin
     );
   }
 }
+

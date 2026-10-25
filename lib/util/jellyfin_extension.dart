@@ -1,12 +1,12 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 
 import 'package:chopper/chopper.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 extension JellyApiExtension on JellyfinOpenApi {
   Future<Response<dynamic>?> itemIdImagesImageTypePost(
@@ -66,3 +66,4 @@ extension CultureDtoExtension on CultureDto {
     return threeLetterISOLanguageNames?.any((v) => v.toLowerCase() == code) ?? false;
   }
 }
+

@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'video_player_settings.dart';
 
@@ -185,3 +185,4 @@ const _$ReplayGainVolumeLevelEnumMap = {
   ReplayGainVolumeLevel.normal: 'normal',
   ReplayGainVolumeLevel.loud: 'loud',
 };
+

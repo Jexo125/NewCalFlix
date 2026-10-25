@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+﻿import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +7,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_localizations/src/utils/date_localizations.dart' as util;
 import 'package:intl/intl.dart' as intl;
 
-import 'package:fladder/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
 
 class FladderLocalizations {
   static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
@@ -219,3 +219,4 @@ class FladderCupertinoLocalizationsDelegate extends LocalizationsDelegate<Cupert
   @override
   String toString() => 'GlobalCupertinoLocalizations.delegate(${kCupertinoSupportedLanguages.length} locales)';
 }
+

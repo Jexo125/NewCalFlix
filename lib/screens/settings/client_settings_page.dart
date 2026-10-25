@@ -1,25 +1,25 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/settings/client_sections/client_settings_advanced.dart';
-import 'package:fladder/screens/settings/client_sections/client_settings_dashboard.dart';
-import 'package:fladder/screens/settings/client_sections/client_settings_download.dart';
-import 'package:fladder/screens/settings/client_sections/client_settings_shortcuts.dart';
-import 'package:fladder/screens/settings/client_sections/client_settings_theme.dart';
-import 'package:fladder/screens/settings/client_sections/client_settings_visual.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/settings/widgets/settings_label_divider.dart';
-import 'package:fladder/screens/settings/widgets/settings_list_group.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/simple_duration_picker.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/settings/client_sections/client_settings_advanced.dart';
+import 'package:newcalflix/screens/settings/client_sections/client_settings_dashboard.dart';
+import 'package:newcalflix/screens/settings/client_sections/client_settings_download.dart';
+import 'package:newcalflix/screens/settings/client_sections/client_settings_shortcuts.dart';
+import 'package:newcalflix/screens/settings/client_sections/client_settings_theme.dart';
+import 'package:newcalflix/screens/settings/client_sections/client_settings_visual.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_label_divider.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_list_group.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/simple_duration_picker.dart';
 
 @RoutePage()
 class ClientSettingsPage extends ConsumerStatefulWidget {
@@ -159,3 +159,4 @@ class _ClientSettingsPageState extends ConsumerState<ClientSettingsPage> {
     );
   }
 }
+

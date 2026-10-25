@@ -1,9 +1,9 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/video_player_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
 
 class DebugBanner extends ConsumerWidget {
   final Widget child;
@@ -50,3 +50,4 @@ class DebugBanner extends ConsumerWidget {
     );
   }
 }
+

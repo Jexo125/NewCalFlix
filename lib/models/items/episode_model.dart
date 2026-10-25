@@ -1,4 +1,4 @@
-import 'dart:collection';
+﻿import 'dart:collection';
 
 import 'package:flutter/material.dart';
 
@@ -6,18 +6,18 @@ import 'package:collection/collection.dart';
 import 'package:dart_mappable/dart_mappable.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/enum_models.dart';
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/l10n/generated/app_localizations.dart';
-import 'package:fladder/models/items/chapters_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/item_stream_model.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/items/overview_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/util/humanize_duration.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/jellyfin/enum_models.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/models/items/chapters_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/item_stream_model.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/items/overview_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/util/humanize_duration.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 part 'episode_model.mapper.dart';
 
@@ -180,7 +180,6 @@ class EpisodeModel extends ItemStreamModel with EpisodeModelMappable {
   @override
   bool get syncAble => playAble;
 
-  @override
   factory EpisodeModel.fromBaseDto(dto.BaseItemDto item, Ref? ref) {
     if (ref == null) {
       return EpisodeModel(
@@ -300,3 +299,4 @@ extension EpisodeListExtensions on List<EpisodeModel> {
     return true;
   }
 }
+

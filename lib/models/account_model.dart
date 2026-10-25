@@ -1,4 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first, invalid_annotation_target
+﻿// ignore_for_file: public_member_api_docs, sort_constructors_first, invalid_annotation_target
 
 import 'dart:convert';
 
@@ -10,12 +10,12 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:local_auth/local_auth.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/credentials_model.dart';
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/models/seerr_credentials_model.dart';
-import 'package:fladder/models/settings/home_settings_model.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/credentials_model.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/models/seerr_credentials_model.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 part 'account_model.freezed.dart';
 part 'account_model.g.dart';
@@ -287,3 +287,4 @@ enum Authentication {
     return value;
   }
 }
+

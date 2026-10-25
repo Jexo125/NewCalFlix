@@ -1,44 +1,44 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/playback/playback_model.dart';
-import 'package:fladder/models/settings/home_settings_model.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/library_filters_provider.dart';
-import 'package:fladder/providers/music_dashboard_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/providers/views_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/dashboard/music_playlist_row.dart';
-import 'package:fladder/screens/home_screen.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/media/poster_row.dart';
-import 'package:fladder/screens/shared/media/track_list.dart';
-import 'package:fladder/screens/shared/nested_scaffold.dart';
-import 'package:fladder/screens/shared/nested_sliver_appbar.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/item_base_model/play_item_helpers.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/sliver_list_padding.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/background_image.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_items.dart';
-import 'package:fladder/widgets/shared/button_group.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/pinch_poster_zoom.dart';
-import 'package:fladder/widgets/shared/poster_size_slider.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/playback/playback_model.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/library_filters_provider.dart';
+import 'package:newcalflix/providers/music_dashboard_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/providers/views_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/dashboard/music_playlist_row.dart';
+import 'package:newcalflix/screens/home_screen.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/media/poster_row.dart';
+import 'package:newcalflix/screens/shared/media/track_list.dart';
+import 'package:newcalflix/screens/shared/nested_scaffold.dart';
+import 'package:newcalflix/screens/shared/nested_sliver_appbar.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/item_base_model/play_item_helpers.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/sliver_list_padding.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/background_image.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_items.dart';
+import 'package:newcalflix/widgets/shared/button_group.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/pinch_poster_zoom.dart';
+import 'package:newcalflix/widgets/shared/poster_size_slider.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 class MusicDashboardScreen extends ConsumerStatefulWidget {
   const MusicDashboardScreen({super.key});
@@ -381,3 +381,4 @@ class _MusicDashboardScreenState extends ConsumerState<MusicDashboardScreen> {
         );
   }
 }
+

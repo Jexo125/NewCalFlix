@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class SimpleOverflowWidget extends StatefulWidget {
   const SimpleOverflowWidget({
@@ -170,3 +170,4 @@ class _OverflowDelegate extends MultiChildLayoutDelegate {
     return oldDelegate.axis != axis || oldDelegate.countableList.length != countableList.length;
   }
 }
+

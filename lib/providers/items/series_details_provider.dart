@@ -1,24 +1,24 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 
 import 'package:chopper/chopper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:logging/logging.dart' as logging;
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/season_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/models/items/special_feature_model.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/related_provider.dart';
-import 'package:fladder/providers/seerr_api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/season_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/models/items/special_feature_model.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/related_provider.dart';
+import 'package:newcalflix/providers/seerr_api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
 
 final seriesDetailsProvider =
     StateNotifierProvider.autoDispose.family<SeriesDetailViewNotifier, SeriesModel?, String>((ref, id) {
@@ -166,3 +166,4 @@ class SeriesDetailViewNotifier extends StateNotifier<SeriesModel?> {
     state = state?.copyWith(selectedEpisode: episodeModel);
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+﻿import 'package:flutter/widgets.dart';
 
 import 'package:collection/collection.dart';
 
@@ -67,3 +67,4 @@ class PositionRoundedClip extends StatelessWidget {
     );
   }
 }
+

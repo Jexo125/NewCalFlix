@@ -1,5 +1,5 @@
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/playback/audio_url_resolver.dart';
+﻿import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/playback/audio_url_resolver.dart';
 
 class AudioPrefetchBuffer {
   AudioPrefetchBuffer({this.bufferSize = 50});
@@ -17,3 +17,4 @@ class AudioPrefetchBuffer {
 
   void invalidate() => _cache.clear();
 }
+

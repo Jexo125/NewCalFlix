@@ -1,6 +1,6 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/notification_model.dart';
+import 'package:newcalflix/models/notification_model.dart';
 
 part 'last_seen_notifications_model.freezed.dart';
 part 'last_seen_notifications_model.g.dart';
@@ -28,3 +28,4 @@ abstract class LastSeenModel with _$LastSeenModel {
 
   factory LastSeenModel.fromJson(Map<String, dynamic> json) => _$LastSeenModelFromJson(json);
 }
+

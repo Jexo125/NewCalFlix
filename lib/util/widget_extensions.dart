@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 extension WidgetExtensions on Widget {
   Widget padding(EdgeInsets insets) {
@@ -27,3 +27,4 @@ extension WidgetExtensions on Widget {
     return AnimatedOpacity(duration: const Duration(milliseconds: 250), opacity: visible ? 1 : 0.10, child: this);
   }
 }
+

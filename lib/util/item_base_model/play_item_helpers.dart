@@ -1,4 +1,4 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 import 'dart:math' show Random, min;
 
 import 'package:flutter/foundation.dart';
@@ -11,33 +11,33 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:square_progress_indicator/square_progress_indicator.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/book_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/album_model.dart';
-import 'package:fladder/models/items/artist_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/items/channel_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/items/playlist_model.dart';
-import 'package:fladder/models/playback/playback_model.dart';
-import 'package:fladder/models/playback/tv_playback_model.dart';
-import 'package:fladder/models/video_stream_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/book_viewer_provider.dart';
-import 'package:fladder/providers/items/book_details_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/book_viewer/book_viewer_screen.dart';
-import 'package:fladder/screens/library_search/widgets/library_play_options_.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/list_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/full_screen_helpers/full_screen_wrapper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/book_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/album_model.dart';
+import 'package:newcalflix/models/items/artist_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/items/channel_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/items/playlist_model.dart';
+import 'package:newcalflix/models/playback/playback_model.dart';
+import 'package:newcalflix/models/playback/tv_playback_model.dart';
+import 'package:newcalflix/models/video_stream_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/book_viewer_provider.dart';
+import 'package:newcalflix/providers/items/book_details_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/book_viewer/book_viewer_screen.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_play_options_.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/list_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/full_screen_helpers/full_screen_wrapper.dart';
 
 part 'play_playlist_helpers.dart';
 
@@ -978,3 +978,4 @@ Future<void> _playVideo(
 
   onPlayerExit?.call();
 }
+

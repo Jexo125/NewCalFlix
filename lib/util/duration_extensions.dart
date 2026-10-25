@@ -1,4 +1,4 @@
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+﻿import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
 
 extension DurationExtensions on Duration {
   int get toRuntimeTicks => inMilliseconds * 10000;
@@ -21,3 +21,4 @@ extension BaseItemDtoExtension on dto.BaseItemDto {
     return Duration(milliseconds: (runTimeTicks! ~/ 10000));
   }
 }
+

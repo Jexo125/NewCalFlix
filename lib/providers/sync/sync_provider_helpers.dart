@@ -1,19 +1,19 @@
-import 'package:background_downloader/background_downloader.dart';
+﻿import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path/path.dart' as path;
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/album_model.dart';
-import 'package:fladder/models/items/artist_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/syncing/download_stream.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/album_model.dart';
+import 'package:newcalflix/models/items/artist_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/syncing/download_stream.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
 
 part 'sync_provider_helpers.g.dart';
 
@@ -230,3 +230,4 @@ class SyncSize extends _$SyncSize {
     return size;
   }
 }
+

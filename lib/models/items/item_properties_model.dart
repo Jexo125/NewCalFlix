@@ -1,6 +1,6 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
 
 part 'item_properties_model.freezed.dart';
 
@@ -20,3 +20,4 @@ abstract class ItemPropertiesModel with _$ItemPropertiesModel {
     );
   }
 }
+

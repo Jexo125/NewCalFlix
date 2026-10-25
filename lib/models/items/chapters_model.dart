@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
@@ -8,9 +8,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/providers/image_provider.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/providers/image_provider.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
 
 class Chapter {
   final String name;
@@ -89,3 +89,4 @@ extension ChapterExtension on List<Chapter> {
     return lastWhereOrNull((element) => element.startPosition < duration);
   }
 }
+

@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/screens/shared/flat_button.dart';
+import 'package:newcalflix/screens/shared/flat_button.dart';
 
 class ChipButton extends ConsumerWidget {
   final String label;
@@ -28,3 +28,4 @@ class ChipButton extends ConsumerWidget {
     );
   }
 }
+

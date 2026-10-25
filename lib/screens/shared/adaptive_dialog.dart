@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
 
 Future<void> showDialogAdaptive({
   required BuildContext context,
@@ -30,3 +30,4 @@ Future<void> showDialogAdaptive({
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
 
@@ -12,27 +12,27 @@ import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/photo_queue_source.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/providers/settings/photo_view_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/window_title_provider.dart';
-import 'package:fladder/screens/photo_viewer/photo_viewer_controls.dart';
-import 'package:fladder/screens/photo_viewer/simple_video_player.dart';
-import 'package:fladder/screens/shared/default_title_bar.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/themes_data.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/fladder_app_bar.dart';
-import 'package:fladder/widgets/shared/animated_icon.dart';
-import 'package:fladder/widgets/shared/elevated_icon.dart';
-import 'package:fladder/widgets/shared/hover_widget.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/photo_queue_source.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/providers/settings/photo_view_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/window_title_provider.dart';
+import 'package:newcalflix/screens/photo_viewer/photo_viewer_controls.dart';
+import 'package:newcalflix/screens/photo_viewer/simple_video_player.dart';
+import 'package:newcalflix/screens/shared/default_title_bar.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/themes_data.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/fladder_app_bar.dart';
+import 'package:newcalflix/widgets/shared/animated_icon.dart';
+import 'package:newcalflix/widgets/shared/elevated_icon.dart';
+import 'package:newcalflix/widgets/shared/hover_widget.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
 
 @RoutePage()
 class PhotoViewerScreen extends ConsumerStatefulWidget {
@@ -564,3 +564,4 @@ ImageProvider _photoImageProvider(String? path) {
     cacheManager: CustomCacheManager.instance,
   );
 }
+

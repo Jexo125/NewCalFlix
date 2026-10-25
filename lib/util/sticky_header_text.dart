@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/screens/shared/flat_button.dart';
+import 'package:newcalflix/screens/shared/flat_button.dart';
 
 class StickyHeaderText extends ConsumerStatefulWidget {
   final String label;
@@ -54,3 +54,4 @@ class StickyHeaderTextState extends ConsumerState<StickyHeaderText> {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class MediaQueryScaler extends StatelessWidget {
   final Widget child;
@@ -39,3 +39,4 @@ class MediaQueryScaler extends StatelessWidget {
     );
   }
 }
+

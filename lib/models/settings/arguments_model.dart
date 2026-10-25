@@ -1,4 +1,4 @@
-import 'package:collection/collection.dart';
+﻿import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'arguments_model.freezed.dart';
@@ -41,3 +41,4 @@ abstract class ArgumentsModel with _$ArgumentsModel {
     );
   }
 }
+

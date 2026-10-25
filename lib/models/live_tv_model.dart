@@ -1,6 +1,6 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/items/channel_model.dart';
+import 'package:newcalflix/models/items/channel_model.dart';
 
 part 'live_tv_model.freezed.dart';
 
@@ -14,3 +14,4 @@ abstract class LiveTvModel with _$LiveTvModel {
     @Default({}) Set<String> loadingChannelIds,
   }) = _LiveTvModel;
 }
+

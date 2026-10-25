@@ -1,28 +1,28 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/book_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/providers/items/book_details_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/screens/details_screens/components/overview_header.dart';
-import 'package:fladder/screens/shared/detail_scaffold.dart';
-import 'package:fladder/screens/shared/media/components/media_play_button.dart';
-import 'package:fladder/screens/shared/media/expanding_text.dart';
-import 'package:fladder/screens/shared/media/external_urls.dart';
-import 'package:fladder/screens/shared/media/poster_list_item.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/item_base_model/play_item_helpers.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/router_extension.dart';
-import 'package:fladder/util/widget_extensions.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/selectable_icon_button.dart';
+import 'package:newcalflix/models/book_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/providers/items/book_details_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/screens/details_screens/components/overview_header.dart';
+import 'package:newcalflix/screens/shared/detail_scaffold.dart';
+import 'package:newcalflix/screens/shared/media/components/media_play_button.dart';
+import 'package:newcalflix/screens/shared/media/expanding_text.dart';
+import 'package:newcalflix/screens/shared/media/external_urls.dart';
+import 'package:newcalflix/screens/shared/media/poster_list_item.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/item_base_model/play_item_helpers.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/router_extension.dart';
+import 'package:newcalflix/util/widget_extensions.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/selectable_icon_button.dart';
 
 class BookDetailScreen extends ConsumerStatefulWidget {
   final BookModel item;
@@ -221,3 +221,4 @@ class _BookDetailScreenState extends ConsumerState<BookDetailScreen> {
     );
   }
 }
+

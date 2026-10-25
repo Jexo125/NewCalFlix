@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'channel_program.dart';
 
@@ -41,3 +41,4 @@ Map<String, dynamic> _$ChannelProgramToJson(_ChannelProgram instance) =>
       'isSeries': instance.isSeries,
       'overview': instance.overview,
     };
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flexible_scrollbar/flexible_scrollbar.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -38,3 +38,4 @@ class FladderScrollbar extends ConsumerWidget {
         : child;
   }
 }
+

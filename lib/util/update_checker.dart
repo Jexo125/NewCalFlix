@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 
@@ -20,7 +20,12 @@ class ReleaseInfo {
     required this.downloads,
   });
 
-  String? downloadUrlFor(String platform) => downloads[platform];
+  String? downloadUrlFor(String platform) {
+    if (platform == 'android') {
+      return downloads['android_universal'] ?? downloads['android_arm64'] ?? downloads['android'];
+    }
+    return downloads[platform];
+  }
 
   Map<String, String> get preferredDownloads {
     final group = _platformGroup();
@@ -68,8 +73,8 @@ extension DownloadLabelFormatter on String {
 }
 
 class UpdateChecker {
-  final String owner = 'DonutWare';
-  final String repo = 'Fladder';
+  final String owner = 'Jexo125';
+  final String repo = 'NewCalFlix';
 
   Future<List<ReleaseInfo>> fetchRecentReleases({int count = 5}) async {
     final info = await PackageInfo.fromPlatform();
@@ -96,7 +101,21 @@ class UpdateChecker {
         final downloadUrl = asset['browser_download_url'] as String? ?? '';
 
         if (name.contains('Android') && name.endsWith('.apk')) {
-          downloads['android'] = downloadUrl;
+          if (name.contains('universal')) {
+            downloads['android_universal'] = downloadUrl;
+            downloads['android'] = downloadUrl;
+          } else if (name.contains('arm64-v8a')) {
+            downloads['android_arm64'] = downloadUrl;
+            downloads.putIfAbsent('android', () => downloadUrl);
+          } else if (name.contains('armeabi-v7a')) {
+            downloads['android_armv7'] = downloadUrl;
+            downloads.putIfAbsent('android', () => downloadUrl);
+          } else if (name.contains('x86_64')) {
+            downloads['android_x86_64'] = downloadUrl;
+            downloads.putIfAbsent('android', () => downloadUrl);
+          } else {
+            downloads['android'] = downloadUrl;
+          }
         } else if (name.contains('iOS') && name.endsWith('.ipa')) {
           downloads['ios'] = downloadUrl;
         } else if (name.contains('Windows') && name.endsWith('Setup.exe')) {
@@ -148,3 +167,4 @@ class UpdateChecker {
     return 0;
   }
 }
+

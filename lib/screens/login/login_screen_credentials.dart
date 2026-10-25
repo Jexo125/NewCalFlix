@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
@@ -7,28 +7,28 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/auth_provider.dart';
-import 'package:fladder/providers/seerr_api_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/login/lock_screen.dart';
-import 'package:fladder/screens/login/login_code_dialog.dart';
-import 'package:fladder/screens/login/login_user_grid.dart';
-import 'package:fladder/screens/login/widgets/advanced_login_options_dialog.dart';
-import 'package:fladder/screens/login/widgets/connect_link_dialog.dart';
-import 'package:fladder/screens/login/widgets/discover_servers_widget.dart';
-import 'package:fladder/screens/shared/animated_fade_size.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/screens/shared/passcode_input.dart';
-import 'package:fladder/services/local_network_permission.dart';
-import 'package:fladder/util/auth_service.dart';
-import 'package:fladder/util/deep_link_helper.dart';
-import 'package:fladder/util/fladder_config.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/auth_provider.dart';
+import 'package:newcalflix/providers/seerr_api_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/login/lock_screen.dart';
+import 'package:newcalflix/screens/login/login_code_dialog.dart';
+import 'package:newcalflix/screens/login/login_user_grid.dart';
+import 'package:newcalflix/screens/login/widgets/advanced_login_options_dialog.dart';
+import 'package:newcalflix/screens/login/widgets/connect_link_dialog.dart';
+import 'package:newcalflix/screens/login/widgets/discover_servers_widget.dart';
+import 'package:newcalflix/screens/shared/animated_fade_size.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/screens/shared/passcode_input.dart';
+import 'package:newcalflix/services/local_network_permission.dart';
+import 'package:newcalflix/util/auth_service.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
+import 'package:newcalflix/util/fladder_config.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class LoginScreenCredentials extends ConsumerStatefulWidget {
   final AuthLinkData? authLinkData;
@@ -480,3 +480,4 @@ void tapLoggedInAccount(BuildContext context, AccountModel user, WidgetRef ref, 
       break;
   }
 }
+

@@ -1,24 +1,24 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/special_feature_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
-import 'package:fladder/screens/syncing/sync_button.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/item_base_model/play_item_helpers.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/clickable_text.dart';
-import 'package:fladder/widgets/shared/horizontal_list.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/status_card.dart';
+import 'package:newcalflix/models/items/special_feature_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/screens/syncing/sync_button.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/item_base_model/play_item_helpers.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/clickable_text.dart';
+import 'package:newcalflix/widgets/shared/horizontal_list.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/status_card.dart';
 
 class SpecialFeaturesRow extends ConsumerWidget {
   final List<SpecialFeatureModel> specialFeatures;
@@ -220,3 +220,4 @@ class SpecialFeaturePoster extends ConsumerWidget {
     );
   }
 }
+

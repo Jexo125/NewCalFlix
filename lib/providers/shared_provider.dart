@@ -1,27 +1,27 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/last_seen_notifications_model.dart';
-import 'package:fladder/models/settings/client_settings_model.dart';
-import 'package:fladder/models/settings/home_settings_model.dart';
-import 'package:fladder/models/settings/subtitle_settings_model.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/settings/book_viewer_settings_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/settings/home_settings_provider.dart';
-import 'package:fladder/providers/settings/photo_view_settings_provider.dart';
-import 'package:fladder/providers/settings/pigeon_player_settings_provider.dart';
-import 'package:fladder/providers/settings/subtitle_settings_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/update_notifications_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/last_seen_notifications_model.dart';
+import 'package:newcalflix/models/settings/client_settings_model.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
+import 'package:newcalflix/models/settings/subtitle_settings_model.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/settings/book_viewer_settings_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/settings/home_settings_provider.dart';
+import 'package:newcalflix/providers/settings/photo_view_settings_provider.dart';
+import 'package:newcalflix/providers/settings/pigeon_player_settings_provider.dart';
+import 'package:newcalflix/providers/settings/subtitle_settings_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/update_notifications_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
 
 final sharedPreferencesProvider = Provider<SharedPreferences>((ref) {
   throw UnimplementedError();
@@ -280,3 +280,4 @@ class SharedHelper {
     sharedPreferences.setString(SharedKeys._photoViewSettingsKey, settings.toJson());
   }
 }
+

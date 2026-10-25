@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 
@@ -90,3 +90,4 @@ class AnimatedVisibilityIconState extends State<AnimatedVisibilityIcon> {
     );
   }
 }
+

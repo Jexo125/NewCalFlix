@@ -1,19 +1,19 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/items/chapters_model.dart';
-import 'package:fladder/models/items/item_stream_model.dart';
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/items/chapters_model.dart';
+import 'package:newcalflix/models/items/item_stream_model.dart';
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 enum PlaybackType {
   directStream,
@@ -205,3 +205,4 @@ class VideoStream {
     );
   }
 }
+

@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/screens/settings/widgets/settings_message_box.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_message_box.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 Future<String?> showAdvancedLoginOptionsDialog(BuildContext context, {String? initialSeerrUrl}) async {
   return await showDialog<String>(
@@ -106,3 +106,4 @@ class _AdvancedLoginOptionsDialogState extends ConsumerState<_AdvancedLoginOptio
     }
   }
 }
+

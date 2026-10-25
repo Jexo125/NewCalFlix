@@ -1,4 +1,4 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -9,10 +9,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:screen_brightness/screen_brightness.dart';
 import 'package:volume_controller/volume_controller.dart';
 
-import 'package:fladder/models/settings/key_combinations.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
+import 'package:newcalflix/models/settings/key_combinations.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
 
 final videoPlayerSettingsProvider =
     StateNotifierProvider<VideoPlayerSettingsProviderNotifier, VideoPlayerSettingsModel>((ref) {
@@ -180,3 +180,4 @@ class VideoPlayerSettingsProviderNotifier extends StateNotifier<VideoPlayerSetti
 
   void setAmbientBlur(bool value) => state = state.copyWith(ambientBlur: value);
 }
+

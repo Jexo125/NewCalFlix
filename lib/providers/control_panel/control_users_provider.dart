@@ -1,12 +1,12 @@
-import 'package:collection/collection.dart';
+﻿import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/view_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/view_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
 
 part 'control_users_provider.freezed.dart';
 part 'control_users_provider.g.dart';
@@ -105,3 +105,4 @@ abstract class ControlUsersModel with _$ControlUsersModel {
     List<ParentalRating>? parentalRatings,
   }) = _ControlUsersModel;
 }
+

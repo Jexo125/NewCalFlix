@@ -1,4 +1,4 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
@@ -6,17 +6,17 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/bootstrap/app_bootstrap.dart';
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/models/settings/client_settings_model.dart';
-import 'package:fladder/models/settings/key_combinations.dart';
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/providers/update_notifications_provider.dart';
-import 'package:fladder/src/directory_bookmark.g.dart';
-import 'package:fladder/util/custom_color_themes.dart';
-import 'package:fladder/util/debouncer.dart';
+import 'package:newcalflix/bootstrap/app_bootstrap.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/models/settings/client_settings_model.dart';
+import 'package:newcalflix/models/settings/key_combinations.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/providers/update_notifications_provider.dart';
+import 'package:newcalflix/src/directory_bookmark.g.dart';
+import 'package:newcalflix/util/custom_color_themes.dart';
+import 'package:newcalflix/util/debouncer.dart';
 
 final clientSettingsProvider = StateNotifierProvider<ClientSettingsNotifier, ClientSettingsModel>((ref) {
   return ClientSettingsNotifier(ref);
@@ -130,3 +130,4 @@ class ClientSettingsNotifier extends StateNotifier<ClientSettingsModel> {
         ));
   }
 }
+

@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_body.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/side_navigation_bar.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_body.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/side_navigation_bar.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
 
 class FocusRow extends StatefulWidget {
   final Widget child;
@@ -186,3 +186,4 @@ class _RowFocusPolicy extends WidgetOrderTraversalPolicy {
     }
   }
 }
+

@@ -1,4 +1,4 @@
-import 'dart:math';
+﻿import 'dart:math';
 
 import 'package:flutter/material.dart';
 
@@ -6,8 +6,8 @@ import 'package:async/async.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class VideoPlayerSpeedIndicator extends ConsumerStatefulWidget {
   const VideoPlayerSpeedIndicator({super.key});
@@ -93,3 +93,4 @@ IconData speedIcon(double value) {
   }
   return IconsaxPlusLinear.flash;
 }
+

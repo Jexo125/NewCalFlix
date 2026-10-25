@@ -1,9 +1,9 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
 
 part 'control_device_discovery_provider.freezed.dart';
 part 'control_device_discovery_provider.g.dart';
@@ -39,3 +39,4 @@ class ControlDeviceDiscovery extends _$ControlDeviceDiscovery {
     }
   }
 }
+

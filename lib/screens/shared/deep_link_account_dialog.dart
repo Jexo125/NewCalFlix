@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/screens/shared/user_icon.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/screens/shared/user_icon.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 Future<AccountModel?> showDeepLinkAccountDialog(
   BuildContext context, {
@@ -74,3 +74,4 @@ class _DeepLinkAccountDialog extends StatelessWidget {
     );
   }
 }
+

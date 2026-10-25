@@ -1,17 +1,17 @@
-import 'dart:io';
+﻿import 'dart:io';
 
 import 'package:chopper/chopper.dart';
 import 'package:collection/collection.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/library_search/library_search_options.dart';
-import 'package:fladder/providers/service_provider.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/library_search/library_search_options.dart';
+import 'package:newcalflix/providers/service_provider.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/book_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/providers/api_provider.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/book_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
 
 class BookProviderModel {
   final List<BookModel> chapters;
@@ -147,3 +147,4 @@ class BookDetailsProviderNotifier extends StateNotifier<BookProviderModel> {
     return response;
   }
 }
+

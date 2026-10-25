@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'trick_play_model.dart';
 
@@ -30,3 +30,4 @@ Map<String, dynamic> _$TrickPlayModelToJson(_TrickPlayModel instance) =>
       'interval': instance.interval.inMicroseconds,
       'images': instance.images,
     };
+

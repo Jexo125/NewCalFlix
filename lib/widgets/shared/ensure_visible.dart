@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 extension EnsureVisibleHelper on BuildContext {
@@ -33,3 +33,4 @@ extension EnsureVisibleHelper on BuildContext {
     );
   }
 }
+

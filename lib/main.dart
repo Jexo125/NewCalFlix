@@ -1,28 +1,28 @@
-import 'dart:ui';
+﻿import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/bootstrap/app_bootstrap.dart';
-import 'package:fladder/bootstrap/platform/platform_app_wrapper.dart';
-import 'package:fladder/l10n/generated/app_localizations.dart';
-import 'package:fladder/localization_delegates.dart';
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/providers/crash_log_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/routes/auto_router.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/application_info.dart';
-import 'package:fladder/util/deep_link_helper.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/themes_data.dart';
-import 'package:fladder/widgets/media_query_scaler.dart';
-import 'package:fladder/widgets/pip_lifecycle_controller.dart';
-import 'package:fladder/widgets/shared/adaptive_color.dart';
-import 'package:fladder/widgets/shared/middle_mouse_autoscroll.dart';
+import 'package:newcalflix/bootstrap/app_bootstrap.dart';
+import 'package:newcalflix/bootstrap/platform/platform_app_wrapper.dart';
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/localization_delegates.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/crash_log_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/routes/auto_router.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/application_info.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/themes_data.dart';
+import 'package:newcalflix/widgets/media_query_scaler.dart';
+import 'package:newcalflix/widgets/pip_lifecycle_controller.dart';
+import 'package:newcalflix/widgets/shared/adaptive_color.dart';
+import 'package:newcalflix/widgets/shared/middle_mouse_autoscroll.dart';
 
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -132,3 +132,4 @@ class _FladderApp extends ConsumerWidget {
     );
   }
 }
+

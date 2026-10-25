@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:animations/animations.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/search/search_screen.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/search/search_screen.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 class FloatingSearchBar extends ConsumerStatefulWidget {
   final List<Widget> trailing;
@@ -103,3 +103,4 @@ class _FloatingSearchBarState extends ConsumerState<FloatingSearchBar> {
     );
   }
 }
+

@@ -1,11 +1,11 @@
-import 'dart:io';
+﻿import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 
 import 'package:desktop_multi_window/desktop_multi_window.dart';
 
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/src/application_menu.g.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/src/application_menu.g.dart';
 
 class ApplicationMenuImp extends ApplicationMenu {
   @override
@@ -32,3 +32,4 @@ class ApplicationMenuImp extends ApplicationMenu {
     }
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:collection/collection.dart';
+﻿import 'package:collection/collection.dart';
 
 extension ListExtensions<T> on List<T> {
   void reorderInPlace(int oldIndex, int newIndex) {
@@ -118,3 +118,4 @@ extension ListExtensions<T> on List<T> {
     return elementAtOrNull(prevIndex);
   }
 }
+

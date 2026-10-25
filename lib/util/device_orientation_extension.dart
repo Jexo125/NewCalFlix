@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 extension DeviceOrientationExtension on DeviceOrientation {
   String label(BuildContext context) => switch (this) {
@@ -11,3 +11,4 @@ extension DeviceOrientationExtension on DeviceOrientation {
         DeviceOrientation.landscapeRight => context.localized.deviceOrientationLandscapeRight,
       };
 }
+

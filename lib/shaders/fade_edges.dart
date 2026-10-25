@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 class FadeEdges extends SingleChildRenderObjectWidget {
@@ -167,3 +167,4 @@ class RenderFadeEdges extends RenderProxyBox {
     context.canvas.restore();
   }
 }
+

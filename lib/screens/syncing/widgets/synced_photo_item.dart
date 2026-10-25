@@ -1,23 +1,23 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/screens/shared/default_alert_dialog.dart';
-import 'package:fladder/screens/shared/flat_button.dart';
-import 'package:fladder/screens/syncing/sync_widgets.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/size_formatting.dart';
-import 'package:fladder/widgets/shared/icon_button_await.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/screens/shared/default_alert_dialog.dart';
+import 'package:newcalflix/screens/shared/flat_button.dart';
+import 'package:newcalflix/screens/syncing/sync_widgets.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/size_formatting.dart';
+import 'package:newcalflix/widgets/shared/icon_button_await.dart';
 
 class SyncedPhotoItem extends ConsumerWidget {
   const SyncedPhotoItem({
@@ -102,3 +102,4 @@ class SyncedPhotoItem extends ConsumerWidget {
     );
   }
 }
+

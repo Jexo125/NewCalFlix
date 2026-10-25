@@ -1,14 +1,14 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/providers/seerr_api_provider.dart';
-import 'package:fladder/providers/seerr_user_provider.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/seerr_helpers.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/providers/seerr_api_provider.dart';
+import 'package:newcalflix/providers/seerr_user_provider.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/seerr_helpers.dart';
 
 part 'seerr_details_provider.freezed.dart';
 part 'seerr_details_provider.g.dart';
@@ -364,3 +364,4 @@ abstract class SeerrDetailsModel with _$SeerrDetailsModel {
     return status != null && status.isKnown && status != SeerrMediaStatus.deleted;
   }
 }
+

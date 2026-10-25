@@ -1,9 +1,9 @@
-import 'package:chopper/chopper.dart';
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
+﻿import 'package:chopper/chopper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final photoDetailsProvider =
@@ -47,3 +47,4 @@ class PhotoDetailsNotifier extends StateNotifier<PhotoAlbumModel?> {
     return null;
   }
 }
+

@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart' as customtab;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:url_launcher/url_launcher.dart' as urilauncher;
 import 'package:url_launcher/url_launcher_string.dart';
 
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/sticky_header_text.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/sticky_header_text.dart';
 
 class ExternalUrlsRow extends ConsumerWidget {
   final List<ExternalUrls>? urls;
@@ -102,3 +102,4 @@ Future<void> launchUrl(BuildContext context, String link) async {
     }
   }
 }
+

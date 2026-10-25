@@ -1,4 +1,4 @@
-import 'dart:io';
+﻿import 'dart:io';
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
@@ -10,14 +10,14 @@ import 'package:path_provider/path_provider.dart';
 import 'package:pretty_qr_code/pretty_qr_code.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/deep_link_helper.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/filled_button_await.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/filled_button_await.dart';
 
 Future<void> openAuthLinkDialog(
   BuildContext context, {
@@ -293,3 +293,4 @@ class _AuthLinkDialogState extends State<AuthLinkDialog> {
     }
   }
 }
+

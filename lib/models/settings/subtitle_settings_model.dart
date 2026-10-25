@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
@@ -7,9 +7,9 @@ import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/settings/subtitle_settings_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/util/color_extensions.dart';
+import 'package:newcalflix/providers/settings/subtitle_settings_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/util/color_extensions.dart';
 
 class SubtitleSettingsModel {
   final double fontSize;
@@ -257,3 +257,4 @@ class SubtitleText extends ConsumerWidget {
     );
   }
 }
+

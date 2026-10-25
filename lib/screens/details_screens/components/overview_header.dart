@@ -1,27 +1,27 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/items/watched_state.dart';
-import 'package:fladder/screens/details_screens/components/media_stream_information.dart';
-import 'package:fladder/screens/shared/media/components/media_header.dart';
-import 'package:fladder/screens/shared/media/components/small_detail_widgets.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/humanize_duration.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/position_provider.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/enum_selection.dart';
-import 'package:fladder/widgets/shared/focus_row.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/items/watched_state.dart';
+import 'package:newcalflix/screens/details_screens/components/media_stream_information.dart';
+import 'package:newcalflix/screens/shared/media/components/media_header.dart';
+import 'package:newcalflix/screens/shared/media/components/small_detail_widgets.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/humanize_duration.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/position_provider.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/enum_selection.dart';
+import 'package:newcalflix/widgets/shared/focus_row.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 class OverviewHeader extends ConsumerWidget {
   final String name;
@@ -511,3 +511,4 @@ class SimpleLabel extends StatelessWidget {
     );
   }
 }
+

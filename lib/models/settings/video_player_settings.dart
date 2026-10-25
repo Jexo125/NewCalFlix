@@ -1,15 +1,15 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/models/settings/key_combinations.dart';
-import 'package:fladder/util/bitrate_helper.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/models/settings/key_combinations.dart';
+import 'package:newcalflix/util/bitrate_helper.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 part 'video_player_settings.freezed.dart';
 part 'video_player_settings.g.dart';
@@ -320,3 +320,4 @@ Map<VideoHotKeys, KeyCombination> get _defaultVideoHotKeys => {
           VideoHotKeys.exit => KeyCombination(key: LogicalKeyboardKey.escape),
         },
     };
+

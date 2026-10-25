@@ -1,12 +1,12 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:collection';
 
 import 'package:flutter/material.dart';
 
-import 'package:fladder/models/api_result.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/api_result.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class FladderSnack {
   static final FladderSnack _instance = FladderSnack._internal();
@@ -505,3 +505,4 @@ class NotificationManagerInitializer extends StatelessWidget {
     return child;
   }
 }
+

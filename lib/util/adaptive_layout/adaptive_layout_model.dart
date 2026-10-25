@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/screens/home_screen.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/poster_defaults.dart';
+import 'package:newcalflix/screens/home_screen.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/poster_defaults.dart';
 
 class LayoutPoints {
   final double start;
@@ -103,3 +103,4 @@ class AdaptiveLayoutModel {
   @override
   int get hashCode => viewSize.hashCode ^ layoutMode.hashCode ^ sideBarWidth.hashCode;
 }
+

@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/chapters_model.dart';
-import 'package:fladder/screens/shared/flat_button.dart';
-import 'package:fladder/widgets/shared/horizontal_list.dart';
+import 'package:newcalflix/models/items/chapters_model.dart';
+import 'package:newcalflix/screens/shared/flat_button.dart';
+import 'package:newcalflix/widgets/shared/horizontal_list.dart';
 
 void showPlayerChapterDialogue(
   BuildContext context, {
@@ -92,3 +92,4 @@ class VideoPlayerChapters extends ConsumerWidget {
     );
   }
 }
+

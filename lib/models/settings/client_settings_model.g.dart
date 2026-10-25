@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'client_settings_model.dart';
 
@@ -142,3 +142,4 @@ const _$GlobalHotKeysEnumMap = {
   GlobalHotKeys.exit: 'exit',
   GlobalHotKeys.toggleSideBar: 'toggleSideBar',
 };
+

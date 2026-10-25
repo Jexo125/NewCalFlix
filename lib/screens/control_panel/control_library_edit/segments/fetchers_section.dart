@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/providers/control_panel/control_libraries_provider.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/screens/settings/widgets/settings_label_divider.dart';
-import 'package:fladder/screens/settings/widgets/settings_list_group.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/sortable_item_list.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/providers/control_panel/control_libraries_provider.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_label_divider.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_list_group.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/sortable_item_list.dart';
 
 class FetchersSection extends ConsumerWidget {
   final LibraryOptions? currentOptions;
@@ -172,3 +172,4 @@ class FetchersSection extends ConsumerWidget {
     );
   }
 }
+

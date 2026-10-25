@@ -1,7 +1,7 @@
-import 'package:fladder/providers/search_provider.dart';
-import 'package:fladder/screens/shared/media/poster_grid.dart';
-import 'package:fladder/util/debouncer.dart';
-import 'package:fladder/util/string_extensions.dart';
+﻿import 'package:newcalflix/providers/search_provider.dart';
+import 'package:newcalflix/screens/shared/media/poster_grid.dart';
+import 'package:newcalflix/util/debouncer.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -87,3 +87,4 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
     );
   }
 }
+

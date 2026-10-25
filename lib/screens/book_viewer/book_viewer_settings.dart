@@ -1,14 +1,14 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/settings/book_viewer_settings_provider.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/widgets/shared/enum_selection.dart';
-import 'package:fladder/widgets/shared/fladder_slider.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_side_sheet.dart';
+import 'package:newcalflix/providers/settings/book_viewer_settings_provider.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/widgets/shared/enum_selection.dart';
+import 'package:newcalflix/widgets/shared/fladder_slider.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_side_sheet.dart';
 
 Future<void> showBookViewerSettings(
   BuildContext context,
@@ -186,3 +186,4 @@ class BookViewerSettingsScreen extends ConsumerWidget {
     );
   }
 }
+

@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/list_extensions.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/list_extensions.dart';
 
 class SortableItemList<T> extends StatelessWidget {
   final T? selected;
@@ -120,3 +120,4 @@ class SortableItemList<T> extends StatelessWidget {
     return list;
   }
 }
+

@@ -1,4 +1,4 @@
-// ignore_for_file: implementation_imports, constant_identifier_names
+﻿// ignore_for_file: implementation_imports, constant_identifier_names
 import 'dart:async';
 
 // This is a stub class that provides the same method signatures as the original
@@ -196,3 +196,4 @@ enum RepeatMode {
 
   String get asString => toString().split('.').last;
 }
+

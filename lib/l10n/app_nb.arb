@@ -1,4 +1,4 @@
-{
+﻿{
     "amoledBlack": "Nattsvart",
     "@amoledBlack": {},
     "addAsFavorite": "Legg til som favoritt",
@@ -765,7 +765,7 @@
     "@settingsBlurredPlaceholderTitle": {},
     "settingsClientDesc": "Generelt, tidsavbrudd, oppsett, drakt",
     "@settingsClientDesc": {},
-    "settingsClientTitle": "Fladder",
+    "settingsClientTitle": "NewCalFlix",
     "@settingsClientTitle": {},
     "settingsContinue": "Fortsett",
     "@settingsContinue": {},
@@ -942,3 +942,4 @@
     "nativeName": "Norsk bokmål",
     "@nativeName": {}
 }
+

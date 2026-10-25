@@ -1,7 +1,7 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/models/settings/home_settings_model.dart';
+﻿// ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
 
 class DashboardFilterModel {
   final LibraryFiltersModel filter;
@@ -57,3 +57,4 @@ class HomeModel {
     );
   }
 }
+

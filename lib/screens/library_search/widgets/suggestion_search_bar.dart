@@ -1,17 +1,17 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:page_transition/page_transition.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/providers/library_search_provider.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/debouncer.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/providers/library_search_provider.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/debouncer.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class SuggestionSearchBar extends ConsumerStatefulWidget {
   final String? title;
@@ -199,3 +199,4 @@ class _SearchBarState extends ConsumerState<SuggestionSearchBar> {
     );
   }
 }
+

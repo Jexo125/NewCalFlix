@@ -1,21 +1,21 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/seerr_api_provider.dart';
-import 'package:fladder/providers/seerr_search_provider.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
-import 'package:fladder/util/debouncer.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/adaptive_range_input.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/providers/seerr_api_provider.dart';
+import 'package:newcalflix/providers/seerr_search_provider.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
+import 'package:newcalflix/util/debouncer.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/adaptive_range_input.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
 
 String yearLabel(BuildContext context, (int? minYear, int? maxYear) yearRange) {
   final minYear = yearRange.$1;
@@ -572,3 +572,4 @@ class _StudioSearchDialogState extends State<_StudioSearchDialog> {
     );
   }
 }
+

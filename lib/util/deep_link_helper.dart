@@ -1,12 +1,13 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
 
 import 'package:auto_route/auto_route.dart' show DeepLink, PageRouteInfo;
 
-import 'package:fladder/routes/auto_router.gr.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
 
-const String deepLinkScheme = 'fladder';
+const String deepLinkScheme = 'newcalflix';
+const String legacyDeepLinkScheme = 'fladder';
 
 FutureOr<DeepLink> deepLinkBuilder(Uri? payload) {
   final route = payloadToRoute(payload);
@@ -37,7 +38,7 @@ class DeepLinkTarget {
     if (uri == null) return null;
 
     final segments = [
-      if (uri.scheme == deepLinkScheme && uri.host.isNotEmpty) uri.host,
+      if ((uri.scheme == deepLinkScheme || uri.scheme == legacyDeepLinkScheme) && uri.host.isNotEmpty) uri.host,
       ...uri.pathSegments.where((segment) => segment.isNotEmpty),
     ];
     final start = segments.indexWhere(_knownRoots.contains);
@@ -164,3 +165,4 @@ String pageRouteInfoToPath(PageRouteInfo route) {
     return route.routeName;
   }
 }
+

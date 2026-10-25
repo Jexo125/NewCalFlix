@@ -1,7 +1,7 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+﻿import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:universal_html/html.dart' as html;
 
-import 'package:fladder/bootstrap/platform/base_app_wrapper.dart';
+import 'package:newcalflix/bootstrap/platform/base_app_wrapper.dart';
 
 class WebAppWrapper extends BaseAppWrapper {
   const WebAppWrapper({super.key, required super.builder});
@@ -22,3 +22,4 @@ class _WebAppWrapperState extends BaseAppWrapperState<WebAppWrapper> {
     html.document.onContextMenu.listen((event) => event.preventDefault());
   }
 }
+

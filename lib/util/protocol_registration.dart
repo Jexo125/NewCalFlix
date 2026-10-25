@@ -1,9 +1,9 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 
-import 'package:fladder/util/deep_link_helper.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
 
 Future<void> ensureWindowsProtocolRegistered() async {
   if (kIsWeb || !Platform.isWindows || kDebugMode) return;
@@ -33,3 +33,4 @@ Future<void> ensureWindowsProtocolRegistered() async {
     log('Failed to register $deepLinkScheme protocol: $e');
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
 class GappedContainerShape extends StatelessWidget {
@@ -106,3 +106,4 @@ class _GappedContainerPainter extends CustomPainter {
     return false;
   }
 }
+

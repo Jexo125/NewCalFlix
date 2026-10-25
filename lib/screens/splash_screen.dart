@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/shared/fladder_logo.dart';
-import 'package:fladder/screens/shared/route_wrapper.dart';
-import 'package:fladder/services/local_network_permission.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/shared/fladder_logo.dart';
+import 'package:newcalflix/screens/shared/route_wrapper.dart';
+import 'package:newcalflix/services/local_network_permission.dart';
 
 @RoutePage()
 class SplashScreen extends ConsumerStatefulWidget {
@@ -81,3 +81,4 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
     );
   }
 }
+

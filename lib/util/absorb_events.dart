@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class AbsorbEvents extends ConsumerWidget {
@@ -20,3 +20,4 @@ class AbsorbEvents extends ConsumerWidget {
     }
   }
 }
+

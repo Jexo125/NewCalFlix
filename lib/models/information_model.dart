@@ -1,8 +1,8 @@
-// ignore_for_file: constant_identifier_names
+﻿// ignore_for_file: constant_identifier_names
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/util/bitrate_formatting.dart';
-import 'package:fladder/util/size_formatting.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/util/bitrate_formatting.dart';
+import 'package:newcalflix/util/size_formatting.dart';
 
 class InformationModel {
   final Map<String, dynamic> baseInformation;
@@ -106,3 +106,4 @@ class InformationModel {
       "${streamsToString(audioStreams)}\n\n"
       "${streamsToString(subStreams)}\n\n";
 }
+

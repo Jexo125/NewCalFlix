@@ -1,11 +1,11 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 part 'application_info.freezed.dart';
 
@@ -47,3 +47,4 @@ abstract class ApplicationInfo with _$ApplicationInfo {
   @override
   String toString() => 'ApplicationInfo(name: $name, version: $version, platform: $platformLabel)';
 }
+

@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'home_settings_model.dart';
 
@@ -59,3 +59,4 @@ const _$HomeNextUpEnumMap = {
   HomeNextUp.combined: 'combined',
   HomeNextUp.separate: 'separate',
 };
+

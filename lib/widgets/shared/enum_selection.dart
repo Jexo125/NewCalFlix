@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/position_provider.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/position_provider.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
 
 class EnumBox<T> extends StatelessWidget {
   final String? current;
@@ -163,3 +163,4 @@ class EnumSelection<T> extends StatelessWidget {
     );
   }
 }
+

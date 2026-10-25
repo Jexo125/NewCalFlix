@@ -1,8 +1,8 @@
-// ignore_for_file: invalid_annotation_target
+﻿// ignore_for_file: invalid_annotation_target
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/syncing/sync_item.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
 
 part 'sync_settings_model.freezed.dart';
 
@@ -14,3 +14,4 @@ abstract class SyncSettingsModel with _$SyncSettingsModel {
     @Default([]) List<SyncedItem> items,
   }) = _SyncSettignsModel;
 }
+

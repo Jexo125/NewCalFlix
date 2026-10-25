@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 enum MetadataRefresh {
   defaultRefresh(MetadataRefreshMode.$default),
@@ -47,3 +47,4 @@ enum ItemLocation {
 
   const ItemLocation(this.value);
 }
+

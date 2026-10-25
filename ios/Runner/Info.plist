@@ -5,7 +5,7 @@
 		<key>CFBundleDevelopmentRegion</key>
 		<string>$(DEVELOPMENT_LANGUAGE)</string>
 		<key>CFBundleDisplayName</key>
-		<string>Fladder</string>
+		<string>NewCalFlix</string>
 		<key>CFBundleExecutable</key>
 		<string>$(EXECUTABLE_NAME)</string>
 		<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
-		<string>Fladder</string>
+		<string>NewCalFlix</string>
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>
@@ -54,16 +54,17 @@
 			<string>fetch</string>
 		</array>
 
-		<!-- URL scheme for deep linking (example: fladder://details?id=xyz) -->
+		<!-- URL scheme for deep linking (example: newcalflix://details?id=xyz) -->
 		<key>FlutterDeepLinkingEnabled</key>
 		<false/>
 		<key>CFBundleURLTypes</key>
 		<array>
 			<dict>
 				<key>CFBundleURLName</key>
-				<string>fladder</string>
+				<string>newcalflix</string>
 				<key>CFBundleURLSchemes</key>
 				<array>
+					<string>newcalflix</string>
 					<string>fladder</string>
 				</array>
 			</dict>

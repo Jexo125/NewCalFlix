@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:io';
 
 import 'package:drift/drift.dart';
@@ -7,14 +7,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 
-import 'package:fladder/models/items/chapters_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/items/trick_play_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/user_provider.dart';
+import 'package:newcalflix/models/items/chapters_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/items/trick_play_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/user_provider.dart';
 
 part 'database_item.g.dart';
 
@@ -192,3 +192,4 @@ class AppDatabase extends _$AppDatabase {
     );
   }
 }
+

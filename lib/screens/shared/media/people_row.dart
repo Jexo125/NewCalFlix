@@ -1,18 +1,18 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/screens/details_screens/person_detail_screen.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/widgets/shared/clickable_text.dart';
-import 'package:fladder/widgets/shared/horizontal_list.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/screens/details_screens/person_detail_screen.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/widgets/shared/clickable_text.dart';
+import 'package:newcalflix/widgets/shared/horizontal_list.dart';
 
 class PeopleRow extends ConsumerWidget {
   final List<Person> people;
@@ -107,3 +107,4 @@ class PeopleRow extends ConsumerWidget {
     );
   }
 }
+

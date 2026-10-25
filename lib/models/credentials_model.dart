@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 
@@ -6,9 +6,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:xid/xid.dart';
 
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/util/application_info.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/util/application_info.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 part 'credentials_model.freezed.dart';
 part 'credentials_model.g.dart';
@@ -58,3 +58,4 @@ abstract class CredentialsModel with _$CredentialsModel {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'dart:io';
+﻿import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -6,12 +6,12 @@ import 'package:flutter/widgets.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/src/player_settings_helper.g.dart' as pigeon;
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/src/player_settings_helper.g.dart' as pigeon;
 
 final pigeonPlayerSettingsSyncProvider = Provider<void>((ref) {
   void sendSettings() {
@@ -92,3 +92,4 @@ final pigeonPlayerSettingsSyncProvider = Provider<void>((ref) {
 
   sendSettings();
 });
+

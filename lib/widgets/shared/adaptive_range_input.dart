@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/update_checker.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/update_checker.dart';
 
 class AdaptiveRangeInput extends StatefulWidget {
   const AdaptiveRangeInput({
@@ -154,3 +154,4 @@ class _AdaptiveRangeInputState extends State<AdaptiveRangeInput> {
     return double.tryParse(normalized);
   }
 }
+

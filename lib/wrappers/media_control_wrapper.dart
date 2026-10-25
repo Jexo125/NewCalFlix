@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
 
@@ -8,37 +8,37 @@ import 'package:flutter/material.dart';
 import 'package:audio_service/audio_service.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:smtc_windows/smtc_windows.dart' if (dart.library.html) 'package:fladder/stubs/web/smtc_web.dart';
+import 'package:smtc_windows/smtc_windows.dart' if (dart.library.html) 'package:newcalflix/stubs/web/smtc_web.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/items/channel_model.dart';
-import 'package:fladder/models/items/item_stream_model.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/media_playback_model.dart';
-import 'package:fladder/models/playback/audio_prefetch_buffer.dart';
-import 'package:fladder/models/playback/audio_url_resolver.dart';
-import 'package:fladder/models/playback/playback_model.dart';
-import 'package:fladder/models/playback/playback_queue_state.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/audio_lyrics_provider.dart';
-import 'package:fladder/providers/live_tv_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/settings/subtitle_settings_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/providers/window_title_provider.dart';
-import 'package:fladder/src/video_player_helper.g.dart' hide PlaybackState;
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/wrappers/players/base_player.dart';
-import 'package:fladder/wrappers/players/lib_mdk.dart'
-    if (dart.library.html) 'package:fladder/stubs/web/lib_mdk_web.dart';
-import 'package:fladder/wrappers/multi_window_media_session.dart';
-import 'package:fladder/wrappers/players/lib_mpv.dart';
-import 'package:fladder/wrappers/players/native_player.dart';
-import 'package:fladder/wrappers/players/player_states.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/items/channel_model.dart';
+import 'package:newcalflix/models/items/item_stream_model.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/media_playback_model.dart';
+import 'package:newcalflix/models/playback/audio_prefetch_buffer.dart';
+import 'package:newcalflix/models/playback/audio_url_resolver.dart';
+import 'package:newcalflix/models/playback/playback_model.dart';
+import 'package:newcalflix/models/playback/playback_queue_state.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/audio_lyrics_provider.dart';
+import 'package:newcalflix/providers/live_tv_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/settings/subtitle_settings_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/providers/window_title_provider.dart';
+import 'package:newcalflix/src/video_player_helper.g.dart' hide PlaybackState;
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/wrappers/players/base_player.dart';
+import 'package:newcalflix/wrappers/players/lib_mdk.dart'
+    if (dart.library.html) 'package:newcalflix/stubs/web/lib_mdk_web.dart';
+import 'package:newcalflix/wrappers/multi_window_media_session.dart';
+import 'package:newcalflix/wrappers/players/lib_mpv.dart';
+import 'package:newcalflix/wrappers/players/native_player.dart';
+import 'package:newcalflix/wrappers/players/player_states.dart';
 
 part 'audio_queue_handler.dart';
 
@@ -719,3 +719,4 @@ class MediaControlsWrapper extends BaseAudioHandler implements VideoPlayerContro
     return player.takeScreenshot();
   }
 }
+

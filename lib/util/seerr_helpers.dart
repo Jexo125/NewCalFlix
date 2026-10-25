@@ -1,5 +1,5 @@
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/seerr/seerr_models.dart';
+﻿import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
 
 class SeerrHelpers {
   SeerrHelpers._();
@@ -90,3 +90,4 @@ class SeerrHelpers {
     return genreHit;
   }
 }
+

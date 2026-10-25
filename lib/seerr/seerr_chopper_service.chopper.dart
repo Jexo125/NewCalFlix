@@ -1,4 +1,4 @@
-// dart format width=80
+﻿// dart format width=80
 //Generated jellyfin api code
 
 part of 'seerr_chopper_service.dart';
@@ -739,3 +739,4 @@ final class _$SeerrChopperService extends SeerrChopperService {
     return client.send<SeerrCertificationsResponse, SeerrCertificationsResponse>($request);
   }
 }
+

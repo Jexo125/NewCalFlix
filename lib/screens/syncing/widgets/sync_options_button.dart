@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 
@@ -7,19 +7,19 @@ import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/models/syncing/transcode_download_model.dart';
-import 'package:fladder/models/syncing/transcode_music_download_model.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/sync/background_download_provider.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/screens/settings/widgets/transcode_music_settings_popup.dart';
-import 'package:fladder/screens/settings/widgets/transcode_settings_popup.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/filled_button_await.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/models/syncing/transcode_download_model.dart';
+import 'package:newcalflix/models/syncing/transcode_music_download_model.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/sync/background_download_provider.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/screens/settings/widgets/transcode_music_settings_popup.dart';
+import 'package:newcalflix/screens/settings/widgets/transcode_settings_popup.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/filled_button_await.dart';
 
 class SyncOptionsButton extends ConsumerWidget {
   final SyncedItem syncedItem;
@@ -281,3 +281,4 @@ Future<dynamic> _syncRemainingItems(
     ),
   );
 }
+

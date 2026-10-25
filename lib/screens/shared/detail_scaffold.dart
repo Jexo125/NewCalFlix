@@ -1,32 +1,32 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:palette_generator_master/palette_generator_master.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/window_title_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/syncing/sync_button.dart';
-import 'package:fladder/screens/syncing/sync_item_details.dart';
-import 'package:fladder/shaders/fade_edges.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/util/router_extension.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/settings_user_icon.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
-import 'package:fladder/widgets/shared/theme_overwrite.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/window_title_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/syncing/sync_button.dart';
+import 'package:newcalflix/screens/syncing/sync_item_details.dart';
+import 'package:newcalflix/shaders/fade_edges.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/util/router_extension.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/settings_user_icon.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/widgets/shared/theme_overwrite.dart';
 
 Future<Color?> getDominantColor(ImageProvider imageProvider) async {
   final paletteGenerator = await PaletteGeneratorMaster.fromImageProvider(
@@ -418,3 +418,4 @@ class _DetailScaffoldState extends ConsumerState<DetailScaffold> {
     );
   }
 }
+

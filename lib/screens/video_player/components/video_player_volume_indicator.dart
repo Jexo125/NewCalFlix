@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:async/async.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class VideoPlayerVolumeIndicator extends ConsumerStatefulWidget {
   const VideoPlayerVolumeIndicator({super.key});
@@ -87,3 +87,4 @@ IconData volumeIcon(double value) {
   }
   return IconsaxPlusLinear.volume_high;
 }
+

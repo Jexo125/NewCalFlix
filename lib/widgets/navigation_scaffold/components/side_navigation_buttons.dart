@@ -1,29 +1,29 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/collection_types.dart';
-import 'package:fladder/models/items/playlist_model.dart';
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/models/view_model.dart';
-import 'package:fladder/providers/dashboard_mode_provider.dart';
-import 'package:fladder/providers/library_filters_provider.dart';
-import 'package:fladder/providers/playlist_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/views_provider.dart';
-import 'package:fladder/screens/settings/filters/filters_dialog_popup.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/color_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/destination_model.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_button.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_items.dart';
-import 'package:fladder/widgets/shared/custom_tooltip.dart';
-import 'package:fladder/widgets/shared/simple_overflow_widget.dart';
+import 'package:newcalflix/models/collection_types.dart';
+import 'package:newcalflix/models/items/playlist_model.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/models/view_model.dart';
+import 'package:newcalflix/providers/dashboard_mode_provider.dart';
+import 'package:newcalflix/providers/library_filters_provider.dart';
+import 'package:newcalflix/providers/playlist_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/views_provider.dart';
+import 'package:newcalflix/screens/settings/filters/filters_dialog_popup.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/color_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/destination_model.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_button.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_items.dart';
+import 'package:newcalflix/widgets/shared/custom_tooltip.dart';
+import 'package:newcalflix/widgets/shared/simple_overflow_widget.dart';
 
 class SideNavigationButtons extends ConsumerWidget {
   const SideNavigationButtons({
@@ -312,3 +312,4 @@ class LabelDivider extends StatelessWidget {
     );
   }
 }
+

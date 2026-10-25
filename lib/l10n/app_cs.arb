@@ -1,4 +1,4 @@
-{
+﻿{
     "active": "Aktivní",
     "nativeName": "Čeština",
     "about": "O nás",
@@ -538,7 +538,7 @@
     "settingsBlurredPlaceholderDesc": "Zobrazit rozmazané pozadí při načítání posterů",
     "settingsBlurredPlaceholderTitle": "Rozmazané placeholdery",
     "settingsClientDesc": "Obecné, Časový limit, Rozvržení, Vzhled",
-    "settingsClientTitle": "Fladder",
+    "settingsClientTitle": "NewCalFlix",
     "settingsContinue": "Pokračovat",
     "settingsHomeBannerDescription": "Zobrazit jako prezentaci, kolotoč nebo skrýt banner",
     "settingsHomeBannerTitle": "Domovský banner",
@@ -800,7 +800,7 @@
     },
     "deviceOrientationLandscapeLeft": "Horizontálně vlevo",
     "noVideoPlayerOptions": "Vybraný backend nemá žádné možnosti",
-    "clientSettingsShowAllCollectionsDesc": "Pokud je povoleno, zobrazit všechny typy kolekcí, včetně těch, které Fladder nepodporuje",
+    "clientSettingsShowAllCollectionsDesc": "Pokud je povoleno, zobrazit všechny typy kolekcí, včetně těch, které NewCalFlix nepodporuje",
     "skipButtonLabel": "Přeskočit {segment}",
     "@skipButtonLabel": {
         "placeholders": {
@@ -904,7 +904,7 @@
     "mediaSegmentActions": "Akce segmentu médií",
     "segmentActionNone": "Žádný",
     "loading": "Načítání",
-    "exitFladderTitle": "Ukončit Fladder",
+    "exitNewCalFlixTitle": "Ukončit NewCalFlix",
     "maxConcurrentDownloadsTitle": "Maximální počet souběžných stahování",
     "maxConcurrentDownloadsDesc": "Nastavuje maximální počet stahování, která mohou být spuštěna současně. Nastavením na 0 limit deaktivujete.",
     "similarToRecentlyPlayed": "Podobné položce, kterou jste nedávno viděli",
@@ -944,7 +944,7 @@
     "settingsEnableOsMediaControlsDesc": "Povolit ovládání přehrávání pomocí mediálních kláves a ukázat aktuální přehrávané v systému",
     "enableBackgroundPostersDesc": "Zobrazit náhodné postery na příslušných obrazovkách",
     "television": "Televize",
-    "exitFladderDesc": "Opravdu chcete ukončit Fladder?",
+    "exitNewCalFlixDesc": "Opravdu chcete ukončit NewCalFlix?",
     "notificationDownloadingDownloading": "Stahuji",
     "notificationDownloadingPaused": "Stahování pozastaveno",
     "notificationDownloadingFinished": "Stahování dokončeno",
@@ -1527,7 +1527,7 @@
     "advancedVideoOptionsTitle": "Pokročilé možnosti videa",
     "advancedVideoOptionsDesc": "Povolit HDR, mapování tónů a pokročilé zpracování barev (nestabilní na některých zařízení)",
     "segmentActionSkipOnce": "Přeskočit jednou",
-    "quitMultipleWindowsDesc": "Máte otevřených {count} oken. Ukončením Fladderu se všechna zavřou. Chcete pokračovat?",
+    "quitMultipleWindowsDesc": "Máte otevřených {count} oken. Ukončením NewCalFlixu se všechna zavřou. Chcete pokračovat?",
     "@quitMultipleWindowsDesc": {
         "placeholders": {
             "count": {
@@ -1551,7 +1551,7 @@
     "errorTakingScreenshot": "Při pořizování snímku obrazovky došlo k chybě",
     "settingsLocalUrlTitle": "Místní URL adresa Jellyfinu",
     "settingsLocalUrlSetTitle": "Konfigurace lokální URL adresy Jellyfinu",
-    "settingsLocalUrlSetDesc": "Zadejte lokální adresu Jellyfinu. Fladder tuto URL adresu automaticky použije, když je vaše zařízení ve stejné síti.",
+    "settingsLocalUrlSetDesc": "Zadejte lokální adresu Jellyfinu. NewCalFlix tuto URL adresu automaticky použije, když je vaše zařízení ve stejné síti.",
     "localNetworkPermissionRequest": "Povolte přístup k místní síti pro vyhledávání serverů.",
     "requestPermission": "Žádost o povolení",
     "localNetworkPermissionDenied": "Je vyžadován přístup k místní síti. V nastavení systému povolte přístup k zařízením v okolí.",
@@ -1879,7 +1879,7 @@
     "emailUsername": "Email/Uživatelské jméno",
     "discover": "Objevit",
     "sponsor": "Sponzorovat",
-    "sponsorMessage": "Pokud rádi používáte Fladder, zvažte sponzorování projektu, abyste podpořili jeho neustálý vývoj a vylepšení. Děkujeme za vaši podporu!",
+    "sponsorMessage": "Pokud rádi používáte NewCalFlix, zvažte sponzorování projektu, abyste podpořili jeho neustálý vývoj a vylepšení. Děkujeme za vaši podporu!",
     "min": "min",
     "max": "max",
     "manageRequest": "Spravovat požadavek",
@@ -2003,7 +2003,7 @@
         }
     },
     "notificationTimerIOSWarning": " iOS rozhoduje o tom, kdy/zda se aktualizace skutečně spustí, oznámení se mohou zpozdit nebo se vůbec nezobrazit.",
-    "batteryOptimizationDesc": "Optimalizace baterie může zpozdit oznámení na pozadí pro Fladder.\nKlepnutím otevřete nastavení systému a deaktivujte optimalizace pro Fladder, abyste zlepšili spolehlivost oznámení.",
+    "batteryOptimizationDesc": "Optimalizace baterie může zpozdit oznámení na pozadí pro NewCalFlix.\nKlepnutím otevřete nastavení systému a deaktivujte optimalizace pro NewCalFlix, abyste zlepšili spolehlivost oznámení.",
     "updateCheckInterval": "Interval kontroly aktualizací",
     "updateCheckIntervalDesc": "Jak často se spouští úloha na pozadí",
     "notificationsIntervalClientReminder": "Interval oznámení je nastaven pro všechny uživatele.",
@@ -2036,7 +2036,7 @@
     "passwordNotRequired": "Není povinné, ponechte prázdné, pokud chcete, aby odkaz nezahrnoval heslo",
     "authLinkButtonToolTip": "Otevřít dialogové okno autorizačního odkazu",
     "connectWithAuthLink": "Připojit pomocí autorizačního odkazu",
-    "pasteFladderAuthLink": "Vložit fladder odkaz pro ověření fladder:///login?authLink=...",
+    "pasteNewCalFlixAuthLink": "Vložit NewCalFlix odkaz pro ověření NewCalFlix:///login?authLink=...",
     "connect": "Připojit",
     "authLinkDesc": "Požádejte administrátora serveru o poskytnutí autorizačního odkazu. Odkaz obsahuje ověřovací informace, proto jej uchovávejte v bezpečí.",
     "deletedItem": "Smazáno: {itemName}",
@@ -2154,3 +2154,4 @@
     "leanBackModeDesc": "Povolit režim lean-back na zařízeních se systémem Android, i když zařízení hlásí opak.",
     "leanBackModeInfo": "Režim lean-back je na zařízeních AndroidTV ve výchozím nastavení opět zapnutý. Zapnutí této možnosti na jiných než AndroidTV zařízeních může způsobit neočekávané chování."
 }
+

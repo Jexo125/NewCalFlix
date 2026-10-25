@@ -1,10 +1,10 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/bootstrap/platform/base_app_wrapper.dart';
+import 'package:newcalflix/bootstrap/platform/base_app_wrapper.dart';
 
 class MobileAppWrapper extends BaseAppWrapper {
   const MobileAppWrapper({super.key, required super.builder});
@@ -28,3 +28,4 @@ class _MobileAppWrapperState extends BaseAppWrapperState<MobileAppWrapper> {
     }
   }
 }
+

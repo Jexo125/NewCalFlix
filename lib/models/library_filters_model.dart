@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -6,19 +6,19 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:xid/xid.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/models/home_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/library_filter_model.dart';
-import 'package:fladder/models/library_search/library_search_model.dart';
-import 'package:fladder/models/view_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/color_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/models/home_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/library_filter_model.dart';
+import 'package:newcalflix/models/library_search/library_search_model.dart';
+import 'package:newcalflix/models/view_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/color_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 part 'library_filters_model.freezed.dart';
 part 'library_filters_model.g.dart';
@@ -215,3 +215,4 @@ abstract class LibraryFiltersModel with _$LibraryFiltersModel {
         : null;
   }
 }
+

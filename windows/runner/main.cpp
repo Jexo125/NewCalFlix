@@ -14,7 +14,7 @@ constexpr const wchar_t kMainWindowClassName[] = L"FLUTTER_RUNNER_WIN32_WINDOW";
 
 bool HasDeepLinkArgument(const std::vector<std::string>& arguments) {
   for (const auto& argument : arguments) {
-    if (argument.rfind("fladder:", 0) == 0) {
+    if (argument.rfind("newcalflix:", 0) == 0 || argument.rfind("fladder:", 0) == 0) {
       return true;
     }
   }
@@ -110,7 +110,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
-  if (!window.Create(L"Fladder", origin, size)) {
+  if (!window.Create(L"NewCalFlix", origin, size)) {
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

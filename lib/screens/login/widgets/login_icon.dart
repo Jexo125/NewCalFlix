@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/screens/shared/flat_button.dart';
-import 'package:fladder/screens/shared/user_icon.dart';
-import 'package:fladder/util/list_padding.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/screens/shared/flat_button.dart';
+import 'package:newcalflix/screens/shared/user_icon.dart';
+import 'package:newcalflix/util/list_padding.dart';
 
 class LoginIcon extends ConsumerWidget {
   final AccountModel user;
@@ -99,3 +99,4 @@ class LoginIcon extends ConsumerWidget {
     );
   }
 }
+

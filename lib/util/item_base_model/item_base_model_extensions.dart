@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
@@ -6,43 +6,43 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'package:fladder/models/book_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/album_model.dart';
-import 'package:fladder/models/items/artist_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/movie_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/models/playback/playback_queue_source.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/audio_lyrics_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/collections/add_to_collection.dart';
-import 'package:fladder/screens/details_screens/tracks_detail_screen.dart';
-import 'package:fladder/screens/metadata/edit_item.dart';
-import 'package:fladder/screens/metadata/identifty_screen.dart';
-import 'package:fladder/screens/metadata/info_screen.dart';
-import 'package:fladder/screens/metadata/refresh_metadata.dart';
-import 'package:fladder/screens/playlists/add_to_playlists.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/syncing/sync_button.dart';
-import 'package:fladder/screens/syncing/sync_item_details.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/src/wallpaper_api.g.dart';
-import 'package:fladder/util/clipboard_helper.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
-import 'package:fladder/util/file_downloader.dart';
-import 'package:fladder/util/item_base_model/play_item_helpers.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/pop_up/delete_file.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/models/book_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/album_model.dart';
+import 'package:newcalflix/models/items/artist_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/movie_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/models/playback/playback_queue_source.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/audio_lyrics_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/collections/add_to_collection.dart';
+import 'package:newcalflix/screens/details_screens/tracks_detail_screen.dart';
+import 'package:newcalflix/screens/metadata/edit_item.dart';
+import 'package:newcalflix/screens/metadata/identifty_screen.dart';
+import 'package:newcalflix/screens/metadata/info_screen.dart';
+import 'package:newcalflix/screens/metadata/refresh_metadata.dart';
+import 'package:newcalflix/screens/playlists/add_to_playlists.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/syncing/sync_button.dart';
+import 'package:newcalflix/screens/syncing/sync_item_details.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/src/wallpaper_api.g.dart';
+import 'package:newcalflix/util/clipboard_helper.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
+import 'package:newcalflix/util/file_downloader.dart';
+import 'package:newcalflix/util/item_base_model/play_item_helpers.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/pop_up/delete_file.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 extension ItemBaseModelsBooleans on List<ItemBaseModel> {
   Map<FladderItemType, List<ItemBaseModel>> get groupedItems {
@@ -618,3 +618,4 @@ Widget _buildLyricsTimelineList(BuildContext context, List<SyncedLyricLine> time
     ),
   );
 }
+

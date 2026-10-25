@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
@@ -8,7 +8,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:logging/logging.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'package:fladder/models/error_log_model.dart';
+import 'package:newcalflix/models/error_log_model.dart';
 
 final crashLogProvider = StateNotifierProvider<CrashLogNotifier, List<ErrorLogModel>>((ref) => CrashLogNotifier());
 
@@ -122,3 +122,4 @@ class CrashLogNotifier extends StateNotifier<List<ErrorLogModel>> {
     super.dispose();
   }
 }
+

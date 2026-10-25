@@ -1,17 +1,17 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/views_provider.dart';
-import 'package:fladder/routes/auto_router.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/destination_model.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/side_navigation_bar.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/top_navigation_bar.dart';
-import 'package:fladder/widgets/shared/back_intent_dpad.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/views_provider.dart';
+import 'package:newcalflix/routes/auto_router.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/destination_model.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/side_navigation_bar.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/top_navigation_bar.dart';
+import 'package:newcalflix/widgets/shared/back_intent_dpad.dart';
 
 class NavigationBody extends ConsumerStatefulWidget {
   final BuildContext parentContext;
@@ -149,3 +149,4 @@ class GlobalFallbackTraversalPolicy extends ReadingOrderTraversalPolicy {
     return handled;
   }
 }
+

@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/num_extension.dart';
-import 'package:fladder/widgets/gapped_container_shape.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/num_extension.dart';
+import 'package:newcalflix/widgets/gapped_container_shape.dart';
 
 class FladderSlider extends StatefulWidget {
   final double value;
@@ -272,3 +272,4 @@ class FladderSliderState extends State<FladderSlider> with SingleTickerProviderS
     return KeyEventResult.handled;
   }
 }
+

@@ -1,24 +1,24 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:window_manager/window_manager.dart';
 
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/media_playback_model.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/video_player/video_player.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/music_player_bar_content.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/video_player_bar_content.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/media_playback_model.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/video_player/video_player.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/music_player_bar_content.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/video_player_bar_content.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 double floatingPlayerHeight(BuildContext context) => switch (AdaptiveLayout.viewSizeOf(context)) {
       ViewSize.phone => 75,
@@ -171,3 +171,4 @@ class _CurrentlyPlayingBarState extends ConsumerState<FloatingPlayerBar> {
     );
   }
 }
+

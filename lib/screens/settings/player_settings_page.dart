@@ -1,34 +1,34 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/settings/widgets/key_listener.dart';
-import 'package:fladder/screens/settings/widgets/settings_label_divider.dart';
-import 'package:fladder/screens/settings/widgets/settings_list_group.dart';
-import 'package:fladder/screens/settings/widgets/settings_message_box.dart';
-import 'package:fladder/screens/settings/widgets/subtitle_editor.dart';
-import 'package:fladder/screens/shared/animated_fade_size.dart';
-import 'package:fladder/screens/shared/input_fields.dart';
-import 'package:fladder/screens/video_player/components/video_player_options_sheet.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/bitrate_helper.dart';
-import 'package:fladder/util/box_fit_extension.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/fladder_slider.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/wrappers/pip_manager.dart';
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/settings/widgets/key_listener.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_label_divider.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_list_group.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_message_box.dart';
+import 'package:newcalflix/screens/settings/widgets/subtitle_editor.dart';
+import 'package:newcalflix/screens/shared/animated_fade_size.dart';
+import 'package:newcalflix/screens/shared/input_fields.dart';
+import 'package:newcalflix/screens/video_player/components/video_player_options_sheet.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/bitrate_helper.dart';
+import 'package:newcalflix/util/box_fit_extension.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/fladder_slider.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/wrappers/pip_manager.dart';
 
 @RoutePage()
 class PlayerSettingsPage extends ConsumerStatefulWidget {
@@ -635,3 +635,4 @@ class _StatusIndicator extends StatelessWidget {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'last_seen_notifications_model.dart';
 
@@ -40,3 +40,4 @@ Map<String, dynamic> _$LastSeenModelToJson(_LastSeenModel instance) =>
       'userId': instance.userId,
       'lastNotifications': instance.lastNotifications,
     };
+

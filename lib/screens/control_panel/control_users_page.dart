@@ -1,28 +1,28 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/providers/control_panel/control_users_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/control_panel/widgets/auth_link_dialog.dart';
-import 'package:fladder/screens/control_panel/widgets/control_users_create.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/settings/widgets/settings_label_divider.dart';
-import 'package:fladder/screens/shared/default_alert_dialog.dart';
-import 'package:fladder/screens/shared/user_icon.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/humanize_duration.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/providers/control_panel/control_users_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/control_panel/widgets/auth_link_dialog.dart';
+import 'package:newcalflix/screens/control_panel/widgets/control_users_create.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_label_divider.dart';
+import 'package:newcalflix/screens/shared/default_alert_dialog.dart';
+import 'package:newcalflix/screens/shared/user_icon.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/humanize_duration.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 @RoutePage()
 class ControlUsersPage extends ConsumerWidget {
@@ -214,3 +214,4 @@ class _UserListItem extends StatelessWidget {
     );
   }
 }
+

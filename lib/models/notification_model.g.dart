@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'notification_model.dart';
 
@@ -27,3 +27,4 @@ Map<String, dynamic> _$NotificationModelToJson(_NotificationModel instance) =>
       'subtitle': instance.subtitle,
       'payLoad': instance.payLoad,
     };
+

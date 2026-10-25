@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class ActionContent extends StatelessWidget {
   final Widget? title;
@@ -46,3 +46,4 @@ class ActionContent extends StatelessWidget {
     );
   }
 }
+

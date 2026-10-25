@@ -1,7 +1,7 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/credentials_model.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/credentials_model.dart';
 
 part 'login_screen_model.freezed.dart';
 
@@ -34,3 +34,4 @@ abstract class ServerLoginModel with _$ServerLoginModel {
     @Default(false) bool hasQuickConnect,
   }) = _ServerLoginModel;
 }
+

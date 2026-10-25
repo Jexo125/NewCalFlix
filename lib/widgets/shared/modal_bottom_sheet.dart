@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 Future<void> showItemContextMenu(
     BuildContext context, WidgetRef ref, Offset globalPos, List<ItemAction> actions) async {
@@ -143,3 +143,4 @@ class ItemBottomSheetPreview extends ConsumerWidget {
     );
   }
 }
+

@@ -1,7 +1,7 @@
-import 'package:riverpod_annotation/riverpod_annotation.dart';
+﻿import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/providers/seerr_api_provider.dart';
-import 'package:fladder/seerr/seerr_models.dart';
+import 'package:newcalflix/providers/seerr_api_provider.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
 
 part 'seerr_user_provider.g.dart';
 
@@ -35,3 +35,4 @@ class SeerrUser extends _$SeerrUser {
     state = null;
   }
 }
+

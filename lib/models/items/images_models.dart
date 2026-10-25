@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -8,10 +8,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/providers/image_provider.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/providers/image_provider.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
 
 class ImagesData {
   final ImageData? primary;
@@ -352,3 +352,4 @@ class ImageData {
 
   factory ImageData.fromJson(String source) => ImageData.fromMap(json.decode(source));
 }
+

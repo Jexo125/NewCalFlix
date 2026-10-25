@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/models/settings/client_settings_model.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/global_hotkeys.dart';
+import 'package:newcalflix/models/settings/client_settings_model.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/global_hotkeys.dart';
 
 class RouteWrapper extends StatelessWidget {
   final Widget child;
@@ -24,3 +24,4 @@ class RouteWrapper extends StatelessWidget {
     );
   }
 }
+

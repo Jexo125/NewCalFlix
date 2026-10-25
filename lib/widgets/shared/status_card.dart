@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/theme.dart';
+import 'package:newcalflix/theme.dart';
 
 class StatusCard extends ConsumerWidget {
   final Color? color;
@@ -39,3 +39,4 @@ Color blendColors(Color base, {Color? blend, double amount = 0.25}) {
 
   return Color.lerp(base, blend, amount) ?? base;
 }
+

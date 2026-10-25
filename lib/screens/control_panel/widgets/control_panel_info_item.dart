@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class ControlPanelInfoItem extends StatelessWidget {
   final Widget? icon;
@@ -44,3 +44,4 @@ class ControlPanelInfoItem extends StatelessWidget {
     );
   }
 }
+

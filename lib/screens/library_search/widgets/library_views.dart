@@ -1,4 +1,4 @@
-import 'dart:ui';
+﻿import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -11,27 +11,27 @@ import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:intl/intl.dart';
 import 'package:sliver_tools/sliver_tools.dart';
 
-import 'package:fladder/models/boxset_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/items/playlist_model.dart';
-import 'package:fladder/models/library_search/library_search_options.dart';
-import 'package:fladder/providers/library_search_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/shared/media/poster_list_item.dart';
-import 'package:fladder/screens/shared/media/poster_widget.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/util/theme_extensions.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/grid_focus_traveler.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/models/boxset_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/items/playlist_model.dart';
+import 'package:newcalflix/models/library_search/library_search_options.dart';
+import 'package:newcalflix/providers/library_search_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/shared/media/poster_list_item.dart';
+import 'package:newcalflix/screens/shared/media/poster_widget.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/util/theme_extensions.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/grid_focus_traveler.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 final libraryViewTypeProvider = StateProvider<LibraryViewTypes>((ref) {
   return LibraryViewTypes.grid;
@@ -393,3 +393,4 @@ Map<String, List<ItemBaseModel>> groupByList(BuildContext context, List<ItemBase
 
   return groupedItems;
 }
+

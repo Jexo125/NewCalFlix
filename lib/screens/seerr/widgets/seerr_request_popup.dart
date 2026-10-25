@@ -1,28 +1,28 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/providers/seerr/seerr_request_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/screens/seerr/widgets/request_configuration_section.dart';
-import 'package:fladder/screens/seerr/widgets/request_popup_widgets.dart';
-import 'package:fladder/screens/seerr/widgets/seasons_section.dart';
-import 'package:fladder/screens/shared/adaptive_dialog.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/media/external_urls.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/filled_button_await.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/providers/seerr/seerr_request_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/screens/seerr/widgets/request_configuration_section.dart';
+import 'package:newcalflix/screens/seerr/widgets/request_popup_widgets.dart';
+import 'package:newcalflix/screens/seerr/widgets/seasons_section.dart';
+import 'package:newcalflix/screens/shared/adaptive_dialog.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/media/external_urls.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/filled_button_await.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 Future<void> openSeerrRequestPopup(
   BuildContext context,
@@ -353,3 +353,4 @@ class _SeerrRequestPopupState extends ConsumerState<SeerrRequestPopup> {
     );
   }
 }
+

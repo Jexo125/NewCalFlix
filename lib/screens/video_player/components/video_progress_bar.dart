@@ -1,18 +1,18 @@
-import 'dart:math' as math;
+﻿import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/chapters_model.dart';
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/util/duration_extensions.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/widgets/gapped_container_shape.dart';
-import 'package:fladder/widgets/shared/fladder_slider.dart';
-import 'package:fladder/widgets/shared/trick_play_image.dart';
+import 'package:newcalflix/models/items/chapters_model.dart';
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/util/duration_extensions.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/widgets/gapped_container_shape.dart';
+import 'package:newcalflix/widgets/shared/fladder_slider.dart';
+import 'package:newcalflix/widgets/shared/trick_play_image.dart';
 
 class VideoProgressBar extends ConsumerStatefulWidget {
   final Function(bool value) wasPlayingChanged;
@@ -401,3 +401,4 @@ class CustomTrackShape extends RoundedRectSliderTrackShape {
     return Rect.fromLTWH(trackLeft, trackTop, trackWidth, trackHeight);
   }
 }
+

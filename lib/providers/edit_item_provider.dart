@@ -1,14 +1,14 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 
 import 'package:chopper/chopper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/api_result.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/item_editing_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/screens/metadata/edit_item.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/api_result.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/item_editing_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/screens/metadata/edit_item.dart';
 
 final editItemProvider =
     StateNotifierProvider.autoDispose<EditItemNotifier, ItemEditingModel>((ref) => EditItemNotifier(ref));
@@ -249,3 +249,4 @@ class EditItemNotifier extends StateNotifier<ItemEditingModel> {
     return response;
   }
 }
+

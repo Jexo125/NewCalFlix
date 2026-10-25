@@ -1,15 +1,15 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:developer';
 
 import 'package:chopper/chopper.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/models/last_seen_notifications_model.dart';
-import 'package:fladder/models/seerr_credentials_model.dart';
-import 'package:fladder/seerr/seerr_chopper_service.dart';
-import 'package:fladder/seerr/seerr_json_converter.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/deep_link_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/models/last_seen_notifications_model.dart';
+import 'package:newcalflix/models/seerr_credentials_model.dart';
+import 'package:newcalflix/seerr/seerr_chopper_service.dart';
+import 'package:newcalflix/seerr/seerr_json_converter.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
 
 const String updateTaskName = 'nl.jknaapen.fladder.update_notifications_check';
 const String updateTaskNameDebug = 'nl.jknaapen.fladder.update_notifications_check_debug';
@@ -241,3 +241,4 @@ class _WorkerSeerrAuthInterceptor implements Interceptor {
     return chain.proceed(request);
   }
 }
+

@@ -1,4 +1,4 @@
-part of 'media_control_wrapper.dart';
+﻿part of 'media_control_wrapper.dart';
 
 extension AudioQueueHandler on MediaControlsWrapper {
   void _updateQueueState(PlaybackQueueState Function(PlaybackQueueState) updater) {
@@ -415,3 +415,4 @@ extension AudioQueueHandler on MediaControlsWrapper {
     return false;
   }
 }
+

@@ -1,19 +1,19 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/incognito_mode_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/settings/home_settings_provider.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/screens/settings/widgets/settings_label_divider.dart';
-import 'package:fladder/screens/settings/widgets/settings_list_group.dart';
-import 'package:fladder/screens/settings/widgets/settings_message_box.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/option_dialogue.dart';
+import 'package:newcalflix/providers/incognito_mode_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/settings/home_settings_provider.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_label_divider.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_list_group.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_message_box.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/option_dialogue.dart';
 
 List<Widget> buildClientSettingsAdvanced(BuildContext context, WidgetRef ref) {
   return settingsListGroup(
@@ -157,3 +157,4 @@ List<Widget> buildClientSettingsAdvanced(BuildContext context, WidgetRef ref) {
     ],
   );
 }
+

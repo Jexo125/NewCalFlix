@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 bool isEditableTextFocused() {
   final focus = FocusManager.instance.primaryFocus;
@@ -9,3 +9,4 @@ bool isEditableTextFocused() {
   if (ctx.widget is EditableText) return true;
   return ctx.findAncestorWidgetOfExactType<EditableText>() != null;
 }
+

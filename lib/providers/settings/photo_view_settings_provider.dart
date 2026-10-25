@@ -1,8 +1,8 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/providers/shared_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
 
 class PhotoViewSettingsModel {
   final bool repeat;
@@ -76,3 +76,4 @@ class PhotoViewSettingsNotifier extends StateNotifier<PhotoViewSettingsModel> {
 
   PhotoViewSettingsModel update(PhotoViewSettingsModel Function(PhotoViewSettingsModel state) cb) => state = cb(state);
 }
+

@@ -1,17 +1,17 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/channel_model.dart';
-import 'package:fladder/models/items/channel_program.dart';
-import 'package:fladder/providers/live_tv_provider.dart';
-import 'package:fladder/screens/live_tv/widgets/guide_constants.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/items/channel_model.dart';
+import 'package:newcalflix/models/items/channel_program.dart';
+import 'package:newcalflix/providers/live_tv_provider.dart';
+import 'package:newcalflix/screens/live_tv/widgets/guide_constants.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class ChannelRow extends ConsumerStatefulWidget {
   final ChannelProgram? selectedProgram;
@@ -251,3 +251,4 @@ class ChannelRowState extends ConsumerState<ChannelRow> {
     return Color.lerp(base, harmonized, inPast ? 0.25 : 0.05) ?? harmonized;
   }
 }
+

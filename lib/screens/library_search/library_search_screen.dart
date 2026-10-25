@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -6,48 +6,48 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/models/boxset_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/playlist_model.dart';
-import 'package:fladder/models/library_filter_model.dart';
-import 'package:fladder/models/library_search/library_search_model.dart';
-import 'package:fladder/models/library_search/library_search_options.dart';
-import 'package:fladder/models/settings/client_settings_model.dart';
-import 'package:fladder/providers/library_search_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/collections/add_to_collection.dart';
-import 'package:fladder/screens/library_search/widgets/library_filter_chips.dart';
-import 'package:fladder/screens/library_search/widgets/library_play_options_.dart';
-import 'package:fladder/screens/library_search/widgets/library_saved_filters.dart';
-import 'package:fladder/screens/library_search/widgets/library_sort_dialogue.dart';
-import 'package:fladder/screens/library_search/widgets/library_views.dart';
-import 'package:fladder/screens/library_search/widgets/suggestion_search_bar.dart';
-import 'package:fladder/screens/playlists/add_to_playlists.dart';
-import 'package:fladder/screens/shared/animated_fade_size.dart';
-import 'package:fladder/screens/shared/nested_scaffold.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/debouncer.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/position_provider.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/util/router_extension.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/background_image.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/settings_user_icon.dart';
-import 'package:fladder/widgets/shared/bottom_menu_bar.dart';
-import 'package:fladder/widgets/shared/fladder_scrollbar.dart';
-import 'package:fladder/widgets/shared/hide_on_scroll.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/pinch_poster_zoom.dart';
-import 'package:fladder/widgets/shared/poster_size_slider.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
-import 'package:fladder/widgets/shared/scroll_position.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/models/boxset_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/playlist_model.dart';
+import 'package:newcalflix/models/library_filter_model.dart';
+import 'package:newcalflix/models/library_search/library_search_model.dart';
+import 'package:newcalflix/models/library_search/library_search_options.dart';
+import 'package:newcalflix/models/settings/client_settings_model.dart';
+import 'package:newcalflix/providers/library_search_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/collections/add_to_collection.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_filter_chips.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_play_options_.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_saved_filters.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_sort_dialogue.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_views.dart';
+import 'package:newcalflix/screens/library_search/widgets/suggestion_search_bar.dart';
+import 'package:newcalflix/screens/playlists/add_to_playlists.dart';
+import 'package:newcalflix/screens/shared/animated_fade_size.dart';
+import 'package:newcalflix/screens/shared/nested_scaffold.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/debouncer.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/position_provider.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/util/router_extension.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/background_image.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/settings_user_icon.dart';
+import 'package:newcalflix/widgets/shared/bottom_menu_bar.dart';
+import 'package:newcalflix/widgets/shared/fladder_scrollbar.dart';
+import 'package:newcalflix/widgets/shared/hide_on_scroll.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/pinch_poster_zoom.dart';
+import 'package:newcalflix/widgets/shared/poster_size_slider.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/widgets/shared/scroll_position.dart';
 
 @RoutePage()
 class LibrarySearchScreen extends ConsumerStatefulWidget {
@@ -883,3 +883,4 @@ class LibraryAppBar extends ConsumerWidget {
     );
   }
 }
+

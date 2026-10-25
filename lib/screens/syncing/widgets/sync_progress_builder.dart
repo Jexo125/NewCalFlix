@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/syncing/download_stream.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/models/syncing/download_stream.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
 
 class SyncProgressBuilder extends ConsumerWidget {
   final SyncedItem item;
@@ -18,3 +18,4 @@ class SyncProgressBuilder extends ConsumerWidget {
     return builder(context, syncStatus);
   }
 }
+

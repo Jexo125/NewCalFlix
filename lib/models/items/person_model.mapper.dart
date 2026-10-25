@@ -1,4 +1,4 @@
-// coverage:ignore-file
+﻿// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, unnecessary_cast, override_on_non_overriding_member
@@ -272,3 +272,4 @@ class _PersonModelCopyWithImpl<$R, $Out> extends ClassCopyWithBase<$R, PersonMod
   PersonModelCopyWith<$R2, PersonModel, $Out2> $chain<$R2, $Out2>(Then<$Out2, $R2> t) =>
       _PersonModelCopyWithImpl<$R2, $Out2>($value, $cast, t);
 }
+

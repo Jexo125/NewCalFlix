@@ -1,4 +1,4 @@
-// ignore_for_file: depend_on_referenced_packages
+﻿// ignore_for_file: depend_on_referenced_packages
 
 import 'dart:developer';
 
@@ -9,8 +9,8 @@ import 'package:local_auth/local_auth.dart';
 import 'package:local_auth_android/local_auth_android.dart';
 import 'package:local_auth_darwin/local_auth_darwin.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class AuthService {
   static Future<bool> authenticateUser(
@@ -52,3 +52,4 @@ class AuthService {
     return isAuthenticated;
   }
 }
+

@@ -1,15 +1,15 @@
-import 'package:flutter/widgets.dart';
+﻿import 'package:flutter/widgets.dart';
 
 import 'package:chopper/chopper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/api_result.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/movie_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/api_result.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/movie_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
 
 class IdentifyModel {
   final ItemBaseModel? item;
@@ -132,3 +132,4 @@ class IdentifyNotifier extends StateNotifier<IdentifyModel> {
     return response.apiResult;
   }
 }
+

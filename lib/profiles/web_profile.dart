@@ -1,4 +1,4 @@
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
+﻿import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
 
 const DeviceProfile webProfile = DeviceProfile(
   maxStreamingBitrate: 120000000,
@@ -267,3 +267,4 @@ const DeviceProfile webProfile = DeviceProfile(
     SubtitleProfile(format: 'srt', method: SubtitleDeliveryMethod.embed),
   ],
 );
+

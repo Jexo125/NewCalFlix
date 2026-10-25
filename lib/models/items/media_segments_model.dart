@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:media_kit_video/media_kit_video_controls/src/controls/extensions/duration.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/util/localization_helper.dart';
 
 part 'media_segments_model.freezed.dart';
 part 'media_segments_model.g.dart';
@@ -130,3 +130,4 @@ extension MediaSegmentExtension on dto.MediaSegmentDto {
 }
 
 Duration _durationToMilliseconds(num milliseconds) => Duration(milliseconds: (milliseconds ~/ 10000));
+

@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/theme.dart';
+import 'package:newcalflix/theme.dart';
 
 class FlatButton extends ConsumerWidget {
   final Widget? child;
@@ -74,3 +74,4 @@ class FlatButton extends ConsumerWidget {
     );
   }
 }
+

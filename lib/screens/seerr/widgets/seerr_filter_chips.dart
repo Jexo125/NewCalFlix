@@ -1,19 +1,19 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/seerr_search_provider.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_filter_dialogs.dart';
-import 'package:fladder/screens/shared/chips/category_chip.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/position_provider.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/button_group.dart';
+import 'package:newcalflix/providers/seerr_search_provider.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_filter_dialogs.dart';
+import 'package:newcalflix/screens/shared/chips/category_chip.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/position_provider.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/button_group.dart';
 
 class SeerrFilterChips extends ConsumerWidget {
   const SeerrFilterChips({super.key});
@@ -164,3 +164,4 @@ class SeerrFilterChips extends ConsumerWidget {
     );
   }
 }
+

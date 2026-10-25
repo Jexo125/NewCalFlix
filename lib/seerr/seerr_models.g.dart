@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'seerr_models.dart';
 
@@ -973,3 +973,4 @@ Map<String, dynamic> _$SeerrMediaInfoToJson(_SeerrMediaInfo instance) => <String
       'downloadStatus': instance.downloadStatus,
       'downloadStatus4k': instance.downloadStatus4k,
     };
+

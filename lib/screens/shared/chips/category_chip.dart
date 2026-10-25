@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/widgets/shared/button_group.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/modal_side_sheet.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/widgets/shared/button_group.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/modal_side_sheet.dart';
 
 class CategoryChip<T> extends StatelessWidget {
   final Map<T, bool> items;
@@ -267,3 +267,4 @@ class _CategoryChipEditorState<T> extends State<CategoryChipEditor<T>> {
     )));
   }
 }
+

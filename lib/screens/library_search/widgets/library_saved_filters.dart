@@ -1,20 +1,20 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/library_filter_model.dart';
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/providers/library_filters_provider.dart';
-import 'package:fladder/providers/library_search_provider.dart';
-import 'package:fladder/providers/views_provider.dart';
-import 'package:fladder/screens/shared/default_alert_dialog.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/option_dialogue.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/models/library_filter_model.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/providers/library_filters_provider.dart';
+import 'package:newcalflix/providers/library_search_provider.dart';
+import 'package:newcalflix/providers/views_provider.dart';
+import 'package:newcalflix/screens/shared/default_alert_dialog.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/option_dialogue.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 Future<void> showSavedFilters(
   BuildContext context,
@@ -295,3 +295,4 @@ class FilterListItem extends ConsumerWidget {
     );
   }
 }
+

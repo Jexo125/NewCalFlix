@@ -1,4 +1,4 @@
-import 'package:collection/collection.dart';
+﻿import 'package:collection/collection.dart';
 
 extension MapExtensions<T> on Map<T, bool> {
   Map<T, bool> toggleKey(T wantedKey) {
@@ -103,3 +103,4 @@ extension MapExtensionsGeneric<K, V> on Map<K, V> {
     return tempMap;
   }
 }
+

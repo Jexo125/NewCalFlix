@@ -1,4 +1,4 @@
-{
+﻿{
     "code": "Kodiċi",
     "@code": {},
     "loggedIn": "Illoggjat",
@@ -1146,8 +1146,8 @@
     "@segmentActionSkip": {},
     "loading": "Tagħbija",
     "@loading": {},
-    "exitFladderTitle": "Oħroġ min Fladder",
-    "@exitFladderTitle": {},
+    "exitNewCalFlixTitle": "Oħroġ min NewCalFlix",
+    "@exitNewCalFlixTitle": {},
     "castAndCrew": "Kast u Ekwipaġġ",
     "@castAndCrew": {},
     "guestActor": "{count, plural, other{Atturi Mistiedna} one{Attur Mistieden}}",
@@ -1220,7 +1220,7 @@
     "@episodeMissing": {},
     "copyStreamUrl": "Ikkopja l-URL tal-istrimjar",
     "@copyStreamUrl": {},
-    "clientSettingsShowAllCollectionsDesc": "Meta jkun attivat, uri t-tipi kollha ta' ġbir, inklużi dawk mhux appoġġati minn Fladder",
+    "clientSettingsShowAllCollectionsDesc": "Meta jkun attivat, uri t-tipi kollha ta' ġbir, inklużi dawk mhux appoġġati minn NewCalFlix",
     "@clientSettingsShowAllCollectionsDesc": {},
     "qualityOptionsAuto": "Awto",
     "@qualityOptionsAuto": {},
@@ -1295,3 +1295,4 @@
     "videoScalingFitWidth": "Għoli il-wisa'",
     "@videoScalingFitWidth": {}
 }
+

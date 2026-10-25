@@ -1,4 +1,4 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'home_preferences_model.freezed.dart';
 
@@ -17,3 +17,4 @@ abstract class HomePreferencesModel with _$HomePreferencesModel {
     @Default(false) bool loading,
   }) = _HomePreferencesModel;
 }
+

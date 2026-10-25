@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/items/movie_model.dart';
-import 'package:fladder/models/items/overview_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/items/movie_model.dart';
+import 'package:newcalflix/models/items/overview_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 enum SeerrRequestStatus {
   unknown,
@@ -290,3 +290,4 @@ class SeerrDashboardModel {
     );
   }
 }
+

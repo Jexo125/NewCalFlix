@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:logging/logging.dart';
@@ -88,3 +88,4 @@ class ErrorLogModel {
     );
   }
 }
+

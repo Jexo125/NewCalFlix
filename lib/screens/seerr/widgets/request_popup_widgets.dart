@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:square_progress_indicator/square_progress_indicator.dart';
 
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class AutoApproveBanner extends StatelessWidget {
   final SeerrUserModel? user;
@@ -181,3 +181,4 @@ class QuotaLimitCard extends StatelessWidget {
     );
   }
 }
+

@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/side_navigation_bar.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/side_navigation_bar.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 class NavigationButton extends ConsumerStatefulWidget {
   final String? label;
@@ -215,3 +215,4 @@ class _NavigationButtonState extends ConsumerState<NavigationButton> {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class SpacedListTile extends StatelessWidget {
   final Widget title;
@@ -25,3 +25,4 @@ class SpacedListTile extends StatelessWidget {
     );
   }
 }
+

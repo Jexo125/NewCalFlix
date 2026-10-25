@@ -1,20 +1,20 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/media_playback_model.dart';
-import 'package:fladder/models/playback/playback_queue_state.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/wrappers/media_control_wrapper.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/media_playback_model.dart';
+import 'package:newcalflix/models/playback/playback_queue_state.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/wrappers/media_control_wrapper.dart';
 
 typedef QueueSectionReorderCallback = Future<void> Function(
   AudioQueueSection section,
@@ -441,3 +441,4 @@ class _QueueTile extends StatelessWidget {
     );
   }
 }
+

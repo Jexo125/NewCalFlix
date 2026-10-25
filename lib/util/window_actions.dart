@@ -1,13 +1,13 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:desktop_multi_window/desktop_multi_window.dart';
 import 'package:window_manager/window_manager.dart';
 
-import 'package:fladder/screens/shared/default_alert_dialog.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/screens/shared/default_alert_dialog.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 Future<bool> closeCurrentWindow() async {
   final manager = WindowManager.instance;
@@ -33,7 +33,7 @@ Future<void> quitApplication(BuildContext context) async {
   if (windows.length > 1) {
     await showDefaultAlertDialog(
       context,
-      context.localized.exitFladderTitle,
+      context.localized.exitNewCalFlixTitle,
       context.localized.quitMultipleWindowsDesc(windows.length),
       (context) => SystemNavigator.pop(),
       context.localized.exit,
@@ -48,3 +48,4 @@ Future<void> quitApplication(BuildContext context) async {
     FladderSnack.show(context.localized.somethingWentWrong, context: context);
   }
 }
+

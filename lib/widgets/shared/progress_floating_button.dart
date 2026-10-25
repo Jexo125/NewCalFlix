@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +10,7 @@ import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:square_progress_indicator/square_progress_indicator.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
-import 'package:fladder/util/simple_duration_picker.dart';
+import 'package:newcalflix/util/simple_duration_picker.dart';
 
 bool get _isDesktop {
   if (kIsWeb) return false;
@@ -206,3 +206,4 @@ class CustomTrackShape extends RoundedRectSliderTrackShape {
     return Rect.fromLTWH(trackLeft, trackTop, trackWidth, trackHeight);
   }
 }
+

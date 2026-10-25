@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class FladderFonts {
   static TextTheme rubikTextTheme([TextTheme? textTheme]) {
@@ -113,3 +113,4 @@ class FladderFonts {
     );
   }
 }
+

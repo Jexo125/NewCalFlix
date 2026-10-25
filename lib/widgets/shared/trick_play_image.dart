@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:io';
 import 'dart:ui' as ui;
 
@@ -8,7 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:fladder/models/items/trick_play_model.dart';
+import 'package:newcalflix/models/items/trick_play_model.dart';
 
 class TrickPlayImage extends ConsumerStatefulWidget {
   final TrickPlayModel trickPlay;
@@ -132,3 +132,4 @@ class _TrickPlayPainter extends CustomPainter {
     return false;
   }
 }
+

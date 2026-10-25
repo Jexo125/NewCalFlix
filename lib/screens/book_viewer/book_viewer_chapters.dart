@@ -1,9 +1,9 @@
-import 'package:fladder/models/book_model.dart';
-import 'package:fladder/providers/book_viewer_provider.dart';
-import 'package:fladder/providers/items/book_details_provider.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/widgets/shared/modal_side_sheet.dart';
+﻿import 'package:newcalflix/models/book_model.dart';
+import 'package:newcalflix/providers/book_viewer_provider.dart';
+import 'package:newcalflix/providers/items/book_details_provider.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/widgets/shared/modal_side_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -116,3 +116,4 @@ class BookViewerChapters extends ConsumerWidget {
     );
   }
 }
+

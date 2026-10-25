@@ -1,28 +1,28 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:chopper/chopper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/jellyfin/enum_models.dart';
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/api_result.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/models/seerr_credentials_model.dart';
-import 'package:fladder/models/settings/home_settings_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/image_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/util/debouncer.dart';
-import 'package:fladder/util/map_bool_helper.dart';
+import 'package:newcalflix/jellyfin/enum_models.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/api_result.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/models/seerr_credentials_model.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/image_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/util/debouncer.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
 
 part 'user_provider.g.dart';
 
@@ -440,3 +440,4 @@ class User extends _$User {
     }
   }
 }
+

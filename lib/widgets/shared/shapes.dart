@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class AppBarShape extends OutlinedBorder {
   @override
@@ -63,3 +63,4 @@ class BottomBarShape extends OutlinedBorder {
   @override
   ShapeBorder scale(double t) => this;
 }
+

@@ -1,24 +1,24 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/login_screen_model.dart';
-import 'package:fladder/providers/auth_provider.dart';
-import 'package:fladder/screens/login/login_edit_user.dart';
-import 'package:fladder/screens/login/login_screen_credentials.dart';
-import 'package:fladder/screens/login/login_user_grid.dart';
-import 'package:fladder/screens/shared/animated_fade_size.dart';
-import 'package:fladder/screens/shared/fladder_logo.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/route_wrapper.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/deep_link_helper.dart';
-import 'package:fladder/widgets/keyboard/slide_in_keyboard.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/adaptive_fab.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/fladder_app_bar.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/login_screen_model.dart';
+import 'package:newcalflix/providers/auth_provider.dart';
+import 'package:newcalflix/screens/login/login_edit_user.dart';
+import 'package:newcalflix/screens/login/login_screen_credentials.dart';
+import 'package:newcalflix/screens/login/login_user_grid.dart';
+import 'package:newcalflix/screens/shared/animated_fade_size.dart';
+import 'package:newcalflix/screens/shared/fladder_logo.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/route_wrapper.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
+import 'package:newcalflix/widgets/keyboard/slide_in_keyboard.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/adaptive_fab.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/fladder_app_bar.dart';
 
 @RoutePage()
 class LoginScreen extends ConsumerStatefulWidget {
@@ -148,3 +148,4 @@ class _LoginPageState extends ConsumerState<LoginScreen> {
     );
   }
 }
+

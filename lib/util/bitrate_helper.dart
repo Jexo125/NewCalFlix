@@ -1,11 +1,11 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 
 import 'package:flutter/widgets.dart';
 
 import 'package:collection/collection.dart';
 
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 enum Bitrate {
   original(null),
@@ -103,3 +103,4 @@ Map<Bitrate, bool> getVideoQualityOptions(VideoQualitySettings options) {
     return {};
   }
 }
+

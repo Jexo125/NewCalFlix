@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/deep_link_helper.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 Future<void> showConnectLinkDialog(
   BuildContext context,
@@ -35,7 +35,7 @@ Future<void> showConnectLinkDialog(
             children: [
               OutlinedTextField(
                 controller: textController,
-                placeHolder: context.localized.pasteFladderAuthLink,
+                placeHolder: context.localized.pasteNewCalFlixAuthLink,
               ),
               Text(
                 context.localized.authLinkDesc,
@@ -63,3 +63,4 @@ Future<void> showConnectLinkDialog(
     },
   );
 }
+

@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
@@ -6,7 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-import 'package:fladder/models/notification_model.dart';
+import 'package:newcalflix/models/notification_model.dart';
 
 class NotificationService {
   NotificationService._();
@@ -239,3 +239,4 @@ class NotificationService {
 void _notificationBackgroundEntryPoint(NotificationResponse response) {
   NotificationService._backgroundNotificationHandler(response);
 }
+

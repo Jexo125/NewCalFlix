@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 extension TaskTriggerTypeExtensions on TaskTriggerInfoType {
   bool get isUnknown => this == TaskTriggerInfoType.swaggerGeneratedUnknown;
@@ -22,3 +22,4 @@ extension TaskTriggerTypeExtensions on TaskTriggerInfoType {
     }
   }
 }
+

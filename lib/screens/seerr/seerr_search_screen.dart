@@ -1,37 +1,37 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/providers/seerr_search_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_filter_chips.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_filter_dialogs.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_poster_card.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_request_popup.dart';
-import 'package:fladder/screens/shared/animated_fade_size.dart';
-import 'package:fladder/screens/shared/nested_scaffold.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/debouncer.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/position_provider.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/util/router_extension.dart';
-import 'package:fladder/util/sliver_list_padding.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/background_image.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/settings_user_icon.dart';
-import 'package:fladder/widgets/shared/bottom_menu_bar.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/grid_focus_traveler.dart';
-import 'package:fladder/widgets/shared/hide_on_scroll.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
-import 'package:fladder/widgets/shared/scroll_position.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/providers/seerr_search_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_filter_chips.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_filter_dialogs.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_poster_card.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_request_popup.dart';
+import 'package:newcalflix/screens/shared/animated_fade_size.dart';
+import 'package:newcalflix/screens/shared/nested_scaffold.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/debouncer.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/position_provider.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/util/router_extension.dart';
+import 'package:newcalflix/util/sliver_list_padding.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/background_image.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/settings_user_icon.dart';
+import 'package:newcalflix/widgets/shared/bottom_menu_bar.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/grid_focus_traveler.dart';
+import 'package:newcalflix/widgets/shared/hide_on_scroll.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/widgets/shared/scroll_position.dart';
 
 @RoutePage()
 class SeerrSearchScreen extends ConsumerStatefulWidget {
@@ -429,3 +429,4 @@ class _SeerrSearchBottomBar extends StatelessWidget {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:convert';
 
 import 'package:chopper/chopper.dart';
@@ -92,3 +92,4 @@ class SeerrJsonConverter extends JsonConverter {
     return data;
   }
 }
+

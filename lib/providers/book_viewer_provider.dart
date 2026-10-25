@@ -1,4 +1,4 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/widgets.dart';
@@ -8,11 +8,11 @@ import 'package:chopper/chopper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/book_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/book_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
 
 class BookViewerModel {
   final BookModel? book;
@@ -187,3 +187,4 @@ class BookViewerNotifier extends StateNotifier<BookViewerModel> {
         book: () => book,
       );
 }
+

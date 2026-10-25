@@ -1,9 +1,9 @@
-import 'dart:io';
+﻿import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:fladder/models/media_playback_model.dart';
-import 'package:fladder/providers/dashboard_mode_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
+import 'package:newcalflix/models/media_playback_model.dart';
+import 'package:newcalflix/providers/dashboard_mode_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
 import 'package:window_manager/window_manager.dart';
 
 /// Manages the context-aware window title.
@@ -78,3 +78,4 @@ class WindowTitleNotifier extends StateNotifier<String> {
     }
   }
 }
+

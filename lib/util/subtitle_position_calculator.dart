@@ -1,6 +1,6 @@
-import 'dart:math' as math;
+﻿import 'dart:math' as math;
 
-import 'package:fladder/models/settings/subtitle_settings_model.dart';
+import 'package:newcalflix/models/settings/subtitle_settings_model.dart';
 
 class SubtitlePositionCalculator {
   static const double _fallbackMenuHeightPercentage = 0.15;
@@ -33,3 +33,4 @@ class SubtitlePositionCalculator {
     return math.max(0.0, math.min(minSafeOffset, _maxSubtitleOffset));
   }
 }
+

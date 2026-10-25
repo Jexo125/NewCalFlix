@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:reorderable_grid/reorderable_grid.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/providers/auth_provider.dart';
-import 'package:fladder/screens/shared/user_icon.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/list_padding.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/providers/auth_provider.dart';
+import 'package:newcalflix/screens/shared/user_icon.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/list_padding.dart';
 
 class LoginUserGrid extends ConsumerWidget {
   final List<AccountModel> users;
@@ -148,3 +148,4 @@ class LoginUserGrid extends ConsumerWidget {
     );
   }
 }
+

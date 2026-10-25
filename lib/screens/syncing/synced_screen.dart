@@ -1,22 +1,22 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/home_screen.dart';
-import 'package:fladder/screens/shared/nested_scaffold.dart';
-import 'package:fladder/screens/shared/nested_sliver_appbar.dart';
-import 'package:fladder/screens/syncing/sync_list_item.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/sliver_list_padding.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/background_image.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/home_screen.dart';
+import 'package:newcalflix/screens/shared/nested_scaffold.dart';
+import 'package:newcalflix/screens/shared/nested_sliver_appbar.dart';
+import 'package:newcalflix/screens/syncing/sync_list_item.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/sliver_list_padding.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/background_image.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 @RoutePage()
 class SyncedScreen extends ConsumerStatefulWidget {
@@ -118,3 +118,4 @@ class _SyncedScreenState extends ConsumerState<SyncedScreen> {
     );
   }
 }
+

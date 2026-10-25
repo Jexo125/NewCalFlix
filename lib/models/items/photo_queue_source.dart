@@ -1,9 +1,9 @@
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/library_search/library_search_model.dart';
-import 'package:fladder/models/playback/playback_queue_source.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/util/map_bool_helper.dart';
+﻿import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/library_search/library_search_model.dart';
+import 'package:newcalflix/models/playback/playback_queue_source.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
 
 class PhotoQueueSource {
   final LibrarySearchModel libraryState;
@@ -147,3 +147,4 @@ class PhotoQueueSource {
     return (items: items, count: count);
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:fladder/util/localization_helper.dart';
+﻿import 'package:newcalflix/util/localization_helper.dart';
 import 'package:flutter/material.dart';
 
 extension BoxFitExtension on BoxFit {
@@ -14,3 +14,4 @@ extension BoxFitExtension on BoxFit {
     };
   }
 }
+

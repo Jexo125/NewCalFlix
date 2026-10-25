@@ -1,4 +1,4 @@
-import 'dart:math';
+﻿import 'dart:math';
 
 extension RangeNum on num {
   bool isInRange(num index, num range) {
@@ -12,3 +12,4 @@ extension DoubleExtension on double {
     return ((this * mod).round().toDouble() / mod);
   }
 }
+

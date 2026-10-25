@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
@@ -14,41 +14,41 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path/path.dart' as path;
 import 'package:path_provider/path_provider.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/api_result.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/album_model.dart';
-import 'package:fladder/models/items/artist_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/items/movie_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/items/playlist_model.dart';
-import 'package:fladder/models/items/season_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/models/syncing/database_item.dart';
-import 'package:fladder/models/syncing/download_stream.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/models/syncing/sync_settings_model.dart';
-import 'package:fladder/models/syncing/transcode_download_model.dart';
-import 'package:fladder/models/syncing/transcode_music_download_model.dart';
-import 'package:fladder/models/video_stream_model.dart';
-import 'package:fladder/profiles/default_profile.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/sync/background_download_provider.dart';
-import 'package:fladder/providers/sync/sync_provider_media.dart';
-import 'package:fladder/providers/sync/sync_provider_overlay.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/util/duration_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/api_result.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/album_model.dart';
+import 'package:newcalflix/models/items/artist_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/items/movie_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/items/playlist_model.dart';
+import 'package:newcalflix/models/items/season_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/models/syncing/database_item.dart';
+import 'package:newcalflix/models/syncing/download_stream.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/models/syncing/sync_settings_model.dart';
+import 'package:newcalflix/models/syncing/transcode_download_model.dart';
+import 'package:newcalflix/models/syncing/transcode_music_download_model.dart';
+import 'package:newcalflix/models/video_stream_model.dart';
+import 'package:newcalflix/profiles/default_profile.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/sync/background_download_provider.dart';
+import 'package:newcalflix/providers/sync/sync_provider_media.dart';
+import 'package:newcalflix/providers/sync/sync_provider_overlay.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/util/duration_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 final syncProvider = StateNotifierProvider<SyncNotifier, SyncSettingsModel>((ref) => throw UnimplementedError());
 
@@ -1455,3 +1455,4 @@ extension SyncNotifierHelpers on SyncNotifier {
     }
   }
 }
+

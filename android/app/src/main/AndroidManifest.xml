@@ -14,7 +14,7 @@
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-feature android:name="android.software.leanback" android:required="false" />
 
-    <application android:label="Fladder" android:name="${applicationName}" android:icon="@mipmap/ic_launcher" android:banner="@drawable/app_banner" android:usesCleartextTraffic="true" android:enableOnBackInvokedCallback="true" android:largeHeap="true">
+    <application android:label="NewCalFlix" android:name="${applicationName}" android:icon="@mipmap/ic_launcher" android:banner="@drawable/app_banner" android:usesCleartextTraffic="true" android:enableOnBackInvokedCallback="true" android:largeHeap="true">
 
         <meta-data android:name="com.ryanheise.audioservice.notification_icon" android:resource="@drawable/ic_notification" />
 
@@ -37,12 +37,13 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
 
-            <!-- Deep link scheme for AutoRoute (example: fladder://details?id=xyz) -->
+            <!-- Deep link scheme for AutoRoute (example: newcalflix://details?id=xyz) -->
             <meta-data android:name="flutter_deeplinking_enabled" android:value="false" />
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="newcalflix" />
                 <data android:scheme="fladder" />
             </intent-filter>
         </activity>

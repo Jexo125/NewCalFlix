@@ -1,27 +1,27 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/providers/control_panel/control_active_tasks_provider.dart';
-import 'package:fladder/screens/control_panel/widgets/control_panel_card.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/shared/adaptive_dialog.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/duration_extensions.dart';
-import 'package:fladder/util/extensions/day_of_week_extensions.dart';
-import 'package:fladder/util/extensions/task_trigger_type_extensions.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/humanize_duration.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/enum_selection.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/providers/control_panel/control_active_tasks_provider.dart';
+import 'package:newcalflix/screens/control_panel/widgets/control_panel_card.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/shared/adaptive_dialog.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/duration_extensions.dart';
+import 'package:newcalflix/util/extensions/day_of_week_extensions.dart';
+import 'package:newcalflix/util/extensions/task_trigger_type_extensions.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/humanize_duration.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/enum_selection.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 @RoutePage()
 class ControlActiveTasksPage extends ConsumerWidget {
@@ -466,3 +466,4 @@ class _TaskTriggerItem extends StatelessWidget {
     );
   }
 }
+

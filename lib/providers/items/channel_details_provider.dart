@@ -1,9 +1,9 @@
-import 'package:riverpod_annotation/riverpod_annotation.dart';
+﻿import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/models/items/channel_model.dart';
-import 'package:fladder/models/items/channel_program.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
+import 'package:newcalflix/models/items/channel_model.dart';
+import 'package:newcalflix/models/items/channel_program.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
 
 part 'channel_details_provider.g.dart';
 
@@ -32,3 +32,4 @@ class ChannelDetails extends _$ChannelDetails {
     );
   }
 }
+

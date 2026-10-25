@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'account_model.dart';
 
@@ -86,3 +86,4 @@ Map<String, dynamic> _$UserSettingsToJson(_UserSettings instance) => <String, dy
       'filterSortOrder': const FilterSortOrderConverter().toJson(instance.filterSortOrder),
       'pDashboardSorting': const DashboardSortingConverter().toJson(instance.pDashboardSorting),
     };
+

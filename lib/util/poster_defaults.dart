@@ -1,4 +1,4 @@
-class PosterDefaults {
+﻿class PosterDefaults {
   final double size;
   final double ratio;
 
@@ -6,3 +6,4 @@ class PosterDefaults {
 
   const PosterDefaults({required this.size, required this.ratio});
 }
+

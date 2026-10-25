@@ -1,26 +1,26 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/library_search/library_search_model.dart';
-import 'package:fladder/models/library_search/library_search_options.dart';
-import 'package:fladder/providers/library_search_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_filter_dialogs.dart';
-import 'package:fladder/screens/shared/chips/category_chip.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/position_provider.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/button_group.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/library_search/library_search_model.dart';
+import 'package:newcalflix/models/library_search/library_search_options.dart';
+import 'package:newcalflix/providers/library_search_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_filter_dialogs.dart';
+import 'package:newcalflix/screens/shared/chips/category_chip.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/position_provider.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/button_group.dart';
 
 class LibraryFilterChips extends ConsumerStatefulWidget {
   const LibraryFilterChips({super.key});
@@ -247,3 +247,4 @@ class _LibraryFilterChipsState extends ConsumerState<LibraryFilterChips> {
     );
   }
 }
+

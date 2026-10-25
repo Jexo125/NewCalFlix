@@ -1,8 +1,8 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+﻿import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/settings/home_settings_model.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
 
 final homeSettingsProvider = StateNotifierProvider<HomeSettingsNotifier, HomeSettingsModel>((ref) {
   return HomeSettingsNotifier(ref);
@@ -25,3 +25,4 @@ class HomeSettingsNotifier extends StateNotifier<HomeSettingsModel> {
 
   void setViewSize(Set<ViewSize> set) => state = state.copyWith(layoutStates: set);
 }
+

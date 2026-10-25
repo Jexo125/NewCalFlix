@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:fladder/screens/shared/default_title_bar.dart';
+import 'package:newcalflix/screens/shared/default_title_bar.dart';
 
 class FladderAppBar extends StatelessWidget implements PreferredSize {
   final double height;
@@ -47,3 +47,4 @@ class FladderAppBar extends StatelessWidget implements PreferredSize {
   @override
   Size get preferredSize => Size(double.infinity, isDesktop ? height : 0);
 }
+

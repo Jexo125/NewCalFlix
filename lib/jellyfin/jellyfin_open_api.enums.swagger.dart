@@ -1,4 +1,4 @@
-import 'package:json_annotation/json_annotation.dart';
+﻿import 'package:json_annotation/json_annotation.dart';
 import 'package:collection/collection.dart';
 
 enum AudioSpatialFormat {
@@ -5410,3 +5410,4 @@ enum VideosItemIdStreamContainerHeadContext {
 
   const VideosItemIdStreamContainerHeadContext(this.value);
 }
+

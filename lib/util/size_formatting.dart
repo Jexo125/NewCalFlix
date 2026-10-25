@@ -1,4 +1,4 @@
-// ignore_for_file: constant_identifier_names
+﻿// ignore_for_file: constant_identifier_names
 
 extension IntExtension on int? {
   String? get byteFormat {
@@ -20,3 +20,4 @@ extension IntExtension on int? {
     }
   }
 }
+

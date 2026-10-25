@@ -1,4 +1,4 @@
-enum VideoPlayerState {
+﻿enum VideoPlayerState {
   minimized,
   fullScreen,
   disposed,
@@ -84,3 +84,4 @@ class MediaPlaybackModel {
     );
   }
 }
+

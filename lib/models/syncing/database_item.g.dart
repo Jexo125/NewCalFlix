@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'database_item.dart';
 
@@ -1095,3 +1095,4 @@ class $AppDatabaseManager {
   $$DatabaseItemsTableTableManager get databaseItems =>
       $$DatabaseItemsTableTableManager(_db, _db.databaseItems);
 }
+

@@ -1,4 +1,4 @@
-import 'package:background_downloader/background_downloader.dart' as dl;
+﻿import 'package:background_downloader/background_downloader.dart' as dl;
 
 class DownloadStream {
   final String id;
@@ -49,3 +49,4 @@ class DownloadStream {
     return 'DownloadStream(id: $id, task: $task, progress: $progress, status: $status)';
   }
 }
+

@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/util/bitrate_helper.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/util/bitrate_helper.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class TranscodeMusicDownloadModel {
   final bool enabled;
@@ -127,3 +127,4 @@ enum MusicContainer {
         MusicContainer.flac => '.flac',
       };
 }
+

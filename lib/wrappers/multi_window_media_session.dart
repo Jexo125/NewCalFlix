@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
 
@@ -8,7 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:audio_service/audio_service.dart';
 import 'package:collection/collection.dart';
 import 'package:desktop_multi_window/desktop_multi_window.dart';
-import 'package:smtc_windows/smtc_windows.dart' if (dart.library.html) 'package:fladder/stubs/web/smtc_web.dart';
+import 'package:smtc_windows/smtc_windows.dart' if (dart.library.html) 'package:newcalflix/stubs/web/smtc_web.dart';
 
 //Manager every windows media player and forward the active window state to the OS (audio_service + SMTC).
 class MultiWindowMediaSession {
@@ -373,3 +373,4 @@ PlaybackState _decodePlaybackState(Map map) => PlaybackState(
       speed: (map['speed'] as num).toDouble(),
       updateTime: DateTime.fromMillisecondsSinceEpoch(map['updateTime'] as int),
     );
+

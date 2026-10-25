@@ -1,23 +1,23 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+﻿// ignore_for_file: public_member_api_docs, sort_constructors_first
 
 import 'package:flutter/material.dart';
 
 import 'package:dart_mappable/dart_mappable.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/l10n/generated/app_localizations.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/chapters_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/item_stream_model.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/items/overview_model.dart';
-import 'package:fladder/models/items/special_feature_model.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/screens/details_screens/movie_detail_screen.dart';
-import 'package:fladder/util/humanize_duration.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/chapters_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/item_stream_model.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/items/overview_model.dart';
+import 'package:newcalflix/models/items/special_feature_model.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/screens/details_screens/movie_detail_screen.dart';
+import 'package:newcalflix/util/humanize_duration.dart';
 
 part 'movie_model.mapper.dart';
 
@@ -151,3 +151,4 @@ class MovieModel extends ItemStreamModel with MovieModelMappable {
     );
   }
 }
+

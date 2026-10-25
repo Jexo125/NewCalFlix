@@ -1,6 +1,6 @@
-import 'package:path/path.dart' as path;
+﻿import 'package:path/path.dart' as path;
 
-import 'package:fladder/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
 
 extension StringExtensions on String {
   String capitalize() {
@@ -93,3 +93,4 @@ extension StringListExtension on List<String?> {
     return nonNulls.join(" ● ");
   }
 }
+

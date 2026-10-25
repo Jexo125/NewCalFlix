@@ -1,12 +1,12 @@
-// ignore_for_file: invalid_annotation_target
+﻿// ignore_for_file: invalid_annotation_target
 
 import 'package:flutter/material.dart';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 part 'home_settings_model.freezed.dart';
 part 'home_settings_model.g.dart';
@@ -117,3 +117,4 @@ enum DashboardSorting {
         DashboardSorting.filters => context.localized.filter(2),
       };
 }
+

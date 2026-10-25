@@ -1,14 +1,14 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/providers/control_panel/control_tuner_edit_provider.dart';
-import 'package:fladder/screens/control_panel/control_livetv/device_discovery_dialog.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/enum_selection.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/providers/control_panel/control_tuner_edit_provider.dart';
+import 'package:newcalflix/screens/control_panel/control_livetv/device_discovery_dialog.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/enum_selection.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 class TunerHostEditDialog extends ConsumerWidget {
   final TunerHostInfo? tunerHost;
@@ -201,3 +201,4 @@ class TunerHostEditDialog extends ConsumerWidget {
     ];
   }
 }
+

@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:intl/intl.dart';
 
-import 'package:fladder/l10n/generated/app_localizations.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 extension DurationExtensions on Duration? {
   String? get humanize {
@@ -103,3 +103,4 @@ extension DateTimeExtension on DateTime? {
     return context.localized.timeAgo('$y ${context.localized.years(y).toLowerCase()}');
   }
 }
+

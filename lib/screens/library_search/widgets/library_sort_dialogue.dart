@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/models/library_search/library_search_options.dart';
-import 'package:fladder/providers/library_search_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/models/library_search/library_search_options.dart';
+import 'package:newcalflix/providers/library_search_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
 
 Future<(SortingOptions? sortOptions, SortingOrder? sortingOrder)?> openSortByDialogue(
   BuildContext context, {
@@ -100,3 +100,4 @@ class _CheckBoxListItem<T> extends StatelessWidget {
     );
   }
 }
+

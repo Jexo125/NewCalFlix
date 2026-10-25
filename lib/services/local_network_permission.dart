@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
@@ -6,9 +6,9 @@ import 'package:flutter/material.dart';
 
 import 'package:permission_handler/permission_handler.dart';
 
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/src/local_network_permission_pigeon.g.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/src/local_network_permission_pigeon.g.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 enum LocalNetworkPermissionStatus {
   granted,
@@ -119,3 +119,4 @@ bool isLocalNetworkUrl(String url) {
 
   return host == '::1' || host.startsWith('fe80:') || host.startsWith('fc') || host.startsWith('fd');
 }
+

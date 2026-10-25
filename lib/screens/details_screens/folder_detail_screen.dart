@@ -1,14 +1,14 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/providers/items/folder_details_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/shared/media/poster_grid.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/providers/items/folder_details_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/shared/media/poster_grid.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 class FolderDetailScreen extends ConsumerWidget {
   final ItemBaseModel item;
@@ -57,3 +57,4 @@ class FolderDetailScreen extends ConsumerWidget {
     );
   }
 }
+

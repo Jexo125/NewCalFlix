@@ -1,33 +1,33 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/collection_types.dart';
-import 'package:fladder/providers/control_panel/control_libraries_provider.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/basic_options_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/chapter_images_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/fetchers_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/location_editor_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/metadata_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/new_library_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/save_metadata_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/segment_providers_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/subtitle_downloads_section.dart';
-import 'package:fladder/screens/control_panel/control_library_edit/segments/trickplay_section.dart';
-import 'package:fladder/screens/library/library_screen.dart';
-import 'package:fladder/screens/metadata/edit_item.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/shared/default_alert_dialog.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/widgets/shared/filled_button_await.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/models/collection_types.dart';
+import 'package:newcalflix/providers/control_panel/control_libraries_provider.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/basic_options_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/chapter_images_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/fetchers_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/location_editor_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/metadata_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/new_library_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/save_metadata_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/segment_providers_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/subtitle_downloads_section.dart';
+import 'package:newcalflix/screens/control_panel/control_library_edit/segments/trickplay_section.dart';
+import 'package:newcalflix/screens/library/library_screen.dart';
+import 'package:newcalflix/screens/metadata/edit_item.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/shared/default_alert_dialog.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/widgets/shared/filled_button_await.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 @RoutePage()
 class ControlLibrariesPage extends ConsumerWidget {
@@ -198,3 +198,4 @@ class ControlLibrariesPage extends ConsumerWidget {
     );
   }
 }
+

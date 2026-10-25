@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class MediaContent extends ConsumerStatefulWidget {
@@ -14,3 +14,4 @@ class MediaContentState extends ConsumerState<MediaContent> {
     return Container();
   }
 }
+

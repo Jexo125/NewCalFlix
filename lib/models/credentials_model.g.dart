@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'credentials_model.dart';
 
@@ -25,3 +25,4 @@ Map<String, dynamic> _$CredentialsModelToJson(_CredentialsModel instance) =>
       'serverId': instance.serverId,
       'deviceId': instance.deviceId,
     };
+

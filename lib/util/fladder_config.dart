@@ -1,4 +1,4 @@
-class FladderConfig {
+﻿class FladderConfig {
   static FladderConfig _instance = FladderConfig._();
   FladderConfig._();
 
@@ -23,3 +23,4 @@ class FladderConfig {
     return config;
   }
 }
+

@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/settings/client_settings_model.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/util/focus_helper.dart';
-import 'package:fladder/util/input_handler.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/window_actions.dart';
+import 'package:newcalflix/models/settings/client_settings_model.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/util/focus_helper.dart';
+import 'package:newcalflix/util/input_handler.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/window_actions.dart';
 
 class GlobalHotkeys extends ConsumerWidget {
   final Widget child;
@@ -61,3 +61,4 @@ class GlobalHotkeys extends ConsumerWidget {
     );
   }
 }
+

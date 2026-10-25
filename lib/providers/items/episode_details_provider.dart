@@ -1,14 +1,14 @@
-import 'package:chopper/chopper.dart';
+﻿import 'package:chopper/chopper.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
 
 class EpisodeDetailModel {
   final SeriesModel? series;
@@ -96,3 +96,4 @@ class EpisodeDetailsProvider extends StateNotifier<EpisodeDetailModel> {
     state = state.copyWith(episode: episode);
   }
 }
+

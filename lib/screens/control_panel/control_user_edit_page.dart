@@ -1,22 +1,22 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/control_panel/control_users_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/control_panel/control_user_edit/control_user_edit_access.dart';
-import 'package:fladder/screens/control_panel/control_user_edit/control_user_edit_general.dart';
-import 'package:fladder/screens/control_panel/control_user_edit/control_user_edit_parental_control.dart';
-import 'package:fladder/screens/control_panel/control_user_edit/control_user_edit_password.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/user_icon.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/filled_button_await.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/providers/control_panel/control_users_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/control_panel/control_user_edit/control_user_edit_access.dart';
+import 'package:newcalflix/screens/control_panel/control_user_edit/control_user_edit_general.dart';
+import 'package:newcalflix/screens/control_panel/control_user_edit/control_user_edit_parental_control.dart';
+import 'package:newcalflix/screens/control_panel/control_user_edit/control_user_edit_password.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/user_icon.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/filled_button_await.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 enum EditOptions {
   general,
@@ -151,3 +151,4 @@ class _ControlUserEditPageState extends ConsumerState<ControlUserEditPage> {
     );
   }
 }
+

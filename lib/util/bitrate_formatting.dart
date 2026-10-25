@@ -1,4 +1,4 @@
-// ignore_for_file: constant_identifier_names
+﻿// ignore_for_file: constant_identifier_names
 
 extension BitrateFormats on int? {
   String? get audioBitrateFormat {
@@ -21,3 +21,4 @@ extension BitrateFormats on int? {
     }
   }
 }
+

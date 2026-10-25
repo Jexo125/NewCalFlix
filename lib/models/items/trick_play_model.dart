@@ -1,4 +1,4 @@
-import 'dart:ui';
+﻿import 'dart:ui';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
@@ -62,3 +62,4 @@ abstract class TrickPlayModel with _$TrickPlayModel {
 
   factory TrickPlayModel.fromJson(Map<String, dynamic> json) => _$TrickPlayModelFromJson(json);
 }
+

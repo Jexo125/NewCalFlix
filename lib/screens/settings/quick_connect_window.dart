@@ -1,7 +1,7 @@
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/screens/login/widgets/login_icon.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/localization_helper.dart';
+﻿import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/screens/login/widgets/login_icon.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -130,3 +130,4 @@ class _QuickConnectDialogState extends ConsumerState<QuickConnectDialog> {
     controller.text = "";
   }
 }
+

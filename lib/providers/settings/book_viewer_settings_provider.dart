@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 
 import 'package:flutter/widgets.dart';
 
@@ -6,8 +6,8 @@ import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:screen_brightness/screen_brightness.dart';
 
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/util/debouncer.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/util/debouncer.dart';
 
 enum ReadDirection {
   leftToRight,
@@ -139,3 +139,4 @@ class BookViewerSettingsNotifier extends StateNotifier<BookViewerSettingsModel> 
 
   void update(BookViewerSettingsModel Function(BookViewerSettingsModel state) outgoing) => state = outgoing(state);
 }
+

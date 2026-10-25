@@ -1,25 +1,25 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/funding_model.dart' as funding;
-import 'package:fladder/screens/crash_screen/crash_screen.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/settings/widgets/settings_update_information.dart';
-import 'package:fladder/screens/shared/fladder_icon.dart';
-import 'package:fladder/screens/shared/fladder_logo.dart';
-import 'package:fladder/screens/shared/media/external_urls.dart';
-import 'package:fladder/util/application_info.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/funding_model.dart' as funding;
+import 'package:newcalflix/screens/crash_screen/crash_screen.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_update_information.dart';
+import 'package:newcalflix/screens/shared/fladder_icon.dart';
+import 'package:newcalflix/screens/shared/fladder_logo.dart';
+import 'package:newcalflix/screens/shared/media/external_urls.dart';
+import 'package:newcalflix/util/application_info.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class _Socials {
   final String label;
   final String url;
-  final IconData icon;
+  final dynamic icon;
 
   const _Socials(this.label, this.url, this.icon);
 }
@@ -27,13 +27,13 @@ class _Socials {
 const socials = [
   _Socials(
     'Github',
-    'https://github.com/DonutWare/Fladder',
-    FontAwesomeIcons.githubAlt,
+    'https://github.com/Jexo125/NewCalFlix',
+    FontAwesomeIcons.github,
   ),
   _Socials(
-    'Weblate',
-    'https://hosted.weblate.org/projects/fladder/',
-    IconsaxPlusLinear.global,
+    'Bugs & Support',
+    'https://github.com/Jexo125/NewCalFlix/issues',
+    IconsaxPlusLinear.message_question,
   ),
 ];
 
@@ -120,7 +120,7 @@ class _SocialsSection extends StatelessWidget {
                   onPressed: () => launchUrl(context, e.url),
                   icon: Column(
                     children: [
-                      Icon(e.icon),
+                      e.icon is IconData ? Icon(e.icon as IconData) : FaIcon(e.icon as FaIconData),
                       Text(e.label),
                     ],
                   ),
@@ -139,6 +139,9 @@ class _SponsorsSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (funding.sponsors.isEmpty) {
+      return const SizedBox.shrink();
+    }
     return Column(
       children: [
         const FractionallySizedBox(
@@ -212,3 +215,4 @@ class _SponsorsSection extends StatelessWidget {
     );
   }
 }
+

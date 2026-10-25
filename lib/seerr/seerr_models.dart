@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 part 'seerr_models.freezed.dart';
 part 'seerr_models.g.dart';
@@ -1691,3 +1691,4 @@ extension SeerrWatchProviderExtension on SeerrWatchProvider {
     return '$_tmdbImageBaseUrl$internalLogoPath';
   }
 }
+

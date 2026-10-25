@@ -1,4 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+﻿// ignore_for_file: public_member_api_docs, sort_constructors_first
 
 import 'package:flutter/material.dart';
 
@@ -6,16 +6,16 @@ import 'package:collection/collection.dart';
 import 'package:dart_mappable/dart_mappable.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/l10n/generated/app_localizations.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/overview_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/models/items/special_feature_model.dart';
-import 'package:fladder/models/items/watched_state.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/overview_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/models/items/special_feature_model.dart';
+import 'package:newcalflix/models/items/watched_state.dart';
 
 part 'season_model.mapper.dart';
 
@@ -129,3 +129,4 @@ class SeasonModel extends ItemBaseModel with SeasonModelMappable {
     return dto?.map((e) => SeasonModel.fromBaseDto(e, ref)).toList() ?? [];
   }
 }
+

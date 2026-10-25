@@ -1,8 +1,8 @@
-import 'package:desktop_drop/desktop_drop.dart';
+﻿import 'package:desktop_drop/desktop_drop.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/screens/shared/outlined_text_field.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/screens/shared/outlined_text_field.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
 import 'package:flutter/foundation.dart';
 // ignore: depend_on_referenced_packages
 import 'package:path/path.dart' as p;
@@ -197,3 +197,4 @@ bool _parseUrl(String url) {
   }
   return true;
 }
+

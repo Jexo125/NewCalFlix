@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/settings/key_combinations.dart';
-import 'package:fladder/screens/settings/widgets/key_listener.dart';
-import 'package:fladder/util/focus_helper.dart';
+import 'package:newcalflix/models/settings/key_combinations.dart';
+import 'package:newcalflix/screens/settings/widgets/key_listener.dart';
+import 'package:newcalflix/util/focus_helper.dart';
 
 class InputHandler<T> extends ConsumerStatefulWidget {
   final bool autoFocus;
@@ -173,3 +173,4 @@ class _InputHandlerState<T> extends ConsumerState<InputHandler<T>> {
     return KeyEventResult.ignored;
   }
 }
+

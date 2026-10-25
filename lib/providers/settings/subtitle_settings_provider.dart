@@ -1,13 +1,13 @@
-import 'dart:io';
+﻿import 'dart:io';
 import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/settings/subtitle_settings_model.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/src/video_player_helper.g.dart' as pigeon;
+import 'package:newcalflix/models/settings/subtitle_settings_model.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/src/video_player_helper.g.dart' as pigeon;
 
 final subtitleSettingsProvider = StateNotifierProvider<SubtitleSettingsNotifier, SubtitleSettingsModel>((ref) {
   return SubtitleSettingsNotifier(ref);
@@ -60,3 +60,4 @@ class SubtitleSettingsNotifier extends StateNotifier<SubtitleSettingsModel> {
   SubtitleSettingsModel setBackgroundColor(Color color) =>
       state = state.copyWith(backGroundColor: color.withValues(alpha: state.backGroundColor.a));
 }
+

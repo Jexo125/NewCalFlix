@@ -1,4 +1,4 @@
-class PlayerState {
+﻿class PlayerState {
   bool playing;
   bool completed;
   Duration position;
@@ -72,3 +72,4 @@ class PlayerStream {
     buffer.listen((value) => state.update(buffer: value));
   }
 }
+

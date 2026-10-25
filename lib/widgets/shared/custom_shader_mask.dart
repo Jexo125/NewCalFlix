@@ -1,4 +1,4 @@
-import 'dart:ui' as ui;
+﻿import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -58,3 +58,4 @@ class CustomShaderMaskState extends State<CustomShaderMask> {
     );
   }
 }
+

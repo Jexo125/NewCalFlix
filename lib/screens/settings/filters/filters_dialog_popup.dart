@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/providers/library_filters_provider.dart';
-import 'package:fladder/screens/library_search/widgets/library_saved_filters.dart';
-import 'package:fladder/screens/shared/adaptive_dialog.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/alert_content.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/sortable_item_list.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/providers/library_filters_provider.dart';
+import 'package:newcalflix/screens/library_search/widgets/library_saved_filters.dart';
+import 'package:newcalflix/screens/shared/adaptive_dialog.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/alert_content.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/sortable_item_list.dart';
 
 Future<void> showFiltersDialogue(BuildContext context) {
   return showDialogAdaptive(
@@ -119,3 +119,4 @@ class FiltersDialog extends ConsumerWidget {
     );
   }
 }
+

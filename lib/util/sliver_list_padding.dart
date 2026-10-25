@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
 
 class DefaultSliverBottomPadding extends StatelessWidget {
   const DefaultSliverBottomPadding({super.key});
@@ -26,3 +26,4 @@ class DefaultSliverTopBadding extends StatelessWidget {
           );
   }
 }
+

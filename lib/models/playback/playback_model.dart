@@ -1,4 +1,4 @@
-import 'dart:developer';
+﻿import 'dart:developer';
 
 import 'package:flutter/material.dart' hide ConnectionState;
 
@@ -7,43 +7,43 @@ import 'package:chopper/chopper.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/items/channel_model.dart';
-import 'package:fladder/models/items/chapters_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/models/items/media_streams_model.dart';
-import 'package:fladder/models/items/season_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/models/items/trick_play_model.dart';
-import 'package:fladder/models/playback/direct_playback_model.dart';
-import 'package:fladder/models/playback/offline_playback_model.dart';
-import 'package:fladder/models/playback/playback_options_dialogue.dart';
-import 'package:fladder/models/playback/playback_queue_source.dart';
-import 'package:fladder/models/playback/playback_queue_state.dart';
-import 'package:fladder/models/playback/transcode_playback_model.dart';
-import 'package:fladder/models/playback/tv_playback_model.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/items/channel_model.dart';
+import 'package:newcalflix/models/items/chapters_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/models/items/media_streams_model.dart';
+import 'package:newcalflix/models/items/season_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/models/items/trick_play_model.dart';
+import 'package:newcalflix/models/playback/direct_playback_model.dart';
+import 'package:newcalflix/models/playback/offline_playback_model.dart';
+import 'package:newcalflix/models/playback/playback_options_dialogue.dart';
+import 'package:newcalflix/models/playback/playback_queue_source.dart';
+import 'package:newcalflix/models/playback/playback_queue_state.dart';
+import 'package:newcalflix/models/playback/transcode_playback_model.dart';
+import 'package:newcalflix/models/playback/tv_playback_model.dart';
 export 'playback_queue_source.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/models/video_stream_model.dart';
-import 'package:fladder/profiles/default_profile.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/util/bitrate_helper.dart';
-import 'package:fladder/util/duration_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/streams_selection.dart';
-import 'package:fladder/wrappers/media_control_wrapper.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/models/video_stream_model.dart';
+import 'package:newcalflix/profiles/default_profile.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/util/bitrate_helper.dart';
+import 'package:newcalflix/util/duration_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/streams_selection.dart';
+import 'package:newcalflix/wrappers/media_control_wrapper.dart';
 
 class Media {
   final String url;
@@ -651,3 +651,4 @@ class PlaybackModelHelper {
     }
   }
 }
+

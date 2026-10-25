@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'media_segments_model.dart';
 
@@ -41,3 +41,4 @@ const _$MediaSegmentTypeEnumMap = {
   MediaSegmentType.outro: 'outro',
   MediaSegmentType.intro: 'intro',
 };
+

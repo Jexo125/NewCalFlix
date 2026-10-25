@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:ui' show Locale, IsolateNameServer;
@@ -6,16 +6,16 @@ import 'dart:ui' show Locale, IsolateNameServer;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:workmanager/workmanager.dart';
 
-import 'package:fladder/l10n/generated/app_localizations.dart';
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/last_seen_notifications_model.dart';
-import 'package:fladder/models/notification_model.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/seerr/seerr_chopper_service.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/services/notification_service.dart';
-import 'package:fladder/util/notification_helpers.dart';
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/last_seen_notifications_model.dart';
+import 'package:newcalflix/models/notification_model.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/seerr/seerr_chopper_service.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/services/notification_service.dart';
+import 'package:newcalflix/util/notification_helpers.dart';
 
 const String updateTaskName = 'nl.jknaapen.fladder.update_notifications_check';
 const String updateTaskNameDebug = 'nl.jknaapen.fladder.update_notifications_check_debug';
@@ -306,3 +306,4 @@ Future<List<NotificationModel>> _fetchAndNotifySeerrRequestsForAccount(
     seerrApi?.client.dispose();
   }
 }
+

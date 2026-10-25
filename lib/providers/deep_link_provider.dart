@@ -1,22 +1,22 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:developer';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/login/lock_screen.dart';
-import 'package:fladder/screens/login/login_screen_credentials.dart';
-import 'package:fladder/screens/shared/deep_link_account_dialog.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/util/deep_link_helper.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/login/lock_screen.dart';
+import 'package:newcalflix/screens/login/login_screen_credentials.dart';
+import 'package:newcalflix/screens/shared/deep_link_account_dialog.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/util/deep_link_helper.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 final deepLinkProvider = NotifierProvider<DeepLinkNotifier, DeepLinkTarget?>(DeepLinkNotifier.new);
 
@@ -200,3 +200,4 @@ class DeepLinkNotifier extends Notifier<DeepLinkTarget?> {
   bool _isSameAccount(AccountModel a, AccountModel b) =>
       a.id == b.id && a.credentials.serverId == b.credentials.serverId;
 }
+

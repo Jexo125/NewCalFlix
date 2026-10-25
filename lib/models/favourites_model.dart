@@ -1,4 +1,4 @@
-import 'package:fladder/models/item_base_model.dart';
+﻿import 'package:newcalflix/models/item_base_model.dart';
 
 class FavouritesModel {
   final bool loading;
@@ -24,3 +24,4 @@ class FavouritesModel {
     );
   }
 }
+

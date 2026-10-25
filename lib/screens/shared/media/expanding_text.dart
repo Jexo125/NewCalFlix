@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/screens/shared/flat_button.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/screens/shared/flat_button.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
 
 class ExpandingText extends ConsumerStatefulWidget {
   final String text;
@@ -87,3 +87,4 @@ class _ExpandingTextState extends ConsumerState<ExpandingText> {
     );
   }
 }
+

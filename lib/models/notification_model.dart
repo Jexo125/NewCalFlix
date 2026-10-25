@@ -1,12 +1,12 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/l10n/generated/app_localizations.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/series_model.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/notification_helpers.dart';
+import 'package:newcalflix/l10n/generated/app_localizations.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/series_model.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/notification_helpers.dart';
 
 part 'notification_model.freezed.dart';
 part 'notification_model.g.dart';
@@ -116,3 +116,4 @@ abstract class NotificationModel with _$NotificationModel {
     return null;
   }
 }
+

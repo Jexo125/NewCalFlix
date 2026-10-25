@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/settings/subtitle_settings_model.dart';
-import 'package:fladder/providers/settings/subtitle_settings_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/screens/video_player/components/video_subtitle_controls.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/settings/subtitle_settings_model.dart';
+import 'package:newcalflix/providers/settings/subtitle_settings_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/screens/video_player/components/video_subtitle_controls.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class SubtitleEditor extends ConsumerStatefulWidget {
   const SubtitleEditor({super.key});
@@ -101,3 +101,4 @@ class _SubtitleEditorState extends ConsumerState<SubtitleEditor> {
     );
   }
 }
+

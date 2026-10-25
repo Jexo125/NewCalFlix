@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 class StreamValue<T> {
   final T _initialValue;
@@ -36,3 +36,4 @@ class StreamValue<T> {
     _controller.close();
   }
 }
+

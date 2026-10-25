@@ -1,9 +1,9 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+﻿import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as jelly;
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as jelly;
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
 
 part 'control_server_provider.freezed.dart';
 part 'control_server_provider.g.dart';
@@ -71,3 +71,4 @@ abstract class ControlServerModel with _$ControlServerModel {
     int? maxImageDecodingThreads,
   }) = _ControlServerModel;
 }
+

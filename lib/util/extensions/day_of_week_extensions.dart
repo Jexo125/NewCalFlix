@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:intl/intl.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 extension DayOfWeekLocalization on DayOfWeek {
   bool get isUnknown => this == DayOfWeek.swaggerGeneratedUnknown;
@@ -48,3 +48,4 @@ extension DynamicDayOfWeekLocalization on DynamicDayOfWeek {
     return DateFormat('EEEE', localeTag).format(date);
   }
 }
+

@@ -1,28 +1,28 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/season_model.dart';
-import 'package:fladder/providers/items/season_details_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/screens/details_screens/components/overview_header.dart';
-import 'package:fladder/screens/shared/detail_scaffold.dart';
-import 'package:fladder/screens/shared/media/episode_details_list.dart';
-import 'package:fladder/screens/shared/media/expanding_text.dart';
-import 'package:fladder/screens/shared/media/external_urls.dart';
-import 'package:fladder/screens/shared/media/people_row.dart';
-import 'package:fladder/screens/shared/media/person_list_.dart';
-import 'package:fladder/screens/shared/media/special_features_row.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/people_extension.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/util/theme_extensions.dart';
-import 'package:fladder/util/widget_extensions.dart';
-import 'package:fladder/widgets/shared/selectable_icon_button.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/season_model.dart';
+import 'package:newcalflix/providers/items/season_details_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/screens/details_screens/components/overview_header.dart';
+import 'package:newcalflix/screens/shared/detail_scaffold.dart';
+import 'package:newcalflix/screens/shared/media/episode_details_list.dart';
+import 'package:newcalflix/screens/shared/media/expanding_text.dart';
+import 'package:newcalflix/screens/shared/media/external_urls.dart';
+import 'package:newcalflix/screens/shared/media/people_row.dart';
+import 'package:newcalflix/screens/shared/media/person_list_.dart';
+import 'package:newcalflix/screens/shared/media/special_features_row.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/people_extension.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/util/theme_extensions.dart';
+import 'package:newcalflix/util/widget_extensions.dart';
+import 'package:newcalflix/widgets/shared/selectable_icon_button.dart';
 
 class SeasonDetailScreen extends ConsumerStatefulWidget {
   final ItemBaseModel item;
@@ -186,3 +186,4 @@ class _SeasonDetailScreenState extends ConsumerState<SeasonDetailScreen> {
     );
   }
 }
+

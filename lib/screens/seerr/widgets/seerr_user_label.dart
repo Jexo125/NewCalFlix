@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:cached_network_image/cached_network_image.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class SeerrUserLabel extends StatelessWidget {
   final SeerrUserModel? user;
@@ -56,3 +56,4 @@ class SeerrUserLabel extends StatelessWidget {
     );
   }
 }
+

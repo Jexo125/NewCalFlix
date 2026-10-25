@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/enum_models.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/enum_selection.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/jellyfin/enum_models.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/enum_selection.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 Future<void> showRefreshPopup(BuildContext context, String itemId, String itemName) async {
   return showDialog(
@@ -138,3 +138,4 @@ class _RefreshPopupDialogState extends ConsumerState<RefreshPopupDialog> {
     );
   }
 }
+

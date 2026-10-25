@@ -1,4 +1,4 @@
-import 'package:chopper/chopper.dart';
+﻿import 'package:chopper/chopper.dart';
 
 import 'seerr_models.dart';
 
@@ -264,3 +264,4 @@ abstract class SeerrChopperService extends ChopperService {
   @GET(path: '/certifications/tv')
   Future<Response<SeerrCertificationsResponse>> getTvCertifications();
 }
+

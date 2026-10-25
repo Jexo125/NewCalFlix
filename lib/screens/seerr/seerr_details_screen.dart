@@ -1,35 +1,35 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/providers/seerr/seerr_details_provider.dart';
-import 'package:fladder/screens/details_screens/components/overview_header.dart';
-import 'package:fladder/screens/seerr/seerr_media_management.dart';
-import 'package:fladder/screens/seerr/widgets/download_status_label.dart';
-import 'package:fladder/screens/seerr/widgets/season_download_progress_widget.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_poster_row.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_request_popup.dart';
-import 'package:fladder/screens/seerr/widgets/seerr_requests_sheet.dart';
-import 'package:fladder/screens/shared/detail_scaffold.dart';
-import 'package:fladder/screens/shared/media/expanding_text.dart';
-import 'package:fladder/screens/shared/media/external_urls.dart';
-import 'package:fladder/screens/shared/media/people_row.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/util/widget_extensions.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/providers/seerr/seerr_details_provider.dart';
+import 'package:newcalflix/screens/details_screens/components/overview_header.dart';
+import 'package:newcalflix/screens/seerr/seerr_media_management.dart';
+import 'package:newcalflix/screens/seerr/widgets/download_status_label.dart';
+import 'package:newcalflix/screens/seerr/widgets/season_download_progress_widget.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_poster_row.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_request_popup.dart';
+import 'package:newcalflix/screens/seerr/widgets/seerr_requests_sheet.dart';
+import 'package:newcalflix/screens/shared/detail_scaffold.dart';
+import 'package:newcalflix/screens/shared/media/expanding_text.dart';
+import 'package:newcalflix/screens/shared/media/external_urls.dart';
+import 'package:newcalflix/screens/shared/media/people_row.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/util/widget_extensions.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
 
 @RoutePage()
 class SeerrDetailsScreen extends ConsumerWidget {
@@ -690,3 +690,4 @@ class _EpisodeCard extends StatelessWidget {
     );
   }
 }
+

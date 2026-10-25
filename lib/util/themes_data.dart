@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class ThemesData extends InheritedWidget {
   const ThemesData({
@@ -23,3 +23,4 @@ class ThemesData extends InheritedWidget {
   @override
   bool updateShouldNotify(ThemesData oldWidget) => light != oldWidget.light || dark != oldWidget.dark;
 }
+

@@ -1,8 +1,8 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+﻿import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
 
 final audioLyricsProvider = StateNotifierProvider<AudioLyricsNotifier, AudioLyricsState>(
   (ref) => AudioLyricsNotifier(ref),
@@ -360,3 +360,4 @@ class AudioLyricsNotifier extends StateNotifier<AudioLyricsState> {
     return active;
   }
 }
+

@@ -1,4 +1,4 @@
-import 'dart:collection';
+﻿import 'dart:collection';
 
 import 'package:flutter/material.dart';
 
@@ -57,3 +57,4 @@ Future<List<T>> openMultiSelectOptions<T>(
   );
   return currentSelection.toList();
 }
+

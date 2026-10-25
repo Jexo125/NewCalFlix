@@ -1,25 +1,25 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/settings/client_settings_model.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/routes/auto_router.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/shared/animated_fade_size.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/adaptive_fab.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/background_image.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/collapse_button.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/destination_model.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_body.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_button.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/settings_user_icon.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/side_navigation_buttons.dart';
-import 'package:fladder/widgets/shared/custom_tooltip.dart';
+import 'package:newcalflix/models/settings/client_settings_model.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/routes/auto_router.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/shared/animated_fade_size.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/adaptive_fab.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/background_image.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/collapse_button.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/destination_model.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_body.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_button.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/settings_user_icon.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/side_navigation_buttons.dart';
+import 'package:newcalflix/widgets/shared/custom_tooltip.dart';
 
 final navBarNode = FocusNode();
 
@@ -302,3 +302,4 @@ bool isNodeInCurrentRoute(FocusNode node) {
   final nearestScope = FocusScope.of(node.context!);
   return nearestScope.hasFocus || nearestScope.isFirstFocus;
 }
+

@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
 
 class ClickableText extends ConsumerStatefulWidget {
   final String text;
@@ -66,3 +66,4 @@ class _ClickableTextState extends ConsumerState<ClickableText> {
     return widget.onTap != null ? _buildClickable() : _textWidget(false);
   }
 }
+

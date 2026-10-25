@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/models/seerr/seerr_dashboard_model.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/seerr/seerr_dashboard_model.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class DownloadStatusLabel extends StatelessWidget {
   final SeerrDashboardPosterModel poster;
@@ -106,3 +106,4 @@ class DownloadStatusLabel extends StatelessWidget {
     );
   }
 }
+

@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:transparent_image/transparent_image.dart';
 
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
 
 class FladderImage extends ConsumerWidget {
   final ImageData? image;
@@ -82,3 +82,4 @@ class FladderImage extends ConsumerWidget {
     }
   }
 }
+

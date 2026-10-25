@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'package:flutter/material.dart';
 
 class Debouncer {
@@ -12,3 +12,4 @@ class Debouncer {
     _timer = Timer(duration, action);
   }
 }
+

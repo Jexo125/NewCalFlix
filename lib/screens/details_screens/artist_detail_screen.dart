@@ -1,27 +1,27 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/items/artist_model.dart';
-import 'package:fladder/models/playback/playback_queue_source.dart';
-import 'package:fladder/providers/items/artist_details_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/screens/details_screens/tracks_detail_screen.dart';
-import 'package:fladder/screens/shared/detail_scaffold.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/screens/shared/media/poster_row.dart';
-import 'package:fladder/screens/shared/media/track_list.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/color_extensions.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/item_base_model/play_item_helpers.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/selectable_icon_button.dart';
+import 'package:newcalflix/models/items/artist_model.dart';
+import 'package:newcalflix/models/playback/playback_queue_source.dart';
+import 'package:newcalflix/providers/items/artist_details_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/screens/details_screens/tracks_detail_screen.dart';
+import 'package:newcalflix/screens/shared/detail_scaffold.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/screens/shared/media/poster_row.dart';
+import 'package:newcalflix/screens/shared/media/track_list.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/color_extensions.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/item_base_model/play_item_helpers.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/selectable_icon_button.dart';
 
 class ArtistDetailScreen extends ConsumerStatefulWidget {
   final ArtistModel item;
@@ -228,3 +228,4 @@ class _ArtistDetailScreenState extends ConsumerState<ArtistDetailScreen> {
     );
   }
 }
+

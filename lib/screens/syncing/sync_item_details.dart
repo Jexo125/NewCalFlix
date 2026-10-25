@@ -1,31 +1,31 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/screens/shared/adaptive_dialog.dart';
-import 'package:fladder/screens/shared/default_alert_dialog.dart';
-import 'package:fladder/screens/shared/media/poster_widget.dart';
-import 'package:fladder/screens/syncing/sync_child_item.dart';
-import 'package:fladder/screens/syncing/sync_widgets.dart';
-import 'package:fladder/screens/syncing/widgets/sync_file_button.dart';
-import 'package:fladder/screens/syncing/widgets/sync_item_poster.dart';
-import 'package:fladder/screens/syncing/widgets/sync_options_button.dart';
-import 'package:fladder/screens/syncing/widgets/sync_progress_builder.dart';
-import 'package:fladder/screens/syncing/widgets/sync_status_overlay.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/util/size_formatting.dart';
-import 'package:fladder/widgets/shared/alert_content.dart';
-import 'package:fladder/widgets/shared/icon_button_await.dart';
-import 'package:fladder/widgets/shared/pull_to_refresh.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/screens/shared/adaptive_dialog.dart';
+import 'package:newcalflix/screens/shared/default_alert_dialog.dart';
+import 'package:newcalflix/screens/shared/media/poster_widget.dart';
+import 'package:newcalflix/screens/syncing/sync_child_item.dart';
+import 'package:newcalflix/screens/syncing/sync_widgets.dart';
+import 'package:newcalflix/screens/syncing/widgets/sync_file_button.dart';
+import 'package:newcalflix/screens/syncing/widgets/sync_item_poster.dart';
+import 'package:newcalflix/screens/syncing/widgets/sync_options_button.dart';
+import 'package:newcalflix/screens/syncing/widgets/sync_progress_builder.dart';
+import 'package:newcalflix/screens/syncing/widgets/sync_status_overlay.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/util/size_formatting.dart';
+import 'package:newcalflix/widgets/shared/alert_content.dart';
+import 'package:newcalflix/widgets/shared/icon_button_await.dart';
+import 'package:newcalflix/widgets/shared/pull_to_refresh.dart';
 
 Future<void> showSyncItemDetails(
   BuildContext context,
@@ -259,3 +259,4 @@ class _SyncItemDetailsState extends ConsumerState<SyncItemDetails> {
     );
   }
 }
+

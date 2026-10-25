@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:path/path.dart' as path;
 
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 class SyncItemPoster extends ConsumerWidget {
   final SyncedItem item;
@@ -102,3 +102,4 @@ Future<void> _showTranscodeDetails(BuildContext context, WidgetRef ref, SyncedIt
     ),
   );
 }
+

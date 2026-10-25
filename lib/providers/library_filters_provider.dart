@@ -1,7 +1,7 @@
-import 'package:riverpod_annotation/riverpod_annotation.dart';
+﻿import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/models/library_filters_model.dart';
-import 'package:fladder/providers/user_provider.dart';
+import 'package:newcalflix/models/library_filters_model.dart';
+import 'package:newcalflix/providers/user_provider.dart';
 
 part 'library_filters_provider.g.dart';
 
@@ -33,3 +33,4 @@ final libraryFiltersByKeyProvider = Provider.family<List<LibraryFiltersModel>, F
   if (userSettings == null) return [];
   return userSettings.getFilterSortOrder(key);
 });
+

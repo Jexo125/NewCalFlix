@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/util/fladder_image.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/util/fladder_image.dart';
 
 class MediaHeader extends ConsumerWidget {
   final String name;
@@ -63,3 +63,4 @@ class MediaHeader extends ConsumerWidget {
     );
   }
 }
+

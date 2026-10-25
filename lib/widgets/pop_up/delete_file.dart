@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:chopper/chopper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/api_result.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/filled_button_await.dart';
+import 'package:newcalflix/models/api_result.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/filled_button_await.dart';
 
 Future<ApiResult<dynamic>?> showDeleteDialog(BuildContext context, ItemBaseModel item, WidgetRef ref) async {
   Response<dynamic>? response;
@@ -41,3 +41,4 @@ Future<ApiResult<dynamic>?> showDeleteDialog(BuildContext context, ItemBaseModel
   );
   return response?.apiResult;
 }
+

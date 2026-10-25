@@ -1,13 +1,13 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/bootstrap/platform/base_app_wrapper.dart';
-import 'package:fladder/bootstrap/platform/desktop_platform_wrapper.dart';
-import 'package:fladder/bootstrap/platform/mobile_app_wrapper.dart';
-import 'package:fladder/bootstrap/platform/web_app_wrapper.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/bootstrap/platform/base_app_wrapper.dart';
+import 'package:newcalflix/bootstrap/platform/desktop_platform_wrapper.dart';
+import 'package:newcalflix/bootstrap/platform/mobile_app_wrapper.dart';
+import 'package:newcalflix/bootstrap/platform/web_app_wrapper.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
 
 class PlatformAppWrapper extends ConsumerStatefulWidget {
   const PlatformAppWrapper({super.key, required this.builder});
@@ -40,3 +40,4 @@ class _PlatformAppWrapperState extends ConsumerState<PlatformAppWrapper> with Wi
     return MobileAppWrapper(builder: widget.builder);
   }
 }
+

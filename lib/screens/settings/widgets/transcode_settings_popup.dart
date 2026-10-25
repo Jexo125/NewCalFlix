@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
-import 'package:fladder/models/syncing/transcode_download_model.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/util/bitrate_helper.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/models/syncing/transcode_download_model.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/util/bitrate_helper.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 Future<void> showTranscodeSettingsPopup({
   required BuildContext context,
@@ -190,3 +190,4 @@ class _TranscodeSettingsPopupState extends State<TranscodeSettingsPopup> {
     );
   }
 }
+

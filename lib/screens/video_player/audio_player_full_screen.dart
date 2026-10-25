@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 
@@ -6,39 +6,39 @@ import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart' as dto;
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/media_playback_model.dart';
-import 'package:fladder/models/playback/direct_playback_model.dart';
-import 'package:fladder/models/playback/offline_playback_model.dart';
-import 'package:fladder/models/playback/playback_model.dart';
-import 'package:fladder/models/playback/transcode_playback_model.dart';
-import 'package:fladder/models/playback/tv_playback_model.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/models/video_stream_model.dart';
-import 'package:fladder/providers/audio_lyrics_provider.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/screens/shared/detail_scaffold.dart';
-import 'package:fladder/screens/video_player/components/audio_player_lyrics_panel.dart';
-import 'package:fladder/screens/video_player/components/audio_player_queue_dialog.dart';
-import 'package:fladder/screens/video_player/components/video_volume_slider.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/duration_extensions.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/item_base_model/item_base_model_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/clickable_text.dart';
-import 'package:fladder/widgets/shared/fladder_slider.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/theme_overwrite.dart';
-import 'package:fladder/wrappers/media_control_wrapper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart' as dto;
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/media_playback_model.dart';
+import 'package:newcalflix/models/playback/direct_playback_model.dart';
+import 'package:newcalflix/models/playback/offline_playback_model.dart';
+import 'package:newcalflix/models/playback/playback_model.dart';
+import 'package:newcalflix/models/playback/transcode_playback_model.dart';
+import 'package:newcalflix/models/playback/tv_playback_model.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/models/video_stream_model.dart';
+import 'package:newcalflix/providers/audio_lyrics_provider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/screens/shared/detail_scaffold.dart';
+import 'package:newcalflix/screens/video_player/components/audio_player_lyrics_panel.dart';
+import 'package:newcalflix/screens/video_player/components/audio_player_queue_dialog.dart';
+import 'package:newcalflix/screens/video_player/components/video_volume_slider.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/duration_extensions.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/item_base_model/item_base_model_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/clickable_text.dart';
+import 'package:newcalflix/widgets/shared/fladder_slider.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/theme_overwrite.dart';
+import 'package:newcalflix/wrappers/media_control_wrapper.dart';
 
 class AudioPlayerFullScreen extends ConsumerStatefulWidget {
   const AudioPlayerFullScreen({
@@ -1233,3 +1233,4 @@ class _AudioPropertyChip extends StatelessWidget {
     );
   }
 }
+

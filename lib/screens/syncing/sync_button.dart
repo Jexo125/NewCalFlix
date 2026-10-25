@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/sync/sync_provider_helpers.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/sync/sync_provider_helpers.dart';
 
 class SyncButton extends ConsumerWidget {
   final ItemBaseModel item;
@@ -57,3 +57,4 @@ class SyncButton extends ConsumerWidget {
     };
   }
 }
+

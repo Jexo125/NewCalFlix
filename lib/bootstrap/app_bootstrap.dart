@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
@@ -9,14 +9,14 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/providers/crash_log_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/src/video_player_helper.g.dart';
-import 'package:fladder/util/application_info.dart';
-import 'package:fladder/util/fladder_config.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/util/svg_utils.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/providers/crash_log_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/src/video_player_helper.g.dart';
+import 'package:newcalflix/util/application_info.dart';
+import 'package:newcalflix/util/fladder_config.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/util/svg_utils.dart';
 
 bool get isDesktopPlatform {
   if (kIsWeb) return false;
@@ -121,3 +121,4 @@ Future<String> _resolveWindowArguments() async {
     return '';
   }
 }
+

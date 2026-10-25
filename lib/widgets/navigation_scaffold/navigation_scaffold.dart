@@ -1,29 +1,29 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' hide ConnectionState;
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/items/audio_model.dart';
-import 'package:fladder/models/media_playback_model.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/providers/views_provider.dart';
-import 'package:fladder/providers/window_title_provider.dart';
-import 'package:fladder/routes/auto_router.dart';
-import 'package:fladder/screens/home_screen.dart';
-import 'package:fladder/screens/shared/animated_fade_size.dart';
-import 'package:fladder/screens/shared/nested_bottom_appbar.dart';
-import 'package:fladder/screens/video_player/audio_player_full_screen.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/destination_model.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/fladder_app_bar.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/floating_player_bar.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_body.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_drawer.dart';
-import 'package:fladder/widgets/shared/animated_visibility.dart';
-import 'package:fladder/widgets/shared/hide_on_scroll.dart';
-import 'package:fladder/widgets/shared/status_banners.dart';
-import 'package:fladder/widgets/split_area/split_area.dart';
+import 'package:newcalflix/models/items/audio_model.dart';
+import 'package:newcalflix/models/media_playback_model.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/providers/views_provider.dart';
+import 'package:newcalflix/providers/window_title_provider.dart';
+import 'package:newcalflix/routes/auto_router.dart';
+import 'package:newcalflix/screens/home_screen.dart';
+import 'package:newcalflix/screens/shared/animated_fade_size.dart';
+import 'package:newcalflix/screens/shared/nested_bottom_appbar.dart';
+import 'package:newcalflix/screens/video_player/audio_player_full_screen.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/destination_model.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/fladder_app_bar.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/floating_player_bar.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_body.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_drawer.dart';
+import 'package:newcalflix/widgets/shared/animated_visibility.dart';
+import 'package:newcalflix/widgets/shared/hide_on_scroll.dart';
+import 'package:newcalflix/widgets/shared/status_banners.dart';
+import 'package:newcalflix/widgets/split_area/split_area.dart';
 
 class NavigationScaffold extends ConsumerStatefulWidget {
   final String? currentRouteName;
@@ -239,3 +239,4 @@ class _NavigationScaffoldState extends ConsumerState<NavigationScaffold> {
     );
   }
 }
+

@@ -1,10 +1,10 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_helper.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_helper.dart';
 
 class InputDetector extends StatefulWidget {
   final bool isDesktop;
@@ -101,3 +101,4 @@ class _InputDetectorState extends State<InputDetector> {
     );
   }
 }
+

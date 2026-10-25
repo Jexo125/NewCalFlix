@@ -1,15 +1,15 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/library_filter_model.dart';
-import 'package:fladder/models/view_model.dart';
-import 'package:fladder/util/list_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/library_filter_model.dart';
+import 'package:newcalflix/models/view_model.dart';
+import 'package:newcalflix/util/list_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
 
 part 'library_search_model.freezed.dart';
 
@@ -174,3 +174,4 @@ extension LibrarySearchModelX on LibrarySearchModel {
         filters != other.filters;
   }
 }
+

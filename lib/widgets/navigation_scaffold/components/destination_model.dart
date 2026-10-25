@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 
-import 'package:fladder/widgets/navigation_scaffold/components/adaptive_fab.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_button.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/adaptive_fab.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_button.dart';
 
 class DestinationModel {
   final String label;
@@ -77,3 +77,4 @@ class DestinationModel {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class AnimatedVisibility extends StatelessWidget {
   final Widget? child;
@@ -27,3 +27,4 @@ class AnimatedVisibility extends StatelessWidget {
     );
   }
 }
+

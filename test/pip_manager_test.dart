@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:fladder/wrappers/pip_manager.dart';
+import 'package:newcalflix/wrappers/pip_manager.dart';
 
 class _FakePipClient implements PipClient {
   bool supported = true;

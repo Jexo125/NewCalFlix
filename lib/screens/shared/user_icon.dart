@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/screens/shared/flat_button.dart';
-import 'package:fladder/util/custom_cache_manager.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/screens/shared/flat_button.dart';
+import 'package:newcalflix/util/custom_cache_manager.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 class UserIcon extends ConsumerWidget {
   final AccountModel? user;
@@ -77,3 +77,4 @@ class UserIcon extends ConsumerWidget {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'library_filter_model.dart';
 
@@ -140,3 +140,4 @@ const _$GroupByEnumMap = {
   GroupBy.rating: 'rating',
   GroupBy.type: 'type',
 };
+

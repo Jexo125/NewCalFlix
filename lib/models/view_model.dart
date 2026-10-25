@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 
@@ -6,17 +6,17 @@ import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart';
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart' as dto;
-import 'package:fladder/models/collection_types.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/models/library_filter_model.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_button.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart' as dto;
+import 'package:newcalflix/models/collection_types.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/models/library_filter_model.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_button.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
 
 class ViewModel {
   final String name;
@@ -229,3 +229,4 @@ class ViewModel {
     return 'ViewModel(name: $name, id: $id, serverId: $serverId, dateCreated: $dateCreated, canDelete: $canDelete, canDownload: $canDownload, parentId: $parentId, collectionType: $collectionType, playAccess: $playAccess, recentlyAdded: $recentlyAdded, childCount: $childCount)';
   }
 }
+

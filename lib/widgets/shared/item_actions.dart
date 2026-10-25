@@ -1,4 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+﻿// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -6,9 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
 
 abstract class ItemAction {
   Widget toMenuItemButton();
@@ -279,3 +279,4 @@ extension ItemActionExtension on List<ItemAction> {
         .toList();
   }
 }
+

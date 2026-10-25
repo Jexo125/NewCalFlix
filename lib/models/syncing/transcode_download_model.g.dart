@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'transcode_download_model.dart';
 
@@ -74,3 +74,4 @@ const _$BitrateEnumMap = {
   Bitrate.b720Kbps: 'b720Kbps',
   Bitrate.b420Kbps: 'b420Kbps',
 };
+

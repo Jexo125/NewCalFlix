@@ -1,17 +1,17 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/control_panel/control_activity_provider.dart';
-import 'package:fladder/screens/shared/user_icon.dart';
-import 'package:fladder/theme.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/fladder_image.dart';
-import 'package:fladder/util/focus_provider.dart';
-import 'package:fladder/util/humanize_duration.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/shared/ensure_visible.dart';
-import 'package:fladder/widgets/shared/trick_play_image.dart';
+import 'package:newcalflix/providers/control_panel/control_activity_provider.dart';
+import 'package:newcalflix/screens/shared/user_icon.dart';
+import 'package:newcalflix/theme.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/fladder_image.dart';
+import 'package:newcalflix/util/focus_provider.dart';
+import 'package:newcalflix/util/humanize_duration.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/shared/ensure_visible.dart';
+import 'package:newcalflix/widgets/shared/trick_play_image.dart';
 
 class ControlPanelActivityCard extends StatefulWidget {
   final ControlActivityModel activity;
@@ -286,3 +286,4 @@ class _ControlPanelActivityCardState extends State<ControlPanelActivityCard> {
     );
   }
 }
+

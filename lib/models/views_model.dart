@@ -1,5 +1,5 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:fladder/models/view_model.dart';
+﻿// ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:newcalflix/models/view_model.dart';
 
 class ViewsModel {
   final bool loading;
@@ -22,3 +22,4 @@ class ViewsModel {
         dashboardViews: dashboardViews ?? this.dashboardViews);
   }
 }
+

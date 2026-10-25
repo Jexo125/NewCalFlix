@@ -1,18 +1,18 @@
-import 'dart:ui';
+﻿import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/playback/playback_model.dart';
-import 'package:fladder/providers/session_info_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/util/clipboard_helper.dart';
-import 'package:fladder/util/humanize_duration.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/wrappers/players/player_states.dart';
+import 'package:newcalflix/models/playback/playback_model.dart';
+import 'package:newcalflix/providers/session_info_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/util/clipboard_helper.dart';
+import 'package:newcalflix/util/humanize_duration.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/wrappers/players/player_states.dart';
 
 Future<void> showVideoPlaybackInformation(BuildContext context) {
   return showDialog(
@@ -201,3 +201,4 @@ class _PlayerInformation extends StatelessWidget {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -6,34 +6,34 @@ import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/playback/direct_playback_model.dart';
-import 'package:fladder/models/playback/offline_playback_model.dart';
-import 'package:fladder/models/playback/playback_model.dart';
-import 'package:fladder/models/playback/transcode_playback_model.dart';
-import 'package:fladder/models/settings/video_player_settings.dart';
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/video_player_provider.dart';
-import 'package:fladder/screens/collections/add_to_collection.dart';
-import 'package:fladder/screens/metadata/info_screen.dart';
-import 'package:fladder/screens/playlists/add_to_playlists.dart';
-import 'package:fladder/screens/video_player/components/video_player_quality_controls.dart';
-import 'package:fladder/screens/video_player/components/video_player_queue.dart';
-import 'package:fladder/screens/video_player/components/video_subtitle_controls.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/device_orientation_extension.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/refresh_state.dart';
-import 'package:fladder/util/string_extensions.dart';
-import 'package:fladder/widgets/shared/enum_selection.dart';
-import 'package:fladder/widgets/shared/fladder_slider.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/modal_bottom_sheet.dart';
-import 'package:fladder/widgets/shared/spaced_list_tile.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/playback/direct_playback_model.dart';
+import 'package:newcalflix/models/playback/offline_playback_model.dart';
+import 'package:newcalflix/models/playback/playback_model.dart';
+import 'package:newcalflix/models/playback/transcode_playback_model.dart';
+import 'package:newcalflix/models/settings/video_player_settings.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/video_player_provider.dart';
+import 'package:newcalflix/screens/collections/add_to_collection.dart';
+import 'package:newcalflix/screens/metadata/info_screen.dart';
+import 'package:newcalflix/screens/playlists/add_to_playlists.dart';
+import 'package:newcalflix/screens/video_player/components/video_player_quality_controls.dart';
+import 'package:newcalflix/screens/video_player/components/video_player_queue.dart';
+import 'package:newcalflix/screens/video_player/components/video_subtitle_controls.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/device_orientation_extension.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/refresh_state.dart';
+import 'package:newcalflix/util/string_extensions.dart';
+import 'package:newcalflix/widgets/shared/enum_selection.dart';
+import 'package:newcalflix/widgets/shared/fladder_slider.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/modal_bottom_sheet.dart';
+import 'package:newcalflix/widgets/shared/spaced_list_tile.dart';
 
 Future<void> showVideoPlayerOptions(BuildContext context, Function() minimizePlayer) {
   return showBottomSheetPill(
@@ -601,3 +601,4 @@ Future<void> showOrientationOptions(BuildContext context, WidgetRef ref) async {
     },
   );
 }
+

@@ -1,19 +1,19 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/models/view_model.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/destination_model.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/navigation_button.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/settings_user_icon.dart';
-import 'package:fladder/widgets/navigation_scaffold/components/side_navigation_buttons.dart';
-import 'package:fladder/widgets/shared/custom_tooltip.dart';
+import 'package:newcalflix/models/view_model.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/destination_model.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/navigation_button.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/settings_user_icon.dart';
+import 'package:newcalflix/widgets/navigation_scaffold/components/side_navigation_buttons.dart';
+import 'package:newcalflix/widgets/shared/custom_tooltip.dart';
 
 class NestedNavigationDrawer extends ConsumerWidget {
   final bool isExpanded;
@@ -88,3 +88,4 @@ class NestedNavigationDrawer extends ConsumerWidget {
     );
   }
 }
+

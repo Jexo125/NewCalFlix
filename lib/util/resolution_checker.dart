@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 
@@ -6,7 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:screen_retriever/screen_retriever.dart';
 import 'package:window_manager/window_manager.dart';
 
-import 'package:fladder/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
 
 class ResolutionChecker extends ConsumerStatefulWidget {
   final Widget child;
@@ -61,3 +61,4 @@ class _ResolutionCheckerState extends ConsumerState<ResolutionChecker> {
     return widget.child;
   }
 }
+

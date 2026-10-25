@@ -1,10 +1,10 @@
-import 'dart:ui' as ui;
+﻿import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'package:fladder/util/theme_extensions.dart';
+import 'package:newcalflix/util/theme_extensions.dart';
 
 class FladderIcon extends StatelessWidget {
   final double size;
@@ -52,3 +52,4 @@ class FladderIconOutlined extends StatelessWidget {
     );
   }
 }
+

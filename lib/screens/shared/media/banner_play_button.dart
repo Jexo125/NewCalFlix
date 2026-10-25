@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:square_progress_indicator/square_progress_indicator.dart';
 
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/util/item_base_model/play_item_helpers.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/util/item_base_model/play_item_helpers.dart';
 
 class BannerPlayButton extends ConsumerWidget {
   final ItemBaseModel item;
@@ -54,3 +54,4 @@ class BannerPlayButton extends ConsumerWidget {
     );
   }
 }
+

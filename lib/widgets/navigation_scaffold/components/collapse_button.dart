@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 class CollapseButton extends StatefulWidget {
   final Widget? label;
@@ -65,3 +65,4 @@ class _CollapseButtonState extends State<CollapseButton> {
     );
   }
 }
+

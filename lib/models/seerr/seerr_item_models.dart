@@ -1,5 +1,5 @@
-import 'package:fladder/models/items/images_models.dart';
-import 'package:fladder/providers/api_provider.dart';
+﻿import 'package:newcalflix/models/items/images_models.dart';
+import 'package:newcalflix/providers/api_provider.dart';
 
 const _tmdbPosterBaseUrl = 'https://image.tmdb.org/t/p/w500';
 const _tmdbBackdropBaseUrl = 'https://image.tmdb.org/t/p/w780';
@@ -56,3 +56,4 @@ List<ImageData>? tmdbBackdropImages({required String keyPrefix, required String?
   if (url == null) return null;
   return [ImageData(path: url, key: '${keyPrefix}_backdrop')];
 }
+

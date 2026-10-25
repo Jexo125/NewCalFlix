@@ -1,25 +1,25 @@
-import 'dart:math' as math;
+﻿import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' hide ConnectionState;
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/bootstrap/app_bootstrap.dart';
-import 'package:fladder/models/settings/home_settings_model.dart';
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/incognito_mode_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/settings/home_settings_provider.dart';
-import 'package:fladder/screens/home_screen.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout_model.dart';
-import 'package:fladder/util/debug_banner.dart';
-import 'package:fladder/util/input_detector.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/poster_defaults.dart';
-import 'package:fladder/util/resolution_checker.dart';
-import 'package:fladder/widgets/keyboard/slide_in_keyboard.dart';
+import 'package:newcalflix/bootstrap/app_bootstrap.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/incognito_mode_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/settings/home_settings_provider.dart';
+import 'package:newcalflix/screens/home_screen.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout_model.dart';
+import 'package:newcalflix/util/debug_banner.dart';
+import 'package:newcalflix/util/input_detector.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/poster_defaults.dart';
+import 'package:newcalflix/util/resolution_checker.dart';
+import 'package:newcalflix/widgets/keyboard/slide_in_keyboard.dart';
 
 enum InputDevice {
   touch,
@@ -307,3 +307,4 @@ class _AdaptiveLayoutBuilderState extends ConsumerState<AdaptiveLayoutBuilder> {
     );
   }
 }
+

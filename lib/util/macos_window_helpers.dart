@@ -1,4 +1,4 @@
-import 'dart:io';
+﻿import 'dart:io';
 import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
@@ -31,3 +31,4 @@ Future<void> toggleMacTrafficLights(bool enable) async {
     await WindowManipulator.enableMiniaturizeButton();
   }
 }
+

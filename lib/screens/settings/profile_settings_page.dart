@@ -1,4 +1,4 @@
-import 'dart:io';
+﻿import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -7,36 +7,36 @@ import 'package:auto_route/auto_route.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
-import 'package:fladder/models/seerr_credentials_model.dart';
-import 'package:fladder/models/settings/home_settings_model.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/cultures_provider.dart';
-import 'package:fladder/providers/home_preferences_provider.dart';
-import 'package:fladder/providers/seerr_user_provider.dart';
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/providers/update_notifications_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/screens/settings/filters/filters_dialog_popup.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/settings/widgets/home_preferences_editors.dart';
-import 'package:fladder/screens/settings/widgets/password_reset_dialog.dart';
-import 'package:fladder/screens/settings/widgets/seerr_connection_dialog.dart';
-import 'package:fladder/screens/settings/widgets/settings_label_divider.dart';
-import 'package:fladder/screens/settings/widgets/settings_list_group.dart';
-import 'package:fladder/screens/settings/widgets/settings_message_box.dart';
-import 'package:fladder/screens/shared/authenticate_button_options.dart';
-import 'package:fladder/screens/shared/input_fields.dart';
-import 'package:fladder/seerr/seerr_models.dart';
-import 'package:fladder/services/battery_optimization.dart';
-import 'package:fladder/services/notification_service.dart';
-import 'package:fladder/util/jellyfin_extension.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/map_bool_helper.dart';
-import 'package:fladder/util/simple_duration_picker.dart';
-import 'package:fladder/widgets/shared/item_actions.dart';
-import 'package:fladder/widgets/shared/sortable_item_list.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
+import 'package:newcalflix/models/seerr_credentials_model.dart';
+import 'package:newcalflix/models/settings/home_settings_model.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/cultures_provider.dart';
+import 'package:newcalflix/providers/home_preferences_provider.dart';
+import 'package:newcalflix/providers/seerr_user_provider.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/providers/update_notifications_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/screens/settings/filters/filters_dialog_popup.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/settings/widgets/home_preferences_editors.dart';
+import 'package:newcalflix/screens/settings/widgets/password_reset_dialog.dart';
+import 'package:newcalflix/screens/settings/widgets/seerr_connection_dialog.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_label_divider.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_list_group.dart';
+import 'package:newcalflix/screens/settings/widgets/settings_message_box.dart';
+import 'package:newcalflix/screens/shared/authenticate_button_options.dart';
+import 'package:newcalflix/screens/shared/input_fields.dart';
+import 'package:newcalflix/seerr/seerr_models.dart';
+import 'package:newcalflix/services/battery_optimization.dart';
+import 'package:newcalflix/services/notification_service.dart';
+import 'package:newcalflix/util/jellyfin_extension.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/map_bool_helper.dart';
+import 'package:newcalflix/util/simple_duration_picker.dart';
+import 'package:newcalflix/widgets/shared/item_actions.dart';
+import 'package:newcalflix/widgets/shared/sortable_item_list.dart';
 
 @RoutePage()
 class ProfileSettingsPage extends ConsumerStatefulWidget {
@@ -451,3 +451,4 @@ class _UserSettingsPageState extends ConsumerState<ProfileSettingsPage> with Wid
     );
   }
 }
+

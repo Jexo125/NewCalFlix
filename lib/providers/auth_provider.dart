@@ -1,31 +1,31 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:chopper/chopper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/api_result.dart';
-import 'package:fladder/models/credentials_model.dart';
-import 'package:fladder/models/login_screen_model.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/dashboard_provider.dart';
-import 'package:fladder/providers/favourites_provider.dart';
-import 'package:fladder/providers/image_provider.dart';
-import 'package:fladder/providers/library_screen_provider.dart';
-import 'package:fladder/providers/music_dashboard_provider.dart';
-import 'package:fladder/providers/seerr_api_provider.dart';
-import 'package:fladder/providers/seerr_dashboard_provider.dart';
-import 'package:fladder/providers/service_provider.dart';
-import 'package:fladder/providers/shared_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/providers/views_provider.dart';
-import 'package:fladder/screens/login/lock_screen.dart';
-import 'package:fladder/screens/shared/fladder_notification_overlay.dart';
-import 'package:fladder/services/local_network_permission.dart';
-import 'package:fladder/util/fladder_config.dart';
-import 'package:fladder/util/list_extensions.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/api_result.dart';
+import 'package:newcalflix/models/credentials_model.dart';
+import 'package:newcalflix/models/login_screen_model.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/dashboard_provider.dart';
+import 'package:newcalflix/providers/favourites_provider.dart';
+import 'package:newcalflix/providers/image_provider.dart';
+import 'package:newcalflix/providers/library_screen_provider.dart';
+import 'package:newcalflix/providers/music_dashboard_provider.dart';
+import 'package:newcalflix/providers/seerr_api_provider.dart';
+import 'package:newcalflix/providers/seerr_dashboard_provider.dart';
+import 'package:newcalflix/providers/service_provider.dart';
+import 'package:newcalflix/providers/shared_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/providers/views_provider.dart';
+import 'package:newcalflix/screens/login/lock_screen.dart';
+import 'package:newcalflix/screens/shared/fladder_notification_overlay.dart';
+import 'package:newcalflix/services/local_network_permission.dart';
+import 'package:newcalflix/util/fladder_config.dart';
+import 'package:newcalflix/util/list_extensions.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 final authProvider = StateNotifierProvider<AuthNotifier, LoginScreenModel>((ref) {
   return AuthNotifier(ref);
@@ -257,3 +257,4 @@ class AuthNotifier extends StateNotifier<LoginScreenModel> {
     state = state.copyWith(tempSeerrSessionCookie: cookie?.trim().isEmpty == true ? null : cookie?.trim());
   }
 }
+

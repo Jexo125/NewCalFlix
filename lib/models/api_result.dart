@@ -1,4 +1,4 @@
-import 'package:chopper/chopper.dart';
+﻿import 'package:chopper/chopper.dart';
 
 class ApiError {
   final int? statusCode;
@@ -71,3 +71,4 @@ extension ResponseExtensions<T> on Response<T> {
     }
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 
@@ -53,3 +53,4 @@ extension ListExtensions on List<Widget> {
     }).toList();
   }
 }
+

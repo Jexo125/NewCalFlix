@@ -1,12 +1,12 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:window_manager/window_manager.dart';
 
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/models/settings/client_settings_model.dart';
-import 'package:fladder/util/string_extensions.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/models/settings/client_settings_model.dart';
+import 'package:newcalflix/util/string_extensions.dart';
 
 extension WindowHelperSetup on WindowManager {
   Future<void> setupFladderWindowChrome(
@@ -50,3 +50,4 @@ extension WindowHelperSetup on WindowManager {
     }
   }
 }
+

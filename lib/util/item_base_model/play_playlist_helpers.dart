@@ -1,4 +1,4 @@
-part of 'play_item_helpers.dart';
+﻿part of 'play_item_helpers.dart';
 
 const _playlistAudioInitialQueueLimit = 5;
 const _playlistAudioRefillLimit = 100;
@@ -334,3 +334,4 @@ Future<List<ItemBaseModel>> _fetchPlaylistItems(String playlistId, WidgetRef ref
 
   return items;
 }
+

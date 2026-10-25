@@ -1,4 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
+﻿// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'library_filters_model.dart';
 
@@ -37,3 +37,4 @@ const _$FilterSortKeyEnumMap = {
   FilterSortKey.sideBar: 'sideBar',
   FilterSortKey.musicSideBar: 'musicSideBar',
 };
+

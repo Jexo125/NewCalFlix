@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
@@ -8,14 +8,14 @@ import 'package:flutter/services.dart';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:fladder/models/settings/arguments_model.dart';
-import 'package:fladder/models/settings/key_combinations.dart';
-import 'package:fladder/models/syncing/transcode_download_model.dart';
-import 'package:fladder/models/syncing/transcode_music_download_model.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/src/directory_bookmark.g.dart';
-import 'package:fladder/util/custom_color_themes.dart';
-import 'package:fladder/util/localization_helper.dart';
+import 'package:newcalflix/models/settings/arguments_model.dart';
+import 'package:newcalflix/models/settings/key_combinations.dart';
+import 'package:newcalflix/models/syncing/transcode_download_model.dart';
+import 'package:newcalflix/models/syncing/transcode_music_download_model.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/src/directory_bookmark.g.dart';
+import 'package:newcalflix/util/custom_color_themes.dart';
+import 'package:newcalflix/util/localization_helper.dart';
 
 part 'client_settings_model.freezed.dart';
 part 'client_settings_model.g.dart';
@@ -32,7 +32,7 @@ enum GlobalHotKeys {
     return switch (this) {
       GlobalHotKeys.search => context.localized.search,
       GlobalHotKeys.closeWindow => context.localized.closeWindow,
-      GlobalHotKeys.exit => context.localized.exitFladderTitle,
+      GlobalHotKeys.exit => context.localized.exitNewCalFlixTitle,
       GlobalHotKeys.toggleSideBar => context.localized.toggleSidebar,
     };
   }
@@ -264,3 +264,4 @@ Map<GlobalHotKeys, KeyCombination> get _defaultGlobalHotKeys => switch (defaultT
             },
         }
     };
+

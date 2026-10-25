@@ -1,4 +1,4 @@
-sealed class WatchedState {
+﻿sealed class WatchedState {
   const WatchedState();
 }
 
@@ -15,3 +15,4 @@ final class PartiallyPlayed extends WatchedState {
 
   const PartiallyPlayed(this.label);
 }
+

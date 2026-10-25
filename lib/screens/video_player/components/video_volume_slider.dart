@@ -1,13 +1,13 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/settings/video_player_settings_provider.dart';
-import 'package:fladder/util/list_padding.dart';
-import 'package:fladder/widgets/shared/fladder_slider.dart';
+import 'package:newcalflix/providers/settings/video_player_settings_provider.dart';
+import 'package:newcalflix/util/list_padding.dart';
+import 'package:newcalflix/widgets/shared/fladder_slider.dart';
 
 class VideoVolumeSlider extends ConsumerStatefulWidget {
   final double? width;
@@ -119,3 +119,4 @@ IconData volumeIcon(double value) {
   }
   return IconsaxPlusLinear.volume_high;
 }
+

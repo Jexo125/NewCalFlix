@@ -1,24 +1,24 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
-import 'package:fladder/providers/arguments_provider.dart';
-import 'package:fladder/providers/auth_provider.dart';
-import 'package:fladder/providers/update_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/routes/auto_router.gr.dart';
-import 'package:fladder/screens/settings/quick_connect_window.dart';
-import 'package:fladder/screens/settings/settings_list_tile.dart';
-import 'package:fladder/screens/settings/settings_scaffold.dart';
-import 'package:fladder/screens/shared/default_alert_dialog.dart';
-import 'package:fladder/screens/shared/fladder_icon.dart';
-import 'package:fladder/util/adaptive_layout/adaptive_layout.dart';
-import 'package:fladder/util/localization_helper.dart';
-import 'package:fladder/util/theme_extensions.dart';
-import 'package:fladder/util/window_actions.dart';
+import 'package:newcalflix/providers/arguments_provider.dart';
+import 'package:newcalflix/providers/auth_provider.dart';
+import 'package:newcalflix/providers/update_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/routes/auto_router.gr.dart';
+import 'package:newcalflix/screens/settings/quick_connect_window.dart';
+import 'package:newcalflix/screens/settings/settings_list_tile.dart';
+import 'package:newcalflix/screens/settings/settings_scaffold.dart';
+import 'package:newcalflix/screens/shared/default_alert_dialog.dart';
+import 'package:newcalflix/screens/shared/fladder_icon.dart';
+import 'package:newcalflix/util/adaptive_layout/adaptive_layout.dart';
+import 'package:newcalflix/util/localization_helper.dart';
+import 'package:newcalflix/util/theme_extensions.dart';
+import 'package:newcalflix/util/window_actions.dart';
 
 @RoutePage()
 class SettingsScreen extends ConsumerStatefulWidget {
@@ -194,13 +194,13 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               ),
             if (ref.watch(argumentsStateProvider.select((value) => value.htpcMode)))
               SettingsListTile(
-                label: Text(context.localized.exitFladderTitle),
+                label: Text(context.localized.exitNewCalFlixTitle),
                 icon: IconsaxPlusLinear.close_square,
                 onTap: () async {
                   showDefaultAlertDialog(
                     context,
-                    context.localized.exitFladderTitle,
-                    context.localized.exitFladderDesc,
+                    context.localized.exitNewCalFlixTitle,
+                    context.localized.exitNewCalFlixDesc,
                     (context) async {
                       if (AdaptiveLayout.of(context).isDesktop) {
                         await quitApplication(context);
@@ -267,3 +267,4 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
     );
   }
 }
+

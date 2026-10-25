@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:developer';
 
 import 'package:flutter/foundation.dart';
@@ -8,27 +8,27 @@ import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:fladder/fake/fake_jellyfin_open_api.dart';
-import 'package:fladder/jellyfin/enum_models.dart';
-import 'package:fladder/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
-import 'package:fladder/jellyfin/jellyfin_open_api.swagger.dart';
-import 'package:fladder/models/account_model.dart';
-import 'package:fladder/models/credentials_model.dart';
-import 'package:fladder/models/item_base_model.dart';
-import 'package:fladder/models/items/episode_model.dart';
-import 'package:fladder/models/items/item_shared_models.dart';
-import 'package:fladder/models/items/media_segments_model.dart';
-import 'package:fladder/models/items/photos_model.dart';
-import 'package:fladder/models/items/trick_play_model.dart';
-import 'package:fladder/models/syncing/sync_item.dart';
-import 'package:fladder/providers/api_provider.dart';
-import 'package:fladder/providers/auth_provider.dart';
-import 'package:fladder/providers/connectivity_provider.dart';
-import 'package:fladder/providers/image_provider.dart';
-import 'package:fladder/providers/incognito_mode_provider.dart';
-import 'package:fladder/providers/sync_provider.dart';
-import 'package:fladder/providers/user_provider.dart';
-import 'package:fladder/util/jellyfin_extension.dart';
+import 'package:newcalflix/fake/fake_jellyfin_open_api.dart';
+import 'package:newcalflix/jellyfin/enum_models.dart';
+import 'package:newcalflix/jellyfin/jellyfin_open_api.enums.swagger.dart' as enums;
+import 'package:newcalflix/jellyfin/jellyfin_open_api.swagger.dart';
+import 'package:newcalflix/models/account_model.dart';
+import 'package:newcalflix/models/credentials_model.dart';
+import 'package:newcalflix/models/item_base_model.dart';
+import 'package:newcalflix/models/items/episode_model.dart';
+import 'package:newcalflix/models/items/item_shared_models.dart';
+import 'package:newcalflix/models/items/media_segments_model.dart';
+import 'package:newcalflix/models/items/photos_model.dart';
+import 'package:newcalflix/models/items/trick_play_model.dart';
+import 'package:newcalflix/models/syncing/sync_item.dart';
+import 'package:newcalflix/providers/api_provider.dart';
+import 'package:newcalflix/providers/auth_provider.dart';
+import 'package:newcalflix/providers/connectivity_provider.dart';
+import 'package:newcalflix/providers/image_provider.dart';
+import 'package:newcalflix/providers/incognito_mode_provider.dart';
+import 'package:newcalflix/providers/sync_provider.dart';
+import 'package:newcalflix/providers/user_provider.dart';
+import 'package:newcalflix/util/jellyfin_extension.dart';
 
 const _userSettings = "usersettings";
 const _client = "fladder";
@@ -1997,3 +1997,4 @@ extension ParsedMap on Map<String, dynamic> {
     return parsedMap;
   }
 }
+

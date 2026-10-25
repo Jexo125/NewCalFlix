@@ -1,4 +1,4 @@
-import 'package:universal_html/html.dart' as html;
+﻿import 'package:universal_html/html.dart' as html;
 
 Future<void> downloadFile(String url) async {
   try {
@@ -9,3 +9,4 @@ Future<void> downloadFile(String url) async {
     print('Download error: $e');
   }
 }
+

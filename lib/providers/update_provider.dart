@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 
@@ -6,8 +6,8 @@ import 'package:collection/collection.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'package:fladder/providers/settings/client_settings_provider.dart';
-import 'package:fladder/util/update_checker.dart';
+import 'package:newcalflix/providers/settings/client_settings_provider.dart';
+import 'package:newcalflix/util/update_checker.dart';
 
 part 'update_provider.freezed.dart';
 part 'update_provider.g.dart';
@@ -86,3 +86,4 @@ abstract class UpdatesModel with _$UpdatesModel {
 
   ReleaseInfo? get latestRelease => lastRelease.firstWhereOrNull((value) => value.isNewerThanCurrent);
 }
+
